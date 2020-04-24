@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/micro_stage1.xst" -ofn "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/micro_stage1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 micro_stage1.ngc micro_stage1.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o micro_stage1_map.ncd micro_stage1.ngd micro_stage1.pcf 
+par -w -intstyle ise -ol high -mt off micro_stage1_map.ncd micro_stage1.ncd micro_stage1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml micro_stage1.twx micro_stage1.ncd -o micro_stage1.twr micro_stage1.pcf 

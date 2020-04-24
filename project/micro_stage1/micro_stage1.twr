@@ -1,0 +1,226 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml micro_stage1.twx micro_stage1.ncd -o micro_stage1.twr
+micro_stage1.pcf
+
+Design file:              micro_stage1.ncd
+Physical constraint file: micro_stage1.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock gcm_b
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+data_a<0>   |   -1.134(F)|      FAST  |    3.341(F)|      SLOW  |gcm_b_BUFGP       |   0.000|
+data_a<1>   |   -1.080(F)|      FAST  |    3.288(F)|      SLOW  |gcm_b_BUFGP       |   0.000|
+data_a<2>   |   -1.083(F)|      FAST  |    3.291(F)|      SLOW  |gcm_b_BUFGP       |   0.000|
+data_a<3>   |   -1.070(F)|      FAST  |    3.278(F)|      SLOW  |gcm_b_BUFGP       |   0.000|
+data_b<0>   |   -1.071(F)|      FAST  |    3.279(F)|      SLOW  |gcm_b_BUFGP       |   0.000|
+data_b<1>   |   -1.070(F)|      FAST  |    3.277(F)|      SLOW  |gcm_b_BUFGP       |   0.000|
+data_b<2>   |   -1.092(F)|      FAST  |    3.298(F)|      SLOW  |gcm_b_BUFGP       |   0.000|
+data_b<3>   |   -1.066(F)|      FAST  |    3.271(F)|      SLOW  |gcm_b_BUFGP       |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock gcm_c
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+ideco_bus<3>|   -0.464(F)|      FAST  |    2.456(F)|      SLOW  |gcm_c_BUFGP       |   0.000|
+ideco_bus<4>|    2.312(F)|      SLOW  |    2.165(F)|      SLOW  |gcm_c_BUFGP       |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock ideco_bus<0>
+------------+------------+------------+------------+------------+-------------------------------------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                                                       | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)                                      | Phase  |
+------------+------------+------------+------------+------------+-------------------------------------------------------+--------+
+ideco_bus<4>|    1.260(F)|      SLOW  |    0.738(F)|      SLOW  |alu/arithmetic_unit/arithmetic_control/ci_c[1]_MUX_22_o|   0.000|
+------------+------------+------------+------------+------------+-------------------------------------------------------+--------+
+
+Setup/Hold to clock ideco_bus<1>
+------------+------------+------------+------------+------------+-------------------------------------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                                                       | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)                                      | Phase  |
+------------+------------+------------+------------+------------+-------------------------------------------------------+--------+
+ideco_bus<4>|    1.586(F)|      SLOW  |    0.345(F)|      SLOW  |alu/arithmetic_unit/arithmetic_control/ci_c[1]_MUX_22_o|   0.000|
+------------+------------+------------+------------+------------+-------------------------------------------------------+--------+
+
+Setup/Hold to clock ideco_bus<2>
+------------+------------+------------+------------+------------+-------------------------------------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                                                       | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)                                      | Phase  |
+------------+------------+------------+------------+------------+-------------------------------------------------------+--------+
+ideco_bus<4>|    1.411(F)|      SLOW  |    0.559(F)|      SLOW  |alu/arithmetic_unit/arithmetic_control/ci_c[1]_MUX_22_o|   0.000|
+------------+------------+------------+------------+------------+-------------------------------------------------------+--------+
+
+Clock gcm_b to Pad
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination  |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+cout_stage1  |        12.488(F)|      SLOW  |         3.914(F)|      FAST  |gcm_b_BUFGP       |   0.000|
+out_stage1<0>|        11.369(F)|      SLOW  |         3.794(F)|      FAST  |gcm_b_BUFGP       |   0.000|
+out_stage1<1>|        12.395(F)|      SLOW  |         3.756(F)|      FAST  |gcm_b_BUFGP       |   0.000|
+out_stage1<2>|        12.371(F)|      SLOW  |         3.787(F)|      FAST  |gcm_b_BUFGP       |   0.000|
+out_stage1<3>|        12.418(F)|      SLOW  |         3.846(F)|      FAST  |gcm_b_BUFGP       |   0.000|
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock gcm_d to Pad
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination  |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+cout_stage1  |        11.826(F)|      SLOW  |         3.948(F)|      FAST  |gcm_d_BUFGP       |   0.000|
+out_stage1<0>|        10.707(F)|      SLOW  |         3.423(F)|      FAST  |gcm_d_BUFGP       |   0.000|
+out_stage1<1>|        11.733(F)|      SLOW  |         3.454(F)|      FAST  |gcm_d_BUFGP       |   0.000|
+out_stage1<2>|        11.709(F)|      SLOW  |         3.476(F)|      FAST  |gcm_d_BUFGP       |   0.000|
+out_stage1<3>|        11.756(F)|      SLOW  |         3.503(F)|      FAST  |gcm_d_BUFGP       |   0.000|
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock ideco_bus<0> to Pad
+------------+-----------------+------------+-----------------+------------+-------------------------------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                                       | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                                      | Phase  |
+------------+-----------------+------------+-----------------+------------+-------------------------------------------------------+--------+
+cout_stage1 |         7.009(F)|      SLOW  |         3.002(F)|      FAST  |alu/arithmetic_unit/arithmetic_control/ci_c[1]_MUX_22_o|   0.000|
+------------+-----------------+------------+-----------------+------------+-------------------------------------------------------+--------+
+
+Clock ideco_bus<1> to Pad
+------------+-----------------+------------+-----------------+------------+-------------------------------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                                       | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                                      | Phase  |
+------------+-----------------+------------+-----------------+------------+-------------------------------------------------------+--------+
+cout_stage1 |         6.616(F)|      SLOW  |         2.813(F)|      FAST  |alu/arithmetic_unit/arithmetic_control/ci_c[1]_MUX_22_o|   0.000|
+------------+-----------------+------------+-----------------+------------+-------------------------------------------------------+--------+
+
+Clock ideco_bus<2> to Pad
+------------+-----------------+------------+-----------------+------------+-------------------------------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                                       | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                                      | Phase  |
+------------+-----------------+------------+-----------------+------------+-------------------------------------------------------+--------+
+cout_stage1 |         6.830(F)|      SLOW  |         2.912(F)|      FAST  |alu/arithmetic_unit/arithmetic_control/ci_c[1]_MUX_22_o|   0.000|
+------------+-----------------+------------+-----------------+------------+-------------------------------------------------------+--------+
+
+Clock to Setup on destination clock gcm_c
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+gcm_b          |         |         |         |    5.499|
+gcm_d          |         |         |         |    4.837|
+ideco_bus<0>   |         |         |    0.843|    0.843|
+ideco_bus<1>   |         |         |    0.848|    0.848|
+ideco_bus<2>   |         |         |    0.966|    0.966|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock gcm_d
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+gcm_c          |         |         |         |    1.152|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock ideco_bus<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+gcm_b          |         |         |         |    4.773|
+gcm_d          |         |         |         |    4.111|
+ideco_bus<1>   |         |         |   -0.096|   -0.096|
+ideco_bus<2>   |         |         |   -0.078|   -0.078|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock ideco_bus<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+gcm_b          |         |         |         |    4.773|
+gcm_d          |         |         |         |    4.111|
+ideco_bus<1>   |         |         |    0.093|    0.093|
+ideco_bus<2>   |         |         |    0.111|    0.111|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock ideco_bus<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+gcm_b          |         |         |         |    4.773|
+gcm_d          |         |         |         |    4.111|
+ideco_bus<1>   |         |         |   -0.006|   -0.006|
+ideco_bus<2>   |         |         |    0.012|    0.012|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+ideco_bus<0>   |cout_stage1    |    7.357|
+ideco_bus<0>   |out_stage1<0>  |    6.208|
+ideco_bus<0>   |out_stage1<1>  |    7.241|
+ideco_bus<0>   |out_stage1<2>  |    7.656|
+ideco_bus<0>   |out_stage1<3>  |    7.287|
+ideco_bus<1>   |cout_stage1    |    7.396|
+ideco_bus<1>   |out_stage1<0>  |    6.124|
+ideco_bus<1>   |out_stage1<1>  |    7.157|
+ideco_bus<1>   |out_stage1<2>  |    7.695|
+ideco_bus<1>   |out_stage1<3>  |    7.326|
+ideco_bus<2>   |cout_stage1    |    7.569|
+ideco_bus<2>   |out_stage1<0>  |    6.206|
+ideco_bus<2>   |out_stage1<1>  |    7.232|
+ideco_bus<2>   |out_stage1<2>  |    7.868|
+ideco_bus<2>   |out_stage1<3>  |    7.499|
+ideco_bus<3>   |cout_stage1    |    5.542|
+ideco_bus<3>   |out_stage1<0>  |    5.445|
+ideco_bus<3>   |out_stage1<1>  |    5.259|
+ideco_bus<3>   |out_stage1<2>  |    5.377|
+ideco_bus<3>   |out_stage1<3>  |    5.352|
+ideco_bus<4>   |cout_stage1    |    9.336|
+ideco_bus<4>   |out_stage1<0>  |    8.217|
+ideco_bus<4>   |out_stage1<1>  |    9.243|
+ideco_bus<4>   |out_stage1<2>  |    9.219|
+ideco_bus<4>   |out_stage1<3>  |    9.266|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Apr 21 20:10:33 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 766 MB
+
+
+

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/top_sim_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="alu_devs" />
+            <top_module name="basic_devs" />
+            <top_module name="memory_devs" />
+            <top_module name="micro_devs" />
+            <top_module name="std_logic_1164" />
+            <top_module name="top_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="31" />
+   <wave_markers>
+      <marker time="1800000" label="" />
+      <marker time="3400000" label="" />
+      <marker time="5000000" label="" />
+      <marker time="6600000" label="" />
+      <marker time="8200000" label="" />
+      <marker time="9800000" label="" />
+      <marker time="11400000" label="" />
+      <marker time="13000000" label="" />
+      <marker time="14600000" label="" />
+      <marker time="16200000" label="" />
+      <marker time="17800000" label="" />
+      <marker time="19400000" label="" />
+      <marker time="21000000" label="" />
+      <marker time="22600000" label="" />
+      <marker time="24200000" label="" />
+      <marker time="25800000" label="" />
+      <marker time="200000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/top_sim/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider23" type="divider">
+      <obj_property name="label">GCM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider48" type="divider">
+      <obj_property name="label">New Divider</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/gcm_a" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">gcm_a</obj_property>
+      <obj_property name="ObjectShortName">gcm_a</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ff00</obj_property>
+      <obj_property name="label">A</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/gcm_b" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">gcm_b</obj_property>
+      <obj_property name="ObjectShortName">gcm_b</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ff00</obj_property>
+      <obj_property name="label">B</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/gcm_c" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">gcm_c</obj_property>
+      <obj_property name="ObjectShortName">gcm_c</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ff00</obj_property>
+      <obj_property name="label">C</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/gcm_d" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">gcm_d</obj_property>
+      <obj_property name="ObjectShortName">gcm_d</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ff00</obj_property>
+      <obj_property name="label">D</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider58" type="divider">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/micro_stage1_block/alu/unit_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">unit_sel</obj_property>
+      <obj_property name="ObjectShortName">unit_sel</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/micro_stage1_block/alu/op_sel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">op_sel[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/micro_stage1_block/alu/ci" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ci</obj_property>
+      <obj_property name="ObjectShortName">ci</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/micro_stage1_block/alu/co" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">co</obj_property>
+      <obj_property name="ObjectShortName">co</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/micro_stage1_block/alu/s" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s[3:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider50" type="divider">
+      <obj_property name="label">RD</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/micro_stage1_block/rd/enable" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">enable[1:0]</obj_property>
+      <obj_property name="ObjectShortName">enable[1:0]</obj_property>
+      <obj_property name="label">Bank enable</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff007f</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/micro_stage1_block/rd/out00" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out00[3:0]</obj_property>
+      <obj_property name="ObjectShortName">out00[3:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff007f</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/micro_stage1_block/rd/out01" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out01[3:0]</obj_property>
+      <obj_property name="ObjectShortName">out01[3:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff007f</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/micro_stage1_block/rd/enable00" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable00</obj_property>
+      <obj_property name="ObjectShortName">enable00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff007f</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/micro_stage1_block/rd/enable01" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable01</obj_property>
+      <obj_property name="ObjectShortName">enable01</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff007f</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider42" type="divider">
+      <obj_property name="label">ACC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/micro_stage1_block/acc/enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/micro_stage1_block/acc/out_reg" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">out_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">out_reg[4:0]</obj_property>
+      <obj_property name="label">ACC Output</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider46" type="divider">
+      <obj_property name="label">ACM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/micro_stage1_block/acm/enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/micro_stage1_block/acm/out_reg" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">out_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">out_reg[4:0]</obj_property>
+      <obj_property name="label">ACM Output</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider74" type="divider">
+      <obj_property name="label">regmux</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/micro_stage1_block/regmux/sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sel</obj_property>
+      <obj_property name="ObjectShortName">sel</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#9f9f9f</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/micro_stage1_block/regmux/dst" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dst[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dst[3:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#9f9f9f</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider54" type="divider">
+      <obj_property name="label">Data</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/micro_stage1_block/rd/reg00_block/reg" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">reg[3:0]</obj_property>
+      <obj_property name="label">data_a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/micro_stage1_block/rd/reg01_block/reg" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">reg[3:0]</obj_property>
+      <obj_property name="label">data_b</obj_property>
+   </wvobject>
+</wave_config>

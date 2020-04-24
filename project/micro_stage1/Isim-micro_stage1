@@ -1,0 +1,47 @@
+restart
+isim force add {/top_sim/micro_stage1_block/alu/unit_sel} 0 -radix bin 
+isim force add {/top_sim/micro_stage1_block/alu/op_sel} 00 -radix bin 
+isim force add {/top_sim/micro_stage1_block/alu/ci} 1 -radix bin
+isim force add {/top_sim/micro_stage1_block/rd/reg00_block/reg} 0011 -radix bin 
+isim force add {/top_sim/micro_stage1_block/rd/reg01_block/reg} 0111 -radix bin 
+run 200ps
+run 200ps
+run 200ps 
+run 200ps
+run 200ps
+run 200ps
+run 200ps
+run 200ps
+run 200ps
+isim force add {/top_sim/micro_stage1_block/regmux/sel} 0 -radix bin  
+isim force add {/top_sim/micro_stage1_block/alu/op_sel} 10 -radix bin 
+run 200ps
+run 200ps
+run 200ps
+run 200ps
+run 200ps
+run 200ps
+run 200ps
+run 200ps
+isim force add {/top_sim/micro_stage1_block/alu/unit_sel} 1 -radix bin 
+isim force add {/top_sim/micro_stage1_block/alu/op_sel} 00 -radix bin 
+isim force add {/top_sim/micro_stage1_block/alu/ci} 0 -radix bin 
+run 200ps
+run 200ps
+run 200ps
+run 200ps
+run 200ps
+run 200ps
+run 200ps
+run 200ps
+isim force add {/top_sim/micro_stage1_block/alu/unit_sel} 0 -radix bin 
+isim force add {/top_sim/micro_stage1_block/alu/op_sel} 11 -radix bin 
+isim force add {/top_sim/micro_stage1_block/alu/ci} 1 -radix bin 
+run 200ps
+run 200ps
+run 200ps
+run 200ps
+run 200ps
+run 200ps
+run 200ps
+run 200ps
