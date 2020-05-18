@@ -17,5 +17,15 @@ package micro_devs is
 	   out_stage1: out std_logic_vector(3 downto 0)
 	  );
 	end component;
-
+	-- GCM
+	component gcm is
+	  port (
+	  	oscilator: in std_logic;
+	  	gcm_a: out std_logic;
+	  	gcm_b: out std_logic;
+	  	gcm_c: out std_logic;
+	  	gcm_d: out std_logic;
+	  	gcm_e: out std_logic
+	  );
+	end component;
 end package; 

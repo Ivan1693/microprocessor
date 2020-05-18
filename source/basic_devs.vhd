@@ -58,6 +58,13 @@ package basic_devs is
 		 count: out std_logic_vector(1 downto 0)
 	  );
 	end component;
+	-- Contador 3 bits 0 a 4
+	component conta304 is
+		port (
+		 clk: in std_logic;
+		 count: out std_logic_vector(2 downto 0)
+	  );
+	end component;
 	-- Contador 3 bits 0 a 5
 	component conta305 is
 		port (
@@ -120,6 +127,17 @@ package basic_devs is
 		dst03: out std_logic
 	  );
 	end component;
+	component dmux513 is
+	  port (
+		sel: in std_logic_vector(2 downto 0);
+		src: in std_logic;
+		dst00: out std_logic;
+		dst01: out std_logic;
+		dst02: out std_logic;
+		dst03: out std_logic;
+		dst04: out std_logic
+	  );
+	end component;	
 	-- Decodificador 4 bits a display 7 segmentos anodo
 	component deco47seg is
 		port (
