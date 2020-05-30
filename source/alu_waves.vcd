@@ -1,0 +1,281 @@
+$date
+  Fri May 29 18:37:09 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module alu_devs $end
+$upscope $end
+$scope module basic_devs $end
+$upscope $end
+$scope module alu_sim $end
+$var reg 1 ! unit_sel $end
+$var reg 2 " op_sel[1:0] $end
+$var reg 1 # ci $end
+$var reg 4 $ a[3:0] $end
+$var reg 4 % b[3:0] $end
+$var reg 1 & co $end
+$var reg 4 ' s[3:0] $end
+$scope module alu_16op_block $end
+$var reg 1 ( unit_sel $end
+$var reg 2 ) op_sel[1:0] $end
+$var reg 1 * ci $end
+$var reg 4 + a[3:0] $end
+$var reg 4 , b[3:0] $end
+$var reg 1 - co $end
+$var reg 4 . s[3:0] $end
+$var reg 4 / logic_unit_output[3:0] $end
+$var reg 1 0 arith_unit_coutput $end
+$var reg 4 1 arith_unit_output[3:0] $end
+$scope module arithmetic_unit $end
+$var reg 4 2 a[3:0] $end
+$var reg 4 3 b[3:0] $end
+$var reg 2 4 op_sel[1:0] $end
+$var reg 1 5 ci $end
+$var reg 1 6 co $end
+$var reg 4 7 s[3:0] $end
+$var reg 4 8 adder_out[3:0] $end
+$var reg 1 9 adder_cout $end
+$var reg 4 : a_prime[3:0] $end
+$var reg 4 ; b_prime[3:0] $end
+$var reg 1 < fix $end
+$scope module arithmetic_control $end
+$var reg 2 = c[1:0] $end
+$var reg 1 > ci $end
+$var reg 4 ? a[3:0] $end
+$var reg 4 @ b[3:0] $end
+$var reg 4 A a_prime[3:0] $end
+$var reg 4 B b_prime[3:0] $end
+$var reg 1 C fix $end
+$var reg 1 D is_a $end
+$var reg 1 E is_b $end
+$var reg 1 F are_equal $end
+$scope module comparator $end
+$var reg 4 G a[3:0] $end
+$var reg 4 H b[3:0] $end
+$var reg 1 I is_a $end
+$var reg 1 J is_b $end
+$var reg 1 K are_equal $end
+$var reg 2 L a_msb[1:0] $end
+$var reg 2 M b_msb[1:0] $end
+$var reg 2 N a_lsb[1:0] $end
+$var reg 2 O b_lsb[1:0] $end
+$var reg 1 P a_lsbo $end
+$var reg 1 Q b_lsbo $end
+$var reg 1 R e_lsbo $end
+$var reg 1 S a_msbo $end
+$var reg 1 T b_msbo $end
+$var reg 1 U e_msbo $end
+$scope module msb $end
+$var reg 2 V a[1:0] $end
+$var reg 2 W b[1:0] $end
+$var reg 1 X is_a $end
+$var reg 1 Y is_b $end
+$var reg 1 Z are_equal $end
+$upscope $end
+$scope module lsb $end
+$var reg 2 [ a[1:0] $end
+$var reg 2 \ b[1:0] $end
+$var reg 1 ] is_a $end
+$var reg 1 ^ is_b $end
+$var reg 1 _ are_equal $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module full_4bit_adder $end
+$var reg 4 ` a[3:0] $end
+$var reg 4 a b[3:0] $end
+$var reg 1 b ci $end
+$var reg 1 c co $end
+$var reg 4 d s[3:0] $end
+$var reg 3 e c[2:0] $end
+$scope module adder_a $end
+$var reg 1 f a $end
+$var reg 1 g b $end
+$var reg 1 h ci $end
+$var reg 1 i co $end
+$var reg 1 j s $end
+$upscope $end
+$scope module adder_b $end
+$var reg 1 k a $end
+$var reg 1 l b $end
+$var reg 1 m ci $end
+$var reg 1 n co $end
+$var reg 1 o s $end
+$upscope $end
+$scope module adder_c $end
+$var reg 1 p a $end
+$var reg 1 q b $end
+$var reg 1 r ci $end
+$var reg 1 s co $end
+$var reg 1 t s $end
+$upscope $end
+$scope module adder_d $end
+$var reg 1 u a $end
+$var reg 1 v b $end
+$var reg 1 w ci $end
+$var reg 1 x co $end
+$var reg 1 y s $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module logic_unit $end
+$var reg 4 z a[3:0] $end
+$var reg 4 { b[3:0] $end
+$var reg 2 | op_sel[1:0] $end
+$var reg 1 } ci $end
+$var reg 4 !" s[3:0] $end
+$scope module logic_unit_0 $end
+$var reg 1 "" a $end
+$var reg 1 #" b $end
+$var reg 2 $" c[1:0] $end
+$var reg 1 %" ci $end
+$var reg 1 &" s $end
+$upscope $end
+$scope module logic_unit_1 $end
+$var reg 1 '" a $end
+$var reg 1 (" b $end
+$var reg 2 )" c[1:0] $end
+$var reg 1 *" ci $end
+$var reg 1 +" s $end
+$upscope $end
+$scope module logic_unit_2 $end
+$var reg 1 ," a $end
+$var reg 1 -" b $end
+$var reg 2 ." c[1:0] $end
+$var reg 1 /" ci $end
+$var reg 1 0" s $end
+$upscope $end
+$scope module logic_unit_3 $end
+$var reg 1 1" a $end
+$var reg 1 2" b $end
+$var reg 2 3" c[1:0] $end
+$var reg 1 4" ci $end
+$var reg 1 5" s $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+U!
+bUU "
+U#
+bUUUU $
+bUUUU %
+0&
+bUUUU '
+U(
+bUU )
+U*
+bUUUU +
+bUUUU ,
+0-
+bUUUU .
+bUUUU /
+U0
+bUUUU 1
+bUUUU 2
+bUUUU 3
+bUU 4
+U5
+U6
+bUUUU 7
+bUUUU 8
+U9
+bUUUU :
+b0000 ;
+U<
+bUU =
+U>
+bUUUU ?
+bUUUU @
+bUUUU A
+b0000 B
+UC
+UD
+UE
+0F
+bUUUU G
+bUUUU H
+UI
+UJ
+0K
+bUU L
+bUU M
+bUU N
+bUU O
+UP
+UQ
+UR
+US
+UT
+UU
+bUU V
+bUU W
+UX
+UY
+UZ
+bUU [
+bUU \
+U]
+U^
+U_
+bUUUU `
+b0000 a
+Ub
+Uc
+bUUUU d
+bUUU e
+Uf
+0g
+Uh
+Ui
+Uj
+Uk
+0l
+Um
+Un
+Uo
+Up
+0q
+Ur
+Us
+Ut
+Uu
+0v
+Uw
+Ux
+Uy
+bUUUU z
+bUUUU {
+bUU |
+U}
+bUUUU !"
+U""
+U#"
+bUU $"
+U%"
+U&"
+U'"
+U("
+bUU )"
+U*"
+U+"
+U,"
+U-"
+bUU ."
+U/"
+U0"
+U1"
+U2"
+bUU 3"
+U4"
+U5"

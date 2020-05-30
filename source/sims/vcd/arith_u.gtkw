@@ -1,0 +1,36 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Sat May 30 00:52:14 2020
+[*]
+[dumpfile] "/home/ivan/Escom/Arquitectura/microprocessor/source/arith_u_wave.vcd"
+[dumpfile_mtime] "Sat May 30 00:46:05 2020"
+[dumpfile_size] 5278
+[savefile] "/home/ivan/Escom/Arquitectura/microprocessor/source/sims/vcd/arith_u.gtkw"
+[timestart] 0
+[size] 1680 979
+[pos] -1 -1
+*-22.000000 730000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] arith_u_tb.
+[treeopen] arith_u_tb.atrith_u_block.
+[sst_width] 220
+[signals_width] 126
+[sst_expanded] 1
+[sst_vpaned_height] 285
+@22
+arith_u_tb.b[3:0]
+arith_u_tb.a[3:0]
+@24
+arith_u_tb.s[3:0]
+@200
+-
+@23
+arith_u_tb.atrith_u_block.arithmetic_control.b_prime[3:0]
+@22
+arith_u_tb.atrith_u_block.arithmetic_control.a_prime[3:0]
+@200
+-
+@28
+arith_u_tb.atrith_u_block.fix
+arith_u_tb.co
+[pattern_trace] 1
+[pattern_trace] 0

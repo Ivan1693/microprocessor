@@ -37,7 +37,7 @@ begin
 				when "01" => b_prime <= "0000";
 				when "10" => b_prime <= b;
 				when "11" => b_prime <= b;
-							 fix <='1';
+							 fix <='1'; -- Al dec
 				when others => b_prime <= "0000";
 			end case;
 			if(c="00") then

@@ -1,0 +1,7 @@
+Cambios a archivos fuente:
+
+Rama: alu_mods
+
+	arith_u:
+	1. Se sustituyo el if de la linea 33 por una compuerta XOR.
+

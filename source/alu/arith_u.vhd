@@ -30,10 +30,7 @@ begin
 	process(fix,adder_cout,adder_out)
 	begin
 		s <= adder_out;
-		if(fix='1') then
-			co <=  not adder_cout;
-		else
-			co <= adder_cout;
-		end if;	
+		co <= fix xor adder_cout;
+
 	end process;
 end architecture;

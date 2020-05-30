@@ -1,0 +1,585 @@
+$date
+  Fri May 29 19:46:05 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module alu_devs $end
+$upscope $end
+$scope module basic_devs $end
+$upscope $end
+$scope module arith_u_tb $end
+$var reg 4 ! a[3:0] $end
+$var reg 4 " b[3:0] $end
+$var reg 2 # op_sel[1:0] $end
+$var reg 1 $ ci $end
+$var reg 1 % co $end
+$var reg 4 & s[3:0] $end
+$scope module atrith_u_block $end
+$var reg 4 ' a[3:0] $end
+$var reg 4 ( b[3:0] $end
+$var reg 2 ) op_sel[1:0] $end
+$var reg 1 * ci $end
+$var reg 1 + co $end
+$var reg 4 , s[3:0] $end
+$var reg 4 - adder_out[3:0] $end
+$var reg 1 . adder_cout $end
+$var reg 4 / a_prime[3:0] $end
+$var reg 4 0 b_prime[3:0] $end
+$var reg 1 1 fix $end
+$scope module arithmetic_control $end
+$var reg 2 2 c[1:0] $end
+$var reg 1 3 ci $end
+$var reg 4 4 a[3:0] $end
+$var reg 4 5 b[3:0] $end
+$var reg 4 6 a_prime[3:0] $end
+$var reg 4 7 b_prime[3:0] $end
+$var reg 1 8 fix $end
+$var reg 1 9 is_a $end
+$var reg 1 : is_b $end
+$var reg 1 ; are_equal $end
+$scope module comparator $end
+$var reg 4 < a[3:0] $end
+$var reg 4 = b[3:0] $end
+$var reg 1 > is_a $end
+$var reg 1 ? is_b $end
+$var reg 1 @ are_equal $end
+$var reg 2 A a_msb[1:0] $end
+$var reg 2 B b_msb[1:0] $end
+$var reg 2 C a_lsb[1:0] $end
+$var reg 2 D b_lsb[1:0] $end
+$var reg 1 E a_lsbo $end
+$var reg 1 F b_lsbo $end
+$var reg 1 G e_lsbo $end
+$var reg 1 H a_msbo $end
+$var reg 1 I b_msbo $end
+$var reg 1 J e_msbo $end
+$scope module msb $end
+$var reg 2 K a[1:0] $end
+$var reg 2 L b[1:0] $end
+$var reg 1 M is_a $end
+$var reg 1 N is_b $end
+$var reg 1 O are_equal $end
+$upscope $end
+$scope module lsb $end
+$var reg 2 P a[1:0] $end
+$var reg 2 Q b[1:0] $end
+$var reg 1 R is_a $end
+$var reg 1 S is_b $end
+$var reg 1 T are_equal $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module full_4bit_adder $end
+$var reg 4 U a[3:0] $end
+$var reg 4 V b[3:0] $end
+$var reg 1 W ci $end
+$var reg 1 X co $end
+$var reg 4 Y s[3:0] $end
+$var reg 3 Z c[2:0] $end
+$scope module adder_a $end
+$var reg 1 [ a $end
+$var reg 1 \ b $end
+$var reg 1 ] ci $end
+$var reg 1 ^ co $end
+$var reg 1 _ s $end
+$upscope $end
+$scope module adder_b $end
+$var reg 1 ` a $end
+$var reg 1 a b $end
+$var reg 1 b ci $end
+$var reg 1 c co $end
+$var reg 1 d s $end
+$upscope $end
+$scope module adder_c $end
+$var reg 1 e a $end
+$var reg 1 f b $end
+$var reg 1 g ci $end
+$var reg 1 h co $end
+$var reg 1 i s $end
+$upscope $end
+$scope module adder_d $end
+$var reg 1 j a $end
+$var reg 1 k b $end
+$var reg 1 l ci $end
+$var reg 1 m co $end
+$var reg 1 n s $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0000 !
+b0111 "
+b00 #
+1$
+0%
+b0111 &
+b0000 '
+b0111 (
+b00 )
+1*
+0+
+b0111 ,
+b0111 -
+1.
+b0111 /
+b1111 0
+11
+b00 2
+13
+b0000 4
+b0111 5
+b0111 6
+b1111 7
+18
+09
+1:
+0;
+b0000 <
+b0111 =
+0>
+1?
+0@
+b00 A
+b01 B
+b00 C
+b11 D
+0E
+1F
+0G
+0H
+1I
+0J
+b00 K
+b01 L
+0M
+1N
+0O
+b00 P
+b11 Q
+0R
+1S
+0T
+b0111 U
+b1111 V
+1W
+1X
+b0111 Y
+b111 Z
+1[
+1\
+1]
+1^
+1_
+1`
+1a
+1b
+1c
+1d
+1e
+1f
+1g
+1h
+1i
+0j
+1k
+1l
+1m
+0n
+#1000000
+b0001 !
+b0110 &
+b0001 '
+b0110 ,
+b0110 -
+b1110 0
+b0001 4
+b1110 7
+b0001 <
+b01 C
+b01 P
+b1110 V
+b0110 Y
+0\
+0_
+#2000000
+b0010 !
+b0101 &
+b0010 '
+b0101 ,
+b0101 -
+b1101 0
+b0010 4
+b1101 7
+b0010 <
+b10 C
+b10 P
+b1101 V
+b0101 Y
+1\
+1_
+0a
+0d
+#3000000
+b0011 !
+b0100 &
+b0011 '
+b0100 ,
+b0100 -
+b1100 0
+b0011 4
+b1100 7
+b0011 <
+b11 C
+0F
+1G
+b11 P
+0S
+1T
+b1100 V
+b0100 Y
+0\
+0_
+#4000000
+b0100 !
+b0011 &
+b0100 '
+b0011 ,
+b0011 -
+b1011 0
+b0100 4
+b1011 7
+b0100 <
+b01 A
+b00 C
+1F
+0G
+0I
+1J
+b01 K
+0N
+1O
+b00 P
+1S
+0T
+b1011 V
+b0011 Y
+1\
+1_
+1a
+1d
+0f
+0i
+#5000000
+b0101 !
+b0010 &
+b0101 '
+b0010 ,
+b0010 -
+b1010 0
+b0101 4
+b1010 7
+b0101 <
+b01 C
+b01 P
+b1010 V
+b0010 Y
+0\
+0_
+#6000000
+b0110 !
+b0001 &
+b0110 '
+b0001 ,
+b0001 -
+b1001 0
+b0110 4
+b1001 7
+b0110 <
+b10 C
+b10 P
+b1001 V
+b0001 Y
+1\
+1_
+0a
+0d
+#7000000
+b0111 !
+b0000 &
+b0111 '
+b0000 ,
+b0000 -
+b1000 0
+b0111 4
+b1000 7
+0:
+1;
+b0111 <
+0?
+1@
+b11 C
+0F
+1G
+b11 P
+0S
+1T
+b1000 V
+b0000 Y
+0\
+0_
+#8000000
+b1000 !
+1%
+b0001 &
+b1000 '
+1+
+b0001 ,
+b0001 -
+1.
+b1000 /
+b1000 0
+01
+b1000 4
+b1000 6
+b1000 7
+08
+19
+0;
+b1000 <
+1>
+0@
+b10 A
+b00 C
+1F
+0G
+1H
+0J
+b10 K
+1M
+0O
+b00 P
+1S
+0T
+b1000 U
+b1000 V
+1X
+b0001 Y
+b000 Z
+0[
+0\
+0^
+1_
+0`
+0a
+0b
+0c
+0d
+0e
+0f
+0g
+0h
+0i
+1j
+1k
+0l
+1m
+0n
+#9000000
+b1001 !
+b0010 &
+b1001 '
+b0010 ,
+b0010 -
+b1001 /
+b1001 4
+b1001 6
+b1000 7
+b1001 <
+b01 C
+b01 P
+b1001 U
+b0010 Y
+b001 Z
+1[
+1^
+0_
+1b
+1d
+#10000000
+b1010 !
+b0011 &
+b1010 '
+b0011 ,
+b0011 -
+b1010 /
+b1010 4
+b1010 6
+b1000 7
+b1010 <
+b10 C
+b10 P
+b1010 U
+b0011 Y
+b000 Z
+0[
+0^
+1_
+1`
+0b
+0c
+1d
+0g
+0i
+#11000000
+b1011 !
+b0100 &
+b1011 '
+b0100 ,
+b0100 -
+b1011 /
+b1011 4
+b1011 6
+b1000 7
+b1011 <
+b11 C
+0F
+1G
+b11 P
+0S
+1T
+b1011 U
+b0100 Y
+b011 Z
+1[
+1^
+0_
+1b
+1c
+0d
+1g
+1i
+#12000000
+b1100 !
+b0101 &
+b1100 '
+b0101 ,
+b0101 -
+b1100 /
+b1100 4
+b1100 6
+b1000 7
+b1100 <
+b11 A
+b00 C
+1F
+0G
+b11 K
+b00 P
+1S
+0T
+b1100 U
+b0101 Y
+b000 Z
+0[
+0^
+1_
+0`
+0b
+0c
+0d
+1e
+0g
+0h
+1i
+0l
+0n
+#13000000
+b1101 !
+b0110 &
+b1101 '
+b0110 ,
+b0110 -
+b1101 /
+b1101 4
+b1101 6
+b1000 7
+b1101 <
+b01 C
+b01 P
+b1101 U
+b0110 Y
+b001 Z
+1[
+1^
+0_
+1b
+1d
+#14000000
+b1110 !
+b0111 &
+b1110 '
+b0111 ,
+b0111 -
+b1110 /
+b1110 4
+b1110 6
+b1000 7
+b1110 <
+b10 C
+b10 P
+b1110 U
+b0111 Y
+b000 Z
+0[
+0^
+1_
+1`
+0b
+0c
+1d
+0g
+0h
+1i
+0l
+0n
+#15000000
+b1111 !
+b1000 &
+b1111 '
+b1000 ,
+b1000 -
+b1111 /
+b1111 4
+b1111 6
+b1000 7
+b1111 <
+b11 C
+0F
+1G
+b11 P
+0S
+1T
+b1111 U
+b1000 Y
+b111 Z
+1[
+1^
+0_
+1b
+1c
+0d
+1g
+1h
+0i
+1l
+1n
