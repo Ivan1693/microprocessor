@@ -45,24 +45,24 @@ señal	:	[regmux_sel]	[unit_sel]	[op_sel]	[carry_in]
 
 #### Tabla de instrucciones
 
-| unit_sel | op_sel & carry_in | hex  |    operación    |
-| :------: | :---------------: | ---- | :-------------: |
-|    0     |        000        | 0    |      suma       |
-|    0     |        001        | 1    |      resta      |
-|    0     |        010        | 2    | transferencia A |
-|    0     |        011        | 3    |  incremento A   |
-|    0     |        100        | 4    | transferencia B |
-|    0     |        101        | 5    |  incremento B   |
-|    0     |        110        | 6    |  decremento A   |
-|    0     |        111        | 7    |  decremento B   |
-|    1     |        000        | 8    |       AND       |
-|    1     |        001        | 9    |      NAND       |
-|    1     |        010        | A    |       OR        |
-|    1     |        011        | B    |       NOR       |
-|    1     |        100        | C    |       XOR       |
-|    1     |        101        | D    |      XNOR       |
-|    1     |        110        | E    |    BUFFER A     |
-|    1     |        111        | F    |      NOT A      |
+| unit_sel | c & ci | hex  |    operación    |
+| :------: | :----: | ---- | :-------------: |
+|    0     |  000   | 0    |      suma       |
+|    0     |  001   | 1    |      resta      |
+|    0     |  010   | 2    | transferencia A |
+|    0     |  011   | 3    |  incremento A   |
+|    0     |  100   | 4    | transferencia B |
+|    0     |  101   | 5    |  incremento B   |
+|    0     |  110   | 6    |  decremento A   |
+|    0     |  111   | 7    |  decremento B   |
+|    1     |  000   | 8    |       AND       |
+|    1     |  001   | 9    |      NAND       |
+|    1     |  010   | A    |       OR        |
+|    1     |  011   | B    |       NOR       |
+|    1     |  100   | C    |       XOR       |
+|    1     |  101   | D    |      XNOR       |
+|    1     |  110   | E    |    BUFFER A     |
+|    1     |  111   | F    |      NOT A      |
 
 ### Registros
 

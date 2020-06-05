@@ -167,6 +167,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
@@ -190,6 +191,7 @@
     <transform xil_pn:end_ts="1587517763" xil_pn:in_ck="502109676497780292" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-8948618484994436254" xil_pn:start_ts="1587517755">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
       <outfile xil_pn:name="micro_stage1.bld"/>
@@ -200,6 +202,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
       <outfile xil_pn:name="micro_stage1.pcf"/>
       <outfile xil_pn:name="micro_stage1_map.map"/>
@@ -213,6 +216,7 @@
     <transform xil_pn:end_ts="1587517833" xil_pn:in_ck="1510964666570123230" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-2283627392121029586" xil_pn:start_ts="1587517799">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
       <outfile xil_pn:name="micro_stage1.ncd"/>
       <outfile xil_pn:name="micro_stage1.pad"/>
@@ -227,6 +231,7 @@
     <transform xil_pn:end_ts="1587517833" xil_pn:in_ck="502109676497780161" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1587517820">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
       <outfile xil_pn:name="micro_stage1.twr"/>
       <outfile xil_pn:name="micro_stage1.twx"/>
