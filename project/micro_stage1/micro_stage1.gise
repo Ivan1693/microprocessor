@@ -86,19 +86,39 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1587515021" xil_pn:in_ck="-5014316989785893014" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1587515021">
+    <transform xil_pn:end_ts="1591661121" xil_pn:in_ck="-5014316989785893014" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1591661121">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="../../source/alu/alu_16op.vhd"/>
+      <outfile xil_pn:name="../../source/alu/arith_u.vhd"/>
+      <outfile xil_pn:name="../../source/alu/ctrl_arith_u.vhd"/>
+      <outfile xil_pn:name="../../source/alu/logic_u.vhd"/>
+      <outfile xil_pn:name="../../source/alu_devs.vhd"/>
+      <outfile xil_pn:name="../../source/basic/adder4bit.vhd"/>
+      <outfile xil_pn:name="../../source/basic/comp2bit.vhd"/>
+      <outfile xil_pn:name="../../source/basic/comp4bit.vhd"/>
+      <outfile xil_pn:name="../../source/basic/conta203.vhd"/>
+      <outfile xil_pn:name="../../source/basic/deco47seg.vhd"/>
+      <outfile xil_pn:name="../../source/basic/dmux412.vhd"/>
+      <outfile xil_pn:name="../../source/basic/full_adder.vhd"/>
+      <outfile xil_pn:name="../../source/basic/logic_op_1bit.vhd"/>
+      <outfile xil_pn:name="../../source/basic/mux241.vhd"/>
+      <outfile xil_pn:name="../../source/basic_devs.vhd"/>
+      <outfile xil_pn:name="../../source/memory/bank241.vhd"/>
+      <outfile xil_pn:name="../../source/memory/ff0.vhd"/>
+      <outfile xil_pn:name="../../source/memory/reg04.vhd"/>
+      <outfile xil_pn:name="../../source/memory/reg05.vhd"/>
+      <outfile xil_pn:name="../../source/memory_devs.vhd"/>
+      <outfile xil_pn:name="../../source/micro/micro_stage1.vhd"/>
+      <outfile xil_pn:name="../../source/micro_devs.vhd"/>
+      <outfile xil_pn:name="../../source/sims/alu_sim.vhd"/>
+      <outfile xil_pn:name="../../source/sims/top_sim.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1587515122" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-6453202373866011936" xil_pn:start_ts="1587515122">
+    <transform xil_pn:end_ts="1591661132" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-6453202373866011936" xil_pn:start_ts="1591661132">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1587515122" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2437450377758548158" xil_pn:start_ts="1587515122">
+    <transform xil_pn:end_ts="1591661132" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2437450377758548158" xil_pn:start_ts="1591661132">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -106,34 +126,54 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1587515122" xil_pn:in_ck="-5014316989785893014" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1587515122">
+    <transform xil_pn:end_ts="1591661132" xil_pn:in_ck="-5014316989785893014" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1591661132">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="../../source/alu/alu_16op.vhd"/>
+      <outfile xil_pn:name="../../source/alu/arith_u.vhd"/>
+      <outfile xil_pn:name="../../source/alu/ctrl_arith_u.vhd"/>
+      <outfile xil_pn:name="../../source/alu/logic_u.vhd"/>
+      <outfile xil_pn:name="../../source/alu_devs.vhd"/>
+      <outfile xil_pn:name="../../source/basic/adder4bit.vhd"/>
+      <outfile xil_pn:name="../../source/basic/comp2bit.vhd"/>
+      <outfile xil_pn:name="../../source/basic/comp4bit.vhd"/>
+      <outfile xil_pn:name="../../source/basic/conta203.vhd"/>
+      <outfile xil_pn:name="../../source/basic/deco47seg.vhd"/>
+      <outfile xil_pn:name="../../source/basic/dmux412.vhd"/>
+      <outfile xil_pn:name="../../source/basic/full_adder.vhd"/>
+      <outfile xil_pn:name="../../source/basic/logic_op_1bit.vhd"/>
+      <outfile xil_pn:name="../../source/basic/mux241.vhd"/>
+      <outfile xil_pn:name="../../source/basic_devs.vhd"/>
+      <outfile xil_pn:name="../../source/memory/bank241.vhd"/>
+      <outfile xil_pn:name="../../source/memory/ff0.vhd"/>
+      <outfile xil_pn:name="../../source/memory/reg04.vhd"/>
+      <outfile xil_pn:name="../../source/memory/reg05.vhd"/>
+      <outfile xil_pn:name="../../source/memory_devs.vhd"/>
+      <outfile xil_pn:name="../../source/micro/micro_stage1.vhd"/>
+      <outfile xil_pn:name="../../source/micro_devs.vhd"/>
+      <outfile xil_pn:name="../../source/sims/alu_sim.vhd"/>
+      <outfile xil_pn:name="../../source/sims/top_sim.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1587515125" xil_pn:in_ck="-5014316989785893014" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1309051868020673296" xil_pn:start_ts="1587515122">
+    <transform xil_pn:end_ts="1591661133" xil_pn:in_ck="-5014316989785893014" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1309051868020673296" xil_pn:start_ts="1591661132">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="alu_sim_beh.prj"/>
+      <outfile xil_pn:name="alu_sim_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1587515125" xil_pn:in_ck="-6222341979372002704" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-481535982630461347" xil_pn:start_ts="1587515125">
+    <transform xil_pn:end_ts="1591661134" xil_pn:in_ck="-6222341979372002704" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-481535982630461347" xil_pn:start_ts="1591661133">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="alu_sim_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
     </transform>
     <transform xil_pn:end_ts="1587517644" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1587517644">
       <status xil_pn:value="SuccessfullyRun"/>

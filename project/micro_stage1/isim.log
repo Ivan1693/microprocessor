@@ -11,22 +11,1007 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-# isim force add /alu_sim/unit_sel 0 -radix bin
-# isim force add /alu_sim/op_sel 00 -radix bin
-# isim force add /alu_sim/ci 1 -radix bin
-# isim force add /alu_sim/b 0101 -radix bin
-# isim force add /alu_sim/a 1010 -radix bin
-# restart
-# run 1.00us
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
 # restart
 # isim force add /alu_sim/unit_sel 0 -radix bin
 # isim force add /alu_sim/op_sel 00 -radix bin
-# isim force add /alu_sim/ci 1 -radix bin
-# isim force add /alu_sim/b 0101 -radix bin
-# isim force add /alu_sim/a 1010 -radix bin
-# run 200ps
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0101 -radix bin
+# isim force add /alu_sim/b 0110 -radix bin
+# cls
+# restart
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0101 -radix bin
+# isim force add /alu_sim/b 0110 -radix bin
+# run
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
+# cls
+# restart
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0101 -radix bin
+# isim force add /alu_sim/b 0110 -radix bin
+# run
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1001 -radix bin
+# isim force add /alu_sim/b 0011 -radix bin
+# run
+# cls
+# restart
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0101 -radix bin
+# isim force add /alu_sim/b 0110 -radix bin
+# run
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1001 -radix bin
+# isim force add /alu_sim/b 0011 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1100 -radix bin
+# isim force add /alu_sim/b 1110 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1011 -radix bin
+# isim force add /alu_sim/b 1010 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1100 -radix bin
+# isim force add /alu_sim/b 1110 -radix bin
+# run
+# cls
+# restart
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0101 -radix bin
+# isim force add /alu_sim/b 0110 -radix bin
+# run
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1001 -radix bin
+# isim force add /alu_sim/b 0011 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1100 -radix bin
+# isim force add /alu_sim/b 1110 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1011 -radix bin
+# isim force add /alu_sim/b 1010 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1100 -radix bin
+# isim force add /alu_sim/b 1110 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1011 -radix bin
+# isim force add /alu_sim/b 1010 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1101 -radix bin
+# isim force add /alu_sim/b 1111 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0100 -radix bin
+# isim force add /alu_sim/b 0111 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0010 -radix bin
+# isim force add /alu_sim/b 1011 -radix bin
+# run
+# restart
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0101 -radix bin
+# isim force add /alu_sim/b 0110 -radix bin
+# run
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1001 -radix bin
+# isim force add /alu_sim/b 0011 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1100 -radix bin
+# isim force add /alu_sim/b 1110 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1011 -radix bin
+# isim force add /alu_sim/b 1010 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1100 -radix bin
+# isim force add /alu_sim/b 1110 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1011 -radix bin
+# isim force add /alu_sim/b 1010 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1101 -radix bin
+# isim force add /alu_sim/b 1111 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0100 -radix bin
+# isim force add /alu_sim/b 0111 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0010 -radix bin
+# isim force add /alu_sim/b 1011 -radix bin
+# run
+# restart
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0101 -radix bin
+# isim force add /alu_sim/b 0110 -radix bin
+# run
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1001 -radix bin
+# isim force add /alu_sim/b 0011 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1100 -radix bin
+# isim force add /alu_sim/b 1110 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1011 -radix bin
+# isim force add /alu_sim/b 1010 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1101 -radix bin
+# isim force add /alu_sim/b 1111 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0100 -radix bin
+# isim force add /alu_sim/b 0111 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0010 -radix bin
+# isim force add /alu_sim/b 1011 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1110 -radix bin
+# isim force add /alu_sim/b 1000 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1000 -radix bin
+# isim force add /alu_sim/b 0100 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0111 -radix bin
+# isim force add /alu_sim/b 0000 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0001 -radix bin
+# isim force add /alu_sim/b 0010 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0110 -radix bin
+# isim force add /alu_sim/b 1101 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1010 -radix bin
+# isim force add /alu_sim/b 0001 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0000 -radix bin
+# isim force add /alu_sim/b 1100 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1111 -radix bin
+# isim force add /alu_sim/b 0101 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0011 -radix bin
+# isim force add /alu_sim/b 1001 -radix bin
+# run
+# cls
+# restart
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0101 -radix bin
+# isim force add /alu_sim/b 0110 -radix bin
+# run
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1001 -radix bin
+# isim force add /alu_sim/b 0011 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1100 -radix bin
+# isim force add /alu_sim/b 1110 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1011 -radix bin
+# isim force add /alu_sim/b 1010 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1101 -radix bin
+# isim force add /alu_sim/b 1111 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0100 -radix bin
+# isim force add /alu_sim/b 0111 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0010 -radix bin
+# isim force add /alu_sim/b 1011 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1110 -radix bin
+# isim force add /alu_sim/b 1000 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1000 -radix bin
+# isim force add /alu_sim/b 0100 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0111 -radix bin
+# isim force add /alu_sim/b 0000 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0001 -radix bin
+# isim force add /alu_sim/b 0010 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0110 -radix bin
+# isim force add /alu_sim/b 1101 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1010 -radix bin
+# isim force add /alu_sim/b 0001 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0000 -radix bin
+# isim force add /alu_sim/b 1100 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1111 -radix bin
+# isim force add /alu_sim/b 0101 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0011 -radix bin
+# isim force add /alu_sim/b 1001 -radix bin
+# run
+# isim force add /alu_sim/co 0 -radix bin
+# run 400ps
+# cls
+# restart
+# isim force add /alu_sim/co 0 -radix bin
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0101 -radix bin
+# isim force add /alu_sim/b 0110 -radix bin
+# run
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1001 -radix bin
+# isim force add /alu_sim/b 0011 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1100 -radix bin
+# isim force add /alu_sim/b 1110 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1011 -radix bin
+# isim force add /alu_sim/b 1010 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1101 -radix bin
+# isim force add /alu_sim/b 1111 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0100 -radix bin
+# isim force add /alu_sim/b 0111 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0010 -radix bin
+# isim force add /alu_sim/b 1011 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1110 -radix bin
+# isim force add /alu_sim/b 1000 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1000 -radix bin
+# isim force add /alu_sim/b 0100 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0111 -radix bin
+# isim force add /alu_sim/b 0000 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0001 -radix bin
+# isim force add /alu_sim/b 0010 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0110 -radix bin
+# isim force add /alu_sim/b 1101 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1010 -radix bin
+# isim force add /alu_sim/b 0001 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0000 -radix bin
+# isim force add /alu_sim/b 1100 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1111 -radix bin
+# isim force add /alu_sim/b 0101 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0011 -radix bin
+# isim force add /alu_sim/b 1001 -radix bin
+# run
+# cls
+# restart
+# isim force add /alu_sim/co 0 -radix bin
+# isim force add /alu_sim/fix 0 -radix bin
+/alu_sim/fix: No such HDL object
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0101 -radix bin
+# isim force add /alu_sim/b 0110 -radix bin
+# run
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1001 -radix bin
+# isim force add /alu_sim/b 0011 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1100 -radix bin
+# isim force add /alu_sim/b 1110 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1011 -radix bin
+# isim force add /alu_sim/b 1010 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1101 -radix bin
+# isim force add /alu_sim/b 1111 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0100 -radix bin
+# isim force add /alu_sim/b 0111 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0010 -radix bin
+# isim force add /alu_sim/b 1011 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1110 -radix bin
+# isim force add /alu_sim/b 1000 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1000 -radix bin
+# isim force add /alu_sim/b 0100 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0111 -radix bin
+# isim force add /alu_sim/b 0000 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0001 -radix bin
+# isim force add /alu_sim/b 0010 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0110 -radix bin
+# isim force add /alu_sim/b 1101 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1010 -radix bin
+# isim force add /alu_sim/b 0001 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0000 -radix bin
+# isim force add /alu_sim/b 1100 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1111 -radix bin
+# isim force add /alu_sim/b 0101 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0011 -radix bin
+# isim force add /alu_sim/b 1001 -radix bin
+# run
+# cls
+# isim force add /alu_sim/alu_16op_block/arithmetic_unit/fix 0 -radix bin
+# restart
+# restart
+# isim force add /alu_sim/co 0 -radix bin
+# isim force add /alu_sim/alu_16op_block/arithmetic_unit/fix 0 -radix bin
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0101 -radix bin
+# isim force add /alu_sim/b 0110 -radix bin
+# run
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1001 -radix bin
+# isim force add /alu_sim/b 0011 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1100 -radix bin
+# isim force add /alu_sim/b 1110 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1011 -radix bin
+# isim force add /alu_sim/b 1010 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1101 -radix bin
+# isim force add /alu_sim/b 1111 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0100 -radix bin
+# isim force add /alu_sim/b 0111 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0010 -radix bin
+# isim force add /alu_sim/b 1011 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1110 -radix bin
+# isim force add /alu_sim/b 1000 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1000 -radix bin
+# isim force add /alu_sim/b 0100 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0111 -radix bin
+# isim force add /alu_sim/b 0000 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0001 -radix bin
+# isim force add /alu_sim/b 0010 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0110 -radix bin
+# isim force add /alu_sim/b 1101 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1010 -radix bin
+# isim force add /alu_sim/b 0001 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0000 -radix bin
+# isim force add /alu_sim/b 1100 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1111 -radix bin
+# isim force add /alu_sim/b 0101 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0011 -radix bin
+# isim force add /alu_sim/b 1001 -radix bin
+# run
+# restart
+# isim force add /alu_sim/co 0 -radix bin
+# isim force add /alu_sim/alu_16op_block/arithmetic_unit/fix 0 -radix bin
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0101 -radix bin
+# isim force add /alu_sim/b 0110 -radix bin
+# run
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1001 -radix bin
+# isim force add /alu_sim/b 0011 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1100 -radix bin
+# isim force add /alu_sim/b 1110 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1011 -radix bin
+# isim force add /alu_sim/b 1010 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1101 -radix bin
+# isim force add /alu_sim/b 1111 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0100 -radix bin
+# isim force add /alu_sim/b 0111 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0010 -radix bin
+# isim force add /alu_sim/b 1011 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1110 -radix bin
+# isim force add /alu_sim/b 1000 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1000 -radix bin
+# isim force add /alu_sim/b 0100 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0111 -radix bin
+# isim force add /alu_sim/b 0000 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0001 -radix bin
+# isim force add /alu_sim/b 0010 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0110 -radix bin
+# isim force add /alu_sim/b 1101 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1010 -radix bin
+# isim force add /alu_sim/b 0001 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0000 -radix bin
+# isim force add /alu_sim/b 1100 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1111 -radix bin
+# isim force add /alu_sim/b 0101 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0011 -radix bin
+# isim force add /alu_sim/b 1001 -radix bin
+# run
+# cls
+# restart
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1001 -radix bin
+# isim force add /alu_sim/b 0011 -radix bin
+# run
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# isim force add /alu_sim/co 0 -radix bin
+# isim force add /alu_sim/alu_16op_block/arithmetic_unit/fix 0 -radix bin
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0101 -radix bin
+# isim force add /alu_sim/b 0110 -radix bin
+# run
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1001 -radix bin
+# isim force add /alu_sim/b 0011 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1100 -radix bin
+# isim force add /alu_sim/b 1110 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1011 -radix bin
+# isim force add /alu_sim/b 1010 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1101 -radix bin
+# isim force add /alu_sim/b 1111 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0100 -radix bin
+# isim force add /alu_sim/b 0111 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0010 -radix bin
+# isim force add /alu_sim/b 1011 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1110 -radix bin
+# isim force add /alu_sim/b 1000 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1000 -radix bin
+# isim force add /alu_sim/b 0100 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0111 -radix bin
+# isim force add /alu_sim/b 0000 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0001 -radix bin
+# isim force add /alu_sim/b 0010 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0110 -radix bin
+# isim force add /alu_sim/b 1101 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1010 -radix bin
+# isim force add /alu_sim/b 0001 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0000 -radix bin
+# isim force add /alu_sim/b 1100 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1111 -radix bin
+# isim force add /alu_sim/b 0101 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0011 -radix bin
+# isim force add /alu_sim/b 1001 -radix bin
+# run
+# cls
+# restart
+# isim force add /alu_sim/alu_16op_block/arithmetic_unit/fix 0 -radix bin
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0101 -radix bin
+# isim force add /alu_sim/b 0110 -radix bin
+# run
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1001 -radix bin
+# isim force add /alu_sim/b 0011 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1100 -radix bin
+# isim force add /alu_sim/b 1110 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1011 -radix bin
+# isim force add /alu_sim/b 1010 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1101 -radix bin
+# isim force add /alu_sim/b 1111 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0100 -radix bin
+# isim force add /alu_sim/b 0111 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0010 -radix bin
+# isim force add /alu_sim/b 1011 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 0 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 1110 -radix bin
+# isim force add /alu_sim/b 1000 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1000 -radix bin
+# isim force add /alu_sim/b 0100 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 00 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0111 -radix bin
+# isim force add /alu_sim/b 0000 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 0001 -radix bin
+# isim force add /alu_sim/b 0010 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 01 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0110 -radix bin
+# isim force add /alu_sim/b 1101 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1010 -radix bin
+# isim force add /alu_sim/b 0001 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 10 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0000 -radix bin
+# isim force add /alu_sim/b 1100 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 0 -radix bin
+# isim force add /alu_sim/a 1111 -radix bin
+# isim force add /alu_sim/b 0101 -radix bin
+# run
+# isim force add /alu_sim/unit_sel 1 -radix bin
+# isim force add /alu_sim/op_sel 11 -radix bin
+# isim force add /alu_sim/ci 1 -radix bin
+# isim force add /alu_sim/a 0011 -radix bin
+# isim force add /alu_sim/b 1001 -radix bin
+# run
 # exit 0

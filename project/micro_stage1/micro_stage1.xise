@@ -115,6 +115,12 @@
       <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="37"/>
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="37"/>
     </file>
+    <file xil_pn:name="../../source/sims/alu_sim.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="12"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="83"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="83"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="83"/>
+    </file>
   </files>
 
   <properties>

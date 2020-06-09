@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/alu_sim_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="alu_devs" />
+            <top_module name="alu_sim" />
+            <top_module name="basic_devs" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="divider8" type="divider">
+      <obj_property name="label">Instrucción</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#2d2d2d</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_sim/unit_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">unit_sel</obj_property>
+      <obj_property name="ObjectShortName">unit_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_sim/op_sel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">op_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_sim/ci" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ci</obj_property>
+      <obj_property name="ObjectShortName">ci</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider10" type="divider">
+      <obj_property name="label">Datos</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#2d2d2d</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_sim/a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a[3:0]</obj_property>
+      <obj_property name="ObjectShortName">a[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_sim/b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b[3:0]</obj_property>
+      <obj_property name="ObjectShortName">b[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider14" type="divider">
+      <obj_property name="label">Control aritmético</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#2d2d2d</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_sim/alu_16op_block/arithmetic_unit/a_prime" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a_prime[3:0]</obj_property>
+      <obj_property name="ObjectShortName">a_prime[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_sim/alu_16op_block/arithmetic_unit/b_prime" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b_prime[3:0]</obj_property>
+      <obj_property name="ObjectShortName">b_prime[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_sim/alu_16op_block/arithmetic_unit/arithmetic_control/comparator/is_a" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">is_a</obj_property>
+      <obj_property name="ObjectShortName">is_a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_sim/alu_16op_block/arithmetic_unit/fix" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fix</obj_property>
+      <obj_property name="ObjectShortName">fix</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider26" type="divider">
+      <obj_property name="label">Salida sumador 4 bits</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#2d2d2d</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_sim/alu_16op_block/arithmetic_unit/full_4bit_adder/co" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">co</obj_property>
+      <obj_property name="ObjectShortName">co</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_sim/alu_16op_block/arithmetic_unit/full_4bit_adder/s" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider11" type="divider">
+      <obj_property name="label">Salida ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#2d2d2d</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_sim/co" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">co</obj_property>
+      <obj_property name="ObjectShortName">co</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_sim/s" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s[3:0]</obj_property>
+   </wvobject>
+</wave_config>

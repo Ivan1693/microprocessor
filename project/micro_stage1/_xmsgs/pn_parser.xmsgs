@@ -8,61 +8,7 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ivan/Escom/Arquitectura/microprocessor/source/alu/alu_16op.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ivan/Escom/Arquitectura/microprocessor/source/alu/arith_u.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ivan/Escom/Arquitectura/microprocessor/source/alu/ctrl_arith_u.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ivan/Escom/Arquitectura/microprocessor/source/alu/logic_u.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ivan/Escom/Arquitectura/microprocessor/source/alu_devs.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ivan/Escom/Arquitectura/microprocessor/source/basic/adder4bit.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ivan/Escom/Arquitectura/microprocessor/source/basic/comp2bit.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ivan/Escom/Arquitectura/microprocessor/source/basic/comp4bit.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ivan/Escom/Arquitectura/microprocessor/source/basic/full_adder.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ivan/Escom/Arquitectura/microprocessor/source/basic/logic_op_1bit.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ivan/Escom/Arquitectura/microprocessor/source/basic/mux241.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ivan/Escom/Arquitectura/microprocessor/source/basic_devs.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ivan/Escom/Arquitectura/microprocessor/source/memory/bank241.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ivan/Escom/Arquitectura/microprocessor/source/memory/ff0.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ivan/Escom/Arquitectura/microprocessor/source/memory/reg04.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ivan/Escom/Arquitectura/microprocessor/source/memory/reg05.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ivan/Escom/Arquitectura/microprocessor/source/memory_devs.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ivan/Escom/Arquitectura/microprocessor/source/micro/micro_stage1.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ivan/Escom/Arquitectura/microprocessor/source/micro_devs.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ivan/Escom/Arquitectura/microprocessor/source/sims/alu_sim.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

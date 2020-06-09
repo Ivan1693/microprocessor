@@ -100,15 +100,16 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/alu_sim - behavior |home|ivan|Escom|Arquitectura|microprocessor|source|sims|alu_sim.vhd</ClosedNode>
          <ClosedNode>/micro_stage1 - behavioral |home|ivan|Escom|Arquitectura|microprocessor|source|micro|micro_stage1.vhd</ClosedNode>
-         <ClosedNode>/top_sim - behavior |home|ivan|Escom|Arquitectura|microprocessor|source|sims|top_sim.vhd</ClosedNode>
          <ClosedNode>/top_sim - behavior |home|ivan|Escom|Arquitectura|microprocessor|source|sims|top_sim.vhd/micro_stage1_block - micro_stage1 - behavioral</ClosedNode>
       </ClosedNodes>
-      <SelectedItems/>
+      <SelectedItems>
+         <SelectedItem>alu_sim - behavior (/home/ivan/Escom/Arquitectura/microprocessor/source/sims/alu_sim.vhd)</SelectedItem>
+      </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000011c000000020000000000000000000000000200000064ffffffff0000008100000003000000020000011c0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000213000000020000000000000000000000000200000064ffffffff000000810000000300000002000002130000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Unassigned User Library Modules</CurrentItem>
+      <CurrentItem>alu_sim - behavior (/home/ivan/Escom/Arquitectura/microprocessor/source/sims/alu_sim.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -116,13 +117,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001af000000010000000100000000000000000000000064ffffffff000000810000000000000001000001af0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000027e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000027e0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_PACKAGE_DECL" guiview="Process" >
       <ClosedNodes>
@@ -146,10 +147,10 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001af000000010000000100000000000000000000000064ffffffff000000810000000000000001000001af0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000027e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000027e0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000014a0000011b01000000040100000002</SourceProcessView>
-   <CurrentView>Implementation</CurrentView>
+   <CurrentView>Behavioral Simulation</CurrentView>
 </Project>
