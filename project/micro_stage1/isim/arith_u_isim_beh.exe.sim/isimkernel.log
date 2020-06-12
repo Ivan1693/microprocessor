@@ -1,0 +1,41 @@
+Command line:
+   arith_u_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  37230
+
+Fri Jun 12 00:51:08 2020
+
+
+ Elaboration Time: 0.12 sec
+
+ Current Memory Usage: 215.409 Meg
+
+ Total Signals          : 91
+ Total Nets             : 58
+ Total Signal Drivers   : 35
+ Total Blocks           : 15
+ Total Primitive Blocks : 11
+ Total Processes        : 30
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 418
+Total Line Count : 83
+Total Line Count : 83
+Total Line Count : 83
+Total Line Count : 83
+Total Line Count : 83
+Total Line Count : 83
+Total Line Count : 83
+Total Line Count : 83
+Total Line Count : 83
+Total Line Count : 83
+Total Line Count : 83
+Total Line Count : 83
+Total Line Count : 83
+
+ Total Simulation Time: 0.73 sec
+
+ Current Memory Usage: 293.007 Meg
+
+Fri Jun 12 02:46:08 2020
+

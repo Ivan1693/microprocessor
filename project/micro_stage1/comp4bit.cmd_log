@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/comp4bit.xst" -ofn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/comp4bit.syr" 

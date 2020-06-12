@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/operation_control.xst" -ofn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/operation_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 operation_control.ngc operation_control.ngd  
+xst -intstyle ise -ifn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/operation_control.xst" -ofn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/operation_control.syr" 

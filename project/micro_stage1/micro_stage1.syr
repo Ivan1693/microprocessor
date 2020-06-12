@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.17 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.17 secs
  
 --> 
 Reading design: micro_stage1.prj
@@ -108,55 +108,55 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/basic_devs.vhd" into library work
+Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/basic_devs.vhd" into library work
 Parsing package <basic_devs>.
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/comp2bit.vhd" into library work
+Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/basic/comp2bit.vhd" into library work
 Parsing entity <comp2bit>.
 Parsing architecture <behavioral> of entity <comp2bit>.
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/full_adder.vhd" into library work
+Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/basic/full_adder.vhd" into library work
 Parsing entity <full_adder>.
 Parsing architecture <behavioral> of entity <full_adder>.
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/comp4bit.vhd" into library work
+Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/basic/comp4bit.vhd" into library work
 Parsing entity <comp4bit>.
 Parsing architecture <behavioral> of entity <comp4bit>.
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/memory_devs.vhd" into library work
+Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/memory_devs.vhd" into library work
 Parsing package <memory_devs>.
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/memory/ff0.vhd" into library work
+Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/memory/ff0.vhd" into library work
 Parsing entity <ff0>.
 Parsing architecture <behavioral> of entity <ff0>.
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/logic_op_1bit.vhd" into library work
+Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/basic/logic_op_1bit.vhd" into library work
 Parsing entity <logic_op_1bit>.
 Parsing architecture <behavioral> of entity <logic_op_1bit>.
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/adder4bit.vhd" into library work
+Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/basic/adder4bit.vhd" into library work
 Parsing entity <adder4bit>.
 Parsing architecture <behavioral> of entity <adder4bit>.
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/alu_devs.vhd" into library work
+Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/alu_devs.vhd" into library work
 Parsing package <alu_devs>.
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/ctrl_arith_u.vhd" into library work
+Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/alu/ctrl_arith_u.vhd" into library work
 Parsing entity <ctrl_arith_u>.
 Parsing architecture <behavioral> of entity <ctrl_arith_u>.
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/memory/reg04.vhd" into library work
+Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/memory/reg04.vhd" into library work
 Parsing entity <reg04>.
 Parsing architecture <behavioral> of entity <reg04>.
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/logic_u.vhd" into library work
+Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/alu/logic_u.vhd" into library work
 Parsing entity <logic_u>.
 Parsing architecture <behavioral> of entity <logic_u>.
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/arith_u.vhd" into library work
+Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/alu/arith_u.vhd" into library work
 Parsing entity <arith_u>.
 Parsing architecture <behavioral> of entity <arith_u>.
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/memory/reg05.vhd" into library work
+Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/memory/reg05.vhd" into library work
 Parsing entity <reg05>.
 Parsing architecture <behavioral> of entity <reg05>.
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/memory/bank241.vhd" into library work
+Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/memory/bank241.vhd" into library work
 Parsing entity <bank241>.
 Parsing architecture <behavioral> of entity <bank241>.
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/mux241.vhd" into library work
+Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/basic/mux241.vhd" into library work
 Parsing entity <mux241>.
 Parsing architecture <behavioral> of entity <mux241>.
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/alu_16op.vhd" into library work
+Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/alu/alu_16op.vhd" into library work
 Parsing entity <alu_16op>.
 Parsing architecture <behavioral> of entity <alu_16op>.
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/micro/micro_stage1.vhd" into library work
+Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/micro/micro_stage1.vhd" into library work
 Parsing entity <micro_stage1>.
 Parsing architecture <behavioral> of entity <micro_stage1>.
 
@@ -165,7 +165,7 @@ Parsing architecture <behavioral> of entity <micro_stage1>.
 =========================================================================
 
 Elaborating entity <micro_stage1> (architecture <behavioral>) from library <work>.
-WARNING:HDLCompiler:1127 - "/home/ivan/Escom/Arquitectura/microprocessor/source/micro/micro_stage1.vhd" Line 59: Assignment to acm_carry ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/media/sf_XilinxShared/microprocessor/source/micro/micro_stage1.vhd" Line 59: Assignment to acm_carry ignored, since the identifier is never used
 
 Elaborating entity <mux241> (architecture <behavioral>) from library <work>.
 
@@ -178,10 +178,10 @@ Elaborating entity <ctrl_arith_u> (architecture <behavioral>) from library <work
 Elaborating entity <comp4bit> (architecture <behavioral>) from library <work>.
 
 Elaborating entity <comp2bit> (architecture <behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/ctrl_arith_u.vhd" Line 32. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/ctrl_arith_u.vhd" Line 41. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/ctrl_arith_u.vhd" Line 61. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/ctrl_arith_u.vhd" Line 69. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/media/sf_XilinxShared/microprocessor/source/alu/ctrl_arith_u.vhd" Line 32. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/media/sf_XilinxShared/microprocessor/source/alu/ctrl_arith_u.vhd" Line 41. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/media/sf_XilinxShared/microprocessor/source/alu/ctrl_arith_u.vhd" Line 61. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/media/sf_XilinxShared/microprocessor/source/alu/ctrl_arith_u.vhd" Line 69. Case statement is complete. others clause is never selected
 
 Elaborating entity <adder4bit> (architecture <behavioral>) from library <work>.
 
@@ -204,33 +204,32 @@ Elaborating entity <reg05> (architecture <behavioral>) from library <work>.
 =========================================================================
 
 Synthesizing Unit <micro_stage1>.
-    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/micro/micro_stage1.vhd".
+    Related source file is "/media/sf_XilinxShared/microprocessor/source/micro/micro_stage1.vhd".
     Summary:
 	no macro.
 Unit <micro_stage1> synthesized.
 
 Synthesizing Unit <mux241>.
-    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/mux241.vhd".
+    Related source file is "/media/sf_XilinxShared/microprocessor/source/basic/mux241.vhd".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <mux241> synthesized.
 
 Synthesizing Unit <alu_16op>.
-    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/alu_16op.vhd".
+    Related source file is "/media/sf_XilinxShared/microprocessor/source/alu/alu_16op.vhd".
     Summary:
 	inferred   2 Multiplexer(s).
 Unit <alu_16op> synthesized.
 
 Synthesizing Unit <arith_u>.
-    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/arith_u.vhd".
+    Related source file is "/media/sf_XilinxShared/microprocessor/source/alu/arith_u.vhd".
     Summary:
-	inferred   1 Multiplexer(s).
 Unit <arith_u> synthesized.
 
 Synthesizing Unit <ctrl_arith_u>.
-    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/ctrl_arith_u.vhd".
-INFO:Xst:3210 - "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/ctrl_arith_u.vhd" line 22: Output port <is_b> of the instance <comparator> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/ctrl_arith_u.vhd" line 22: Output port <are_equal> of the instance <comparator> is unconnected or connected to loadless signal.
+    Related source file is "/media/sf_XilinxShared/microprocessor/source/alu/ctrl_arith_u.vhd".
+INFO:Xst:3210 - "/media/sf_XilinxShared/microprocessor/source/alu/ctrl_arith_u.vhd" line 22: Output port <is_b> of the instance <comparator> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/media/sf_XilinxShared/microprocessor/source/alu/ctrl_arith_u.vhd" line 22: Output port <are_equal> of the instance <comparator> is unconnected or connected to loadless signal.
     Found 4-bit 3-to-1 multiplexer for signal <c[1]_b[3]_wide_mux_2_OUT> created at line 35.
     Found 4-bit 4-to-1 multiplexer for signal <c[1]_PWR_14_o_wide_mux_12_OUT> created at line 64.
 WARNING:Xst:737 - Found 1-bit latch for signal <fix>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -240,61 +239,61 @@ WARNING:Xst:737 - Found 1-bit latch for signal <fix>. Latches may be generated f
 Unit <ctrl_arith_u> synthesized.
 
 Synthesizing Unit <comp4bit>.
-    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/comp4bit.vhd".
+    Related source file is "/media/sf_XilinxShared/microprocessor/source/basic/comp4bit.vhd".
     Summary:
 	no macro.
 Unit <comp4bit> synthesized.
 
 Synthesizing Unit <comp2bit>.
-    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/comp2bit.vhd".
+    Related source file is "/media/sf_XilinxShared/microprocessor/source/basic/comp2bit.vhd".
     Summary:
 Unit <comp2bit> synthesized.
 
 Synthesizing Unit <adder4bit>.
-    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/adder4bit.vhd".
+    Related source file is "/media/sf_XilinxShared/microprocessor/source/basic/adder4bit.vhd".
     Summary:
 	no macro.
 Unit <adder4bit> synthesized.
 
 Synthesizing Unit <full_adder>.
-    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/full_adder.vhd".
+    Related source file is "/media/sf_XilinxShared/microprocessor/source/basic/full_adder.vhd".
     Summary:
 Unit <full_adder> synthesized.
 
 Synthesizing Unit <logic_u>.
-    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/logic_u.vhd".
+    Related source file is "/media/sf_XilinxShared/microprocessor/source/alu/logic_u.vhd".
     Summary:
 	no macro.
 Unit <logic_u> synthesized.
 
 Synthesizing Unit <logic_op_1bit>.
-    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/logic_op_1bit.vhd".
-    Found 1-bit 4-to-1 multiplexer for signal <s_ci_MUX_31_o> created at line 15.
+    Related source file is "/media/sf_XilinxShared/microprocessor/source/basic/logic_op_1bit.vhd".
+    Found 1-bit 4-to-1 multiplexer for signal <s_ci_MUX_30_o> created at line 15.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <logic_op_1bit> synthesized.
 
 Synthesizing Unit <bank241>.
-    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/memory/bank241.vhd".
+    Related source file is "/media/sf_XilinxShared/microprocessor/source/memory/bank241.vhd".
     Summary:
 	no macro.
 Unit <bank241> synthesized.
 
 Synthesizing Unit <reg04>.
-    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/memory/reg04.vhd".
+    Related source file is "/media/sf_XilinxShared/microprocessor/source/memory/reg04.vhd".
     Summary:
 	no macro.
 Unit <reg04> synthesized.
 
 Synthesizing Unit <ff0>.
-    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/memory/ff0.vhd".
+    Related source file is "/media/sf_XilinxShared/microprocessor/source/memory/ff0.vhd".
 WARNING:Xst:737 - Found 1-bit latch for signal <q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
     Summary:
 	inferred   1 Latch(s).
 Unit <ff0> synthesized.
 
 Synthesizing Unit <reg05>.
-    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/memory/reg05.vhd".
+    Related source file is "/media/sf_XilinxShared/microprocessor/source/memory/reg05.vhd".
     Summary:
 	no macro.
 Unit <reg05> synthesized.
@@ -305,14 +304,14 @@ HDL Synthesis Report
 Macro Statistics
 # Latches                                              : 19
  1-bit latch                                           : 19
-# Multiplexers                                         : 22
- 1-bit 2-to-1 multiplexer                              : 7
+# Multiplexers                                         : 21
+ 1-bit 2-to-1 multiplexer                              : 6
  1-bit 4-to-1 multiplexer                              : 4
  4-bit 2-to-1 multiplexer                              : 9
  4-bit 3-to-1 multiplexer                              : 1
  4-bit 4-to-1 multiplexer                              : 1
-# Xors                                                 : 32
- 1-bit xor2                                            : 32
+# Xors                                                 : 33
+ 1-bit xor2                                            : 33
 
 =========================================================================
 
@@ -335,8 +334,8 @@ Macro Statistics
  4-bit 2-to-1 multiplexer                              : 9
  4-bit 3-to-1 multiplexer                              : 1
  4-bit 4-to-1 multiplexer                              : 1
-# Xors                                                 : 32
- 1-bit xor2                                            : 32
+# Xors                                                 : 33
+ 1-bit xor2                                            : 33
 
 =========================================================================
 
@@ -667,13 +666,13 @@ gcm_c          |         |         |    0.751|         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 10.00 secs
-Total CPU time to Xst completion: 7.48 secs
+Total REAL time to Xst completion: 38.00 secs
+Total CPU time to Xst completion: 31.61 secs
  
 --> 
 
 
-Total memory usage is 506120 kilobytes
+Total memory usage is 594784 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    7 (   0 filtered)

@@ -1,0 +1,4 @@
+vhdl work "../../source/basic_devs.vhd"
+vhdl work "../../source/basic/comp2bit.vhd"
+vhdl work "../../source/basic/comp4bit.vhd"
+vhdl work "../../source/alu/ctrl_arith_u.vhd"

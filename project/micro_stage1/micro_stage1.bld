@@ -6,8 +6,8 @@ ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 micro_stage1.ngc
 micro_stage1.ngd
 
 Reading NGO file
-"/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/micro_stage1.
-ngc" ...
+"/media/sf_XilinxShared/microprocessor/project/micro_stage1/micro_stage1.ngc"
+...
 Gathering constraint information from source properties...
 Done.
 
@@ -28,10 +28,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 463960 kilobytes
+Total memory usage is 552156 kilobytes
 
 Writing NGD file "micro_stage1.ngd" ...
-Total REAL time to NGDBUILD completion:  5 sec
-Total CPU time to NGDBUILD completion:   4 sec
+Total REAL time to NGDBUILD completion:  26 sec
+Total CPU time to NGDBUILD completion:   25 sec
 
 Writing NGDBUILD log file "micro_stage1.bld"...

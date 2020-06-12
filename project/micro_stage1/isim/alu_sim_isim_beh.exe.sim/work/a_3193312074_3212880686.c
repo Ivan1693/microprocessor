@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/logic_op_1bit.vhd";
+static const char *ng0 = "/media/sf_XilinxShared/microprocessor/source/basic/logic_op_1bit.vhd";
 extern char *IEEE_P_2592010699;
 
 unsigned char ieee_p_2592010699_sub_3488546069778340532_503743352(char *, unsigned char , unsigned char );
@@ -109,7 +109,7 @@ static void work_a_3193312074_3212880686_p_0(char *t0)
 LAB0:    xsi_set_current_line(15, ng0);
     t1 = (t0 + 1352U);
     t2 = *((char **)t1);
-    t1 = (t0 + 5093);
+    t1 = (t0 + 5037);
     t4 = 1;
     if (2U == 2U)
         goto LAB5;
@@ -121,7 +121,7 @@ LAB7:    if (t4 != 0)
 
 LAB4:    t21 = (t0 + 1352U);
     t22 = *((char **)t21);
-    t21 = (t0 + 5095);
+    t21 = (t0 + 5039);
     t24 = 1;
     if (2U == 2U)
         goto LAB13;
@@ -133,7 +133,7 @@ LAB15:    if (t24 != 0)
 
 LAB12:    t41 = (t0 + 1352U);
     t42 = *((char **)t41);
-    t41 = (t0 + 5097);
+    t41 = (t0 + 5041);
     t44 = 1;
     if (2U == 2U)
         goto LAB21;
@@ -145,7 +145,7 @@ LAB23:    if (t44 != 0)
 
 LAB20:    t61 = (t0 + 1352U);
     t62 = *((char **)t61);
-    t61 = (t0 + 5099);
+    t61 = (t0 + 5043);
     t64 = 1;
     if (2U == 2U)
         goto LAB29;
