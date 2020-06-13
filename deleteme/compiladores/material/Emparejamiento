@@ -1,0 +1,41 @@
+Emparejamiento
+
+Parte del análisis semántico en un proceso de compilación, incluye comprobar la coherencia entre ṕaréntesis (llaves, corchetes, comillas, etc.), es decir, se debe verificar que el conjunto de ṕaréntesis está balanceado y que se tiene una correspondencia entre estos.
+
+Decimos que un conjunto de paréntesis está balanceado cuando a cada paréntesis del lado izquierdo de una expresión se corresponde con uno del lado derecho. Ejemplo: Consideremos el siguiente fragmento de código:
+
+function(type a, type b){
+	type sum = (a*2)/(b*(b-1))
+}
+
+Analizando a partir de la apertura de llaves "{", recorremos caracter por caracter el conjunto de líneas y memorizamos únicamente los caracteres que corresponden a paréntesis, resultando en lo siguiente: 
+
+{	()	(	()	)	}
+
+Observamos que el número de elementos corresponde a una potencia 2^n, con n=1,2,3,... (2³=8), dado que a cada apertura de paréntesis (lado izquierdo) le corresponde un cierre de paréntesis (lado derecho), es decir se tienen pares de paréntesis. Por otro lado, supongamos:
+
+function(type a, type b){
+	if(condition==true){
+		value = a/b
+	}
+	else {
+		value = a*b
+}
+
+Realizando el análisis como el caso anterior obtenemos: 
+{	(){	 {	}	}
+El número de paréntesis es 7, lo cual indica la falta de un paréntesis de apertura o cierre.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Es evidente que no basta con analizar que el número de paréntesis de un bloque de código sea par, es necesario corrobar la correspondencia entre estos. Para ello es posible hacer uso de una pila como sigue:
+
+	1) Recorremos caracter a caracter el bloque de código agregando a la pila todos los elementos correspondientes a la apertura de paréntesis: (, {,[,",',<, etc.
+
+	2) Una vez que se encuentra un cierre de paréntesis: ),},],",',>, etc., se extrae elemento del tope de pila y se compara con el elemento leído. En caso de ser del mismo tipo, la correspondencia es correcta y el análisis continúa, en caso contrario se trata de error.
+
+	3) Si al final del recorrido la pila se encuentra vacía, se concluye que el conjunto de paréntesis está balanceado.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
