@@ -1,0 +1,73 @@
+
+restart
+isim force add {/arith_u/sa} 0 -radix bin 
+isim force add {/arith_u/sb} 0 -radix bin 
+isim force add {/arith_u/fix} 0 -radix bin 
+isim force add {/arith_u/op_sel} 00 -radix bin 
+isim force add {/arith_u/ci} 1 -radix bin 
+isim force add {/arith_u/a} 0101 -radix bin 
+isim force add {/arith_u/b} 0110 -radix bin 
+run
+
+isim force add {/arith_u/sa} 0 -radix bin 
+isim force add {/arith_u/sb} 1 -radix bin 
+isim force add {/arith_u/fix} 0 -radix bin 
+isim force add {/arith_u/op_sel} 00 -radix bin 
+isim force add {/arith_u/ci} 1 -radix bin 
+isim force add {/arith_u/a} 0101 -radix bin 
+isim force add {/arith_u/b} 0110 -radix bin 
+run
+
+isim force add {/arith_u/sa} 1 -radix bin 
+isim force add {/arith_u/sb} 0 -radix bin 
+isim force add {/arith_u/fix} 0 -radix bin 
+isim force add {/arith_u/op_sel} 00 -radix bin 
+isim force add {/arith_u/ci} 1 -radix bin 
+isim force add {/arith_u/a} 0101 -radix bin 
+isim force add {/arith_u/b} 0110 -radix bin 
+run
+
+isim force add {/arith_u/sa} 1 -radix bin 
+isim force add {/arith_u/sb} 1 -radix bin 
+isim force add {/arith_u/fix} 0 -radix bin 
+isim force add {/arith_u/op_sel} 00 -radix bin 
+isim force add {/arith_u/ci} 1 -radix bin 
+isim force add {/arith_u/a} 0101 -radix bin 
+isim force add {/arith_u/b} 0110 -radix bin 
+run
+
+isim force add {/arith_u/sa} 0 -radix bin 
+isim force add {/arith_u/sb} 0 -radix bin 
+isim force add {/arith_u/fix} 0 -radix bin 
+isim force add {/arith_u/op_sel} 00 -radix bin 
+isim force add {/arith_u/ci} 1 -radix bin 
+isim force add {/arith_u/a} 0110 -radix bin 
+isim force add {/arith_u/b} 0101 -radix bin 
+run
+
+isim force add {/arith_u/sa} 0 -radix bin 
+isim force add {/arith_u/sb} 1 -radix bin 
+isim force add {/arith_u/fix} 0 -radix bin 
+isim force add {/arith_u/op_sel} 00 -radix bin 
+isim force add {/arith_u/ci} 1 -radix bin 
+isim force add {/arith_u/a} 0110 -radix bin 
+isim force add {/arith_u/b} 0101 -radix bin 
+run
+
+isim force add {/arith_u/sa} 1 -radix bin 
+isim force add {/arith_u/sb} 0 -radix bin 
+isim force add {/arith_u/fix} 0 -radix bin 
+isim force add {/arith_u/op_sel} 00 -radix bin 
+isim force add {/arith_u/ci} 1 -radix bin 
+isim force add {/arith_u/a} 0110 -radix bin 
+isim force add {/arith_u/b} 0101 -radix bin 
+run
+
+isim force add {/arith_u/sa} 1 -radix bin 
+isim force add {/arith_u/sb} 1 -radix bin 
+isim force add {/arith_u/fix} 0 -radix bin 
+isim force add {/arith_u/op_sel} 00 -radix bin 
+isim force add {/arith_u/ci} 1 -radix bin 
+isim force add {/arith_u/a} 0110 -radix bin 
+isim force add {/arith_u/b} 0101 -radix bin 
+run

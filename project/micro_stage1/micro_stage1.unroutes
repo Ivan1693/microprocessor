@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Release 14.7 - par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
@@ -7,3 +8,14 @@ All signals are completely routed.
 
 
 
+=======
+Release 14.7 - par P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue Apr 21 20:10:20 2020
+
+All signals are completely routed.
+
+
+
+>>>>>>> 044831b47d41ca9eaae5a3a6e49e2b15b4d6d22c

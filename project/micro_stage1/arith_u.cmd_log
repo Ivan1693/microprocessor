@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/arith_u.xst" -ofn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/arith_u.syr" 
+xst -intstyle ise -ifn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/arith_u.xst" -ofn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/arith_u.syr" 
+xst -intstyle ise -ifn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/arith_u.xst" -ofn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/arith_u.syr" 
+xst -intstyle ise -ifn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/arith_u.xst" -ofn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/arith_u.syr" 

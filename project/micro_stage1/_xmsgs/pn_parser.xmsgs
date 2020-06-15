@@ -8,7 +8,11 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<<<<<<< HEAD
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ivan/Escom/Arquitectura/microprocessor/source/micro/micro_stage1.vhd&quot; into library work</arg>
+=======
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/media/sf_XilinxShared/microprocessor/source/alu/arith_u.vhd&quot; into library work</arg>
+>>>>>>> 044831b47d41ca9eaae5a3a6e49e2b15b4d6d22c
 </msg>
 
 </messages>

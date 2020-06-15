@@ -5,6 +5,7 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<<<<<<< HEAD
 <msg type="info" file="LIT" num="244" delta="old" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
 </msg>
 
@@ -30,6 +31,9 @@
 </msg>
 
 <msg type="warning" file="PhysDesignRules" num="372" delta="new" >Gated clock. Clock net <arg fmt="%s" index="1">alu/arithmetic_unit/arithmetic_control/ci_c[1]_MUX_22_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+=======
+<msg type="user_fatal" file="Map" num="258" delta="old" >A problem was encountered attempting to get the license for this architecture.
+>>>>>>> 044831b47d41ca9eaae5a3a6e49e2b15b4d6d22c
 </msg>
 
 </messages>

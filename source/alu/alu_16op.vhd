@@ -10,6 +10,9 @@ entity alu_16op is
 	 ci : in std_logic;
 	 a : in std_logic_vector(3 downto 0);
 	 b : in std_logic_vector(3 downto 0);
+	 sa : in std_logic;
+	 sb : in std_logic;
+	 sf : out std_logic;
 	 co : out std_logic;
 	 s : out std_logic_vector(3 downto 0)
 	 );
@@ -20,7 +23,7 @@ architecture behavioral of alu_16op is
 	signal arith_unit_coutput: std_logic;
 	signal arith_unit_output: std_logic_vector(3 downto 0);
 begin
-	arithmetic_unit: arith_u port map (a,b,op_sel,ci,arith_unit_coutput,arith_unit_output);
+	arithmetic_unit: arith_u port map (a,b,sa,sb,op_sel,ci,arith_unit_coutput,sf,arith_unit_output);
 	logic_unit: logic_u port map (a,b,op_sel,ci,logic_unit_output);
 	
 	process(unit_sel,arith_unit_output,arith_unit_coutput,logic_unit_output)

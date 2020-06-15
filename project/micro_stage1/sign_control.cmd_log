@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/sign_control.xst" -ofn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/sign_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 sign_control.ngc sign_control.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 sign_control.ngc sign_control.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o sign_control_map.ncd sign_control.ngd sign_control.pcf 

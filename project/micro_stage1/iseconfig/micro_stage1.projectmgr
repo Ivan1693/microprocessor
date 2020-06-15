@@ -15,16 +15,27 @@
          <ClosedNode>/micro_stage1 - behavioral |home|ivan|Escom|Arquitectura|microprocessor|source|micro|micro_stage1.vhd/alu - alu_16op - behavioral/arithmetic_unit - arith_u - behavioral/full_4bit_adder - adder4bit - behavioral</ClosedNode>
          <ClosedNode>/micro_stage1 - behavioral |home|ivan|Escom|Arquitectura|microprocessor|source|micro|micro_stage1.vhd/alu - alu_16op - behavioral/logic_unit - logic_u - behavioral</ClosedNode>
          <ClosedNode>/micro_stage1 - behavioral |home|ivan|Escom|Arquitectura|microprocessor|source|micro|micro_stage1.vhd/rd - bank241 - behavioral</ClosedNode>
+         <ClosedNode>/micro_stage1 - behavioral |media|sf_XilinxShared|microprocessor|source|micro|micro_stage1.vhd/acc - reg05 - behavioral</ClosedNode>
+         <ClosedNode>/micro_stage1 - behavioral |media|sf_XilinxShared|microprocessor|source|micro|micro_stage1.vhd/acm - reg05 - behavioral</ClosedNode>
+         <ClosedNode>/micro_stage1 - behavioral |media|sf_XilinxShared|microprocessor|source|micro|micro_stage1.vhd/alu - alu_16op - behavioral/arithmetic_unit - arith_u - behavioral/arithmetic_control - ctrl_arith_u - behavioral</ClosedNode>
+         <ClosedNode>/micro_stage1 - behavioral |media|sf_XilinxShared|microprocessor|source|micro|micro_stage1.vhd/alu - alu_16op - behavioral/arithmetic_unit - arith_u - behavioral/full_4bit_adder - adder4bit - behavioral</ClosedNode>
+         <ClosedNode>/micro_stage1 - behavioral |media|sf_XilinxShared|microprocessor|source|micro|micro_stage1.vhd/alu - alu_16op - behavioral/arithmetic_unit - arith_u - behavioral/sign_control_instance - sign_control - Behavioral</ClosedNode>
+         <ClosedNode>/micro_stage1 - behavioral |media|sf_XilinxShared|microprocessor|source|micro|micro_stage1.vhd/alu - alu_16op - behavioral/logic_unit - logic_u - behavioral</ClosedNode>
+         <ClosedNode>/micro_stage1 - behavioral |media|sf_XilinxShared|microprocessor|source|micro|micro_stage1.vhd/rd - bank241 - behavioral</ClosedNode>
          <ClosedNode>/reg05 - behavioral |home|ivan|Escom|Arquitectura|microprocessor|source|memory|reg05.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>micro_stage1 - behavioral (/home/ivan/Escom/Arquitectura/microprocessor/source/micro/micro_stage1.vhd)</SelectedItem>
+         <SelectedItem>sign_control_instance - sign_control - Behavioral (/media/sf_XilinxShared/microprocessor/source/alu/sign_control.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+<<<<<<< HEAD
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000212000000020000000000000000000000000200000064ffffffff000000810000000300000002000002120000000100000003000000000000000100000003</ViewHeaderState>
+=======
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000029e000000020000000000000000000000000200000064ffffffff0000008100000003000000020000029e0000000100000003000000000000000100000003</ViewHeaderState>
+>>>>>>> 044831b47d41ca9eaae5a3a6e49e2b15b4d6d22c
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>micro_stage1 - behavioral (/home/ivan/Escom/Arquitectura/microprocessor/source/micro/micro_stage1.vhd)</CurrentItem>
+      <CurrentItem>sign_control_instance - sign_control - Behavioral (/media/sf_XilinxShared/microprocessor/source/alu/sign_control.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -36,7 +47,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000027e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000027e0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000188000000010000000100000000000000000000000064ffffffff000000810000000000000001000001880000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -44,12 +55,14 @@
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
-      <SelectedItems/>
+      <SelectedItems>
+         <SelectedItem>alu_sim.vhd</SelectedItem>
+      </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000319000000040101000100000000000000000000000064ffffffff0000008100000000000000040000017c0000000100000000000000290000000100000000000000840000000100000000000000f00000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000390000000040101000100000000000000000000000064ffffffff0000008100000000000000040000017c0000000100000000000000290000000100000000000000840000000100000000000001670000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>adder4bit.vhd</CurrentItem>
+      <CurrentItem>alu_sim.vhd</CurrentItem>
    </ItemView>
    <ItemView guiview="Library" >
       <ClosedNodes>
@@ -61,7 +74,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000001000000000000000000000000000000000000012a000000010001000100000000000000000000000064ffffffff0000008100000000000000010000012a0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000010000000000000000000000000000000000000188000000010001000100000000000000000000000064ffffffff000000810000000000000001000001880000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>work</CurrentItem>
    </ItemView>
@@ -74,37 +87,54 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000027e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000027e0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000188000000010000000100000000000000000000000064ffffffff000000810000000000000001000001880000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
+<<<<<<< HEAD
          <ClosedNode>Design Utilities</ClosedNode>
          <ClosedNode>Implement Design</ClosedNode>
          <ClosedNode>Implement Design/Map/Generate Post-Map Static Timing</ClosedNode>
+=======
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+>>>>>>> 044831b47d41ca9eaae5a3a6e49e2b15b4d6d22c
          <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
          <ClosedNode>Implement Design/Translate</ClosedNode>
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Synthesize - XST</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000026e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000026e0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000188000000010000000100000000000000000000000064ffffffff000000810000000000000001000001880000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Synthesize - XST</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+<<<<<<< HEAD
+=======
+         <ClosedNode>/alu_sim - behavior |home|ivan|Escom|Arquitectura|microprocessor|source|sims|alu_sim.vhd</ClosedNode>
+         <ClosedNode>/alu_sim - behavior |media|sf_XilinxShared|microprocessor|source|sims|alu_sim.vhd/alu_16op_block - alu_16op - behavioral/arithmetic_unit - arith_u - behavioral/arithmetic_control - ctrl_arith_u - behavioral</ClosedNode>
+         <ClosedNode>/alu_sim - behavior |media|sf_XilinxShared|microprocessor|source|sims|alu_sim.vhd/alu_16op_block - alu_16op - behavioral/arithmetic_unit - arith_u - behavioral/full_4bit_adder - adder4bit - behavioral</ClosedNode>
+         <ClosedNode>/alu_sim - behavior |media|sf_XilinxShared|microprocessor|source|sims|alu_sim.vhd/alu_16op_block - alu_16op - behavioral/logic_unit - logic_u - behavioral</ClosedNode>
+>>>>>>> 044831b47d41ca9eaae5a3a6e49e2b15b4d6d22c
          <ClosedNode>/micro_stage1 - behavioral |home|ivan|Escom|Arquitectura|microprocessor|source|micro|micro_stage1.vhd</ClosedNode>
          <ClosedNode>/top_sim - behavior |home|ivan|Escom|Arquitectura|microprocessor|source|sims|top_sim.vhd</ClosedNode>
          <ClosedNode>/top_sim - behavior |home|ivan|Escom|Arquitectura|microprocessor|source|sims|top_sim.vhd/micro_stage1_block - micro_stage1 - behavioral</ClosedNode>
+         <ClosedNode>/top_sim - behavior |media|sf_XilinxShared|microprocessor|source|sims|top_sim.vhd/micro_stage1_block - micro_stage1 - behavioral/acc - reg05 - behavioral</ClosedNode>
+         <ClosedNode>/top_sim - behavior |media|sf_XilinxShared|microprocessor|source|sims|top_sim.vhd/micro_stage1_block - micro_stage1 - behavioral/acm - reg05 - behavioral</ClosedNode>
+         <ClosedNode>/top_sim - behavior |media|sf_XilinxShared|microprocessor|source|sims|top_sim.vhd/micro_stage1_block - micro_stage1 - behavioral/alu - alu_16op - behavioral</ClosedNode>
+         <ClosedNode>/top_sim - behavior |media|sf_XilinxShared|microprocessor|source|sims|top_sim.vhd/micro_stage1_block - micro_stage1 - behavioral/rd - bank241 - behavioral</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
+<<<<<<< HEAD
          <SelectedItem>comparator - comp4bit - behavioral (/home/ivan/Escom/Arquitectura/microprocessor/source/basic/comp4bit.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
@@ -112,20 +142,37 @@
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000212000000020000000000000000000000000200000064ffffffff000000810000000300000002000002120000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
       <CurrentItem>comparator - comp4bit - behavioral (/home/ivan/Escom/Arquitectura/microprocessor/source/basic/comp4bit.vhd)</CurrentItem>
+=======
+         <SelectedItem>alu_16op_block_sum_1 - alu_16op - behavioral (/media/sf_XilinxShared/microprocessor/source/alu/alu_16op.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000029e000000020000000000000000000000000200000064ffffffff0000008100000003000000020000029e0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>alu_16op_block_sum_1 - alu_16op - behavioral (/media/sf_XilinxShared/microprocessor/source/alu/alu_16op.vhd)</CurrentItem>
+>>>>>>> 044831b47d41ca9eaae5a3a6e49e2b15b4d6d22c
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
-         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
+<<<<<<< HEAD
          <SelectedItem/>
+=======
+         <SelectedItem>Design Utilities</SelectedItem>
+>>>>>>> 044831b47d41ca9eaae5a3a6e49e2b15b4d6d22c
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000027e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000027e0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000188000000010000000100000000000000000000000064ffffffff000000810000000000000001000001880000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+<<<<<<< HEAD
       <CurrentItem/>
+=======
+      <CurrentItem>Design Utilities</CurrentItem>
+>>>>>>> 044831b47d41ca9eaae5a3a6e49e2b15b4d6d22c
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_PACKAGE_DECL" guiview="Process" >
       <ClosedNodes>
@@ -145,6 +192,7 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
+<<<<<<< HEAD
          <SelectedItem>Behavioral Check Syntax</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
@@ -162,11 +210,33 @@
       </ClosedNodes>
       <SelectedItems>
          <SelectedItem></SelectedItem>
+=======
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000027e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000027e0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000188000000010000000100000000000000000000000064ffffffff000000810000000000000001000001880000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000013a0000010d01000000040100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="ManualCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>memory_devs.vhd (/media/sf_XilinxShared/microprocessor/source/memory_devs.vhd)</SelectedItem>
+>>>>>>> 044831b47d41ca9eaae5a3a6e49e2b15b4d6d22c
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000162000000020000000000000000000000000000000064ffffffff000000810000000000000002000000d00000000100000000000000920000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+<<<<<<< HEAD
+      <CurrentItem></CurrentItem>
+=======
+      <CurrentItem>memory_devs.vhd (/media/sf_XilinxShared/microprocessor/source/memory_devs.vhd)</CurrentItem>
+>>>>>>> 044831b47d41ca9eaae5a3a6e49e2b15b4d6d22c
    </ItemView>
 </Project>

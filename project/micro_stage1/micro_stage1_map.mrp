@@ -10,6 +10,7 @@ Target Device  : xc7a100t
 Target Package : csg324
 Target Speed   : -3
 Mapper Version : artix7 -- $Revision: 1.55 $
+<<<<<<< HEAD
 Mapped Date    : Tue Jun  9 15:28:28 2020
 
 Design Summary
@@ -111,12 +112,25 @@ Section 10 - Timing Report
 Section 11 - Configuration String Information
 Section 12 - Control Set Information
 Section 13 - Utilization by Hierarchy
+=======
+Mapped Date    : Thu Jun 11 06:27:57 2020
+
+Design Summary
+--------------
+Number of errors   :   1
+Number of warnings :   0
+>>>>>>> 044831b47d41ca9eaae5a3a6e49e2b15b4d6d22c
 
 Section 1 - Errors
 ------------------
+ERROR:Security:9c - No 'ISE' nor 'WebPack' feature version 2013.10 was available
+for part 'xc7a100t'.
+ERROR:Map:258 - A problem was encountered attempting to get the license for this
+   architecture. 
 
 Section 2 - Warnings
 --------------------
+<<<<<<< HEAD
 WARNING:Place:1399 - A clock IOB / BUFGCTRL clock component pair have been found
    that are not placed at an optimal clock IOB / BUFGCTRL site pair. The clock
    IOB component <gcm_d> is placed at site <V7>. The corresponding BUFGCTRL
@@ -257,3 +271,14 @@ Use the "-detail" map option to print out Control Set Information.
 Section 13 - Utilization by Hierarchy
 -------------------------------------
 Use the "-detail" map option to print out the Utilization by Hierarchy section.
+=======
+
+Section 3 - Informational
+-------------------------
+INFO:Security:54 - 'xc7a100t' is a WebPack part.
+INFO:Security:7 - A feature for ISE was found but is for the wrong hostid.
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+INFO:Security:68a - user is ise, on host localhost.localdomain.
+>>>>>>> 044831b47d41ca9eaae5a3a6e49e2b15b4d6d22c

@@ -1,11 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
+<<<<<<< HEAD
   <DateModified>2020-06-09T14:34:51</DateModified>
+=======
+  <DateModified>2020-06-11T03:38:48</DateModified>
+>>>>>>> 044831b47d41ca9eaae5a3a6e49e2b15b4d6d22c
   <ModuleName>micro_stage1</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/iseconfig/micro_stage1.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/</ImplementationReportsDirectory>
+  <SavedFilePath>/media/sf_XilinxShared/microprocessor/project/micro_stage1/iseconfig/micro_stage1.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/media/sf_XilinxShared/microprocessor/project/micro_stage1/</ImplementationReportsDirectory>
   <DateInitialized>2020-04-16T15:49:23</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

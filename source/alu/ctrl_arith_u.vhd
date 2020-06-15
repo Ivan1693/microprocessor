@@ -10,7 +10,7 @@ entity ctrl_arith_u is
 	 b: in std_logic_vector (3 downto 0);
 	 a_prime: out std_logic_vector (3 downto 0);
 	 b_prime: out std_logic_vector (3 downto 0);
-	 fix: out std_logic 
+	 fix_aux: out std_logic
 	);
 end entity;
 
@@ -18,6 +18,7 @@ architecture behavioral of ctrl_arith_u is
 	signal is_a: std_logic;
 	signal is_b: std_logic;
 	signal are_equal: std_logic;
+	
 begin
 	comparator: comp4bit port map (a,b,is_a,is_b,are_equal);
 	
@@ -31,22 +32,23 @@ begin
 				when "11" => b_prime <= "1111";
 				when others => b_prime <= "0000";
 			end case;
+			fix_aux <= '0';
 		else
 			case c is
 				when "00" => b_prime <= not a;
 				when "01" => b_prime <= "0000";
 				when "10" => b_prime <= b;
 				when "11" => b_prime <= b;
-							 fix <='1'; -- Al dec
+							 fix_aux <='1'; -- Al dec
 				when others => b_prime <= "0000";
 			end case;
 			if(c="00") then
 				if(is_a='1') then
 					b_prime <= not b;
-					fix <='0';
+					fix_aux <='0';
 				else
 					b_prime <= not a;
-					fix <='1';
+					fix_aux <='1';
 				end if;
 			end if;
 		end if;
@@ -57,7 +59,7 @@ begin
 				when "01" => a_prime <= a;
 				when "10" => a_prime <= "0000";
 				when "11" => a_prime <= a;
-							 fix <='1';
+							 fix_aux <='1';
 				when others => b_prime <= "0000";
 			end case;
 		else
