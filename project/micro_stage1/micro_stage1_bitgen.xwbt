@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/micro_stage1.ncd
+OUTFILE=/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/micro_stage1.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1
+LICENSE=WebPack
+USER_INFO=211931167_0_0_272

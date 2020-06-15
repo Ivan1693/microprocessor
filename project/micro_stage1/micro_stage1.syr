@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
 Reading design: micro_stage1.prj
@@ -224,7 +224,6 @@ Unit <alu_16op> synthesized.
 Synthesizing Unit <arith_u>.
     Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/arith_u.vhd".
     Summary:
-	inferred   1 Multiplexer(s).
 Unit <arith_u> synthesized.
 
 Synthesizing Unit <ctrl_arith_u>.
@@ -269,7 +268,7 @@ Unit <logic_u> synthesized.
 
 Synthesizing Unit <logic_op_1bit>.
     Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/logic_op_1bit.vhd".
-    Found 1-bit 4-to-1 multiplexer for signal <s_ci_MUX_31_o> created at line 15.
+    Found 1-bit 4-to-1 multiplexer for signal <s_ci_MUX_30_o> created at line 15.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <logic_op_1bit> synthesized.
@@ -305,14 +304,14 @@ HDL Synthesis Report
 Macro Statistics
 # Latches                                              : 19
  1-bit latch                                           : 19
-# Multiplexers                                         : 22
- 1-bit 2-to-1 multiplexer                              : 7
+# Multiplexers                                         : 21
+ 1-bit 2-to-1 multiplexer                              : 6
  1-bit 4-to-1 multiplexer                              : 4
  4-bit 2-to-1 multiplexer                              : 9
  4-bit 3-to-1 multiplexer                              : 1
  4-bit 4-to-1 multiplexer                              : 1
-# Xors                                                 : 32
- 1-bit xor2                                            : 32
+# Xors                                                 : 33
+ 1-bit xor2                                            : 33
 
 =========================================================================
 
@@ -335,8 +334,8 @@ Macro Statistics
  4-bit 2-to-1 multiplexer                              : 9
  4-bit 3-to-1 multiplexer                              : 1
  4-bit 4-to-1 multiplexer                              : 1
-# Xors                                                 : 32
- 1-bit xor2                                            : 32
+# Xors                                                 : 33
+ 1-bit xor2                                            : 33
 
 =========================================================================
 
@@ -667,13 +666,13 @@ gcm_c          |         |         |    0.751|         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 10.00 secs
-Total CPU time to Xst completion: 7.48 secs
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.54 secs
  
 --> 
 
 
-Total memory usage is 506120 kilobytes
+Total memory usage is 506220 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    7 (   0 filtered)

@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Tue Apr 21 20:07:27 2020">
+  <application stringID="Xst" timeStamp="Tue Jun  9 16:08:40 2020">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -49,7 +49,7 @@
         <column stringID="speed"/>
         <row stringID="row" value="0">
           <item stringID="arch" value="Intel(R) Core(TM) i5-2400 CPU @ 3.10GHz"/>
-          <item stringID="speed" value="1615.204 MHz"/>
+          <item stringID="speed" value="1922.063 MHz"/>
         </row>
       </table>
     </section>
@@ -106,13 +106,13 @@
       <item DEFAULT="0" label="-slice_utilization_ratio_maxmargin" stringID="XST_SLICEUTILIZATIONRATIOMAXMARGIN" value="5"/>
     </section>
     <section stringID="XST_HDL_SYNTHESIS_REPORT">
-      <item dataType="int" stringID="XST_MULTIPLEXERS" value="22">
-        <item dataType="int" stringID="XST_1BIT_2TO1_MULTIPLEXER" value="7"/>
+      <item dataType="int" stringID="XST_MULTIPLEXERS" value="21">
+        <item dataType="int" stringID="XST_1BIT_2TO1_MULTIPLEXER" value="6"/>
         <item dataType="int" stringID="XST_1BIT_4TO1_MULTIPLEXER" value="4"/>
         <item dataType="int" stringID="XST_4BIT_2TO1_MULTIPLEXER" value="9"/>
       </item>
-      <item dataType="int" stringID="XST_XORS" value="32">
-        <item dataType="int" stringID="XST_1BIT_XOR2" value="32"/>
+      <item dataType="int" stringID="XST_XORS" value="33">
+        <item dataType="int" stringID="XST_1BIT_XOR2" value="33"/>
       </item>
     </section>
     <section stringID="XST_ADVANCED_HDL_SYNTHESIS_REPORT">
@@ -121,8 +121,8 @@
         <item dataType="int" stringID="XST_1BIT_4TO1_MULTIPLEXER" value="4"/>
         <item dataType="int" stringID="XST_4BIT_2TO1_MULTIPLEXER" value="9"/>
       </item>
-      <item dataType="int" stringID="XST_XORS" value="32">
-        <item dataType="int" stringID="XST_1BIT_XOR2" value="32"/>
+      <item dataType="int" stringID="XST_XORS" value="33">
+        <item dataType="int" stringID="XST_1BIT_XOR2" value="33"/>
       </item>
     </section>
     <section stringID="XST_FINAL_REGISTER_REPORTFOUND_NO_MACRO"/>

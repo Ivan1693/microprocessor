@@ -10,12 +10,12 @@ Target Device  : xc7a100t
 Target Package : csg324
 Target Speed   : -3
 Mapper Version : artix7 -- $Revision: 1.55 $
-Mapped Date    : Tue Apr 21 20:09:26 2020
+Mapped Date    : Tue Jun  9 15:28:28 2020
 
 Design Summary
 --------------
 Number of errors:      0
-Number of warnings:   24
+Number of warnings:    4
 Slice Logic Utilization:
   Number of Slice Registers:                     9 out of 126,800    1%
     Number used as Flip Flops:                   0
@@ -32,7 +32,7 @@ Slice Logic Utilization:
     Number used exclusively as route-thrus:      0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                    10 out of  15,850    1%
+  Number of occupied Slices:                    13 out of  15,850    1%
   Number of LUT Flip Flop pairs used:           28
     Number with an unused Flip Flop:            19 out of      28   67%
     Number with an unused LUT:                   3 out of      28   10%
@@ -51,6 +51,7 @@ Slice Logic Distribution:
 
 IO Utilization:
   Number of bonded IOBs:                        21 out of     210   10%
+    Number of LOCed IOBs:                       21 out of      21  100%
     IOB Latches:                                 8
 
 Specific Feature Utilization:
@@ -91,8 +92,8 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                2.55
 
-Peak Memory Usage:  1255 MB
-Total REAL time to MAP completion:  33 secs 
+Peak Memory Usage:  1258 MB
+Total REAL time to MAP completion:  23 secs 
 Total CPU time to MAP completion:   23 secs 
 
 Table of Contents
@@ -116,118 +117,49 @@ Section 1 - Errors
 
 Section 2 - Warnings
 --------------------
-WARNING:LIT:701 - PAD symbol "gcm_b" has an undefined IOSTANDARD.
-WARNING:LIT:702 - PAD symbol "gcm_b" is not constrained (LOC) to a specific
-   location.
+WARNING:Place:1399 - A clock IOB / BUFGCTRL clock component pair have been found
+   that are not placed at an optimal clock IOB / BUFGCTRL site pair. The clock
+   IOB component <gcm_d> is placed at site <V7>. The corresponding BUFGCTRL
+   component <gcm_d_BUFGP/BUFG> is placed at site <BUFGCTRL_X0Y0>. The clock IO
+   can use the fast path between the IOB and the Clock Buffer if the IOB is
+   placed on a Clock Capable IOB site that has dedicated fast path to BUFGCTRL
+   sites in its half of the device (TOP or BOTTOM). You may want to analyze why
+   this problem exists and correct it. This is normally an ERROR but the
+   CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN <gcm_d.PAD> allowing
+   your design to continue. This constraint disables all clock placer rules
+   related to the specified COMP.PIN. The use of this override is highly
+   discouraged as it may lead to very poor timing results. It is recommended
+   that this error condition be corrected in the design.
+WARNING:Place:1399 - A clock IOB / BUFGCTRL clock component pair have been found
+   that are not placed at an optimal clock IOB / BUFGCTRL site pair. The clock
+   IOB component <gcm_b> is placed at site <V5>. The corresponding BUFGCTRL
+   component <gcm_b_BUFGP/BUFG> is placed at site <BUFGCTRL_X0Y1>. The clock IO
+   can use the fast path between the IOB and the Clock Buffer if the IOB is
+   placed on a Clock Capable IOB site that has dedicated fast path to BUFGCTRL
+   sites in its half of the device (TOP or BOTTOM). You may want to analyze why
+   this problem exists and correct it. This is normally an ERROR but the
+   CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN <gcm_b.PAD> allowing
+   your design to continue. This constraint disables all clock placer rules
+   related to the specified COMP.PIN. The use of this override is highly
+   discouraged as it may lead to very poor timing results. It is recommended
+   that this error condition be corrected in the design.
+WARNING:Place:1399 - A clock IOB / BUFGCTRL clock component pair have been found
+   that are not placed at an optimal clock IOB / BUFGCTRL site pair. The clock
+   IOB component <gcm_c> is placed at site <V6>. The corresponding BUFGCTRL
+   component <gcm_c_BUFGP/BUFG> is placed at site <BUFGCTRL_X0Y2>. The clock IO
+   can use the fast path between the IOB and the Clock Buffer if the IOB is
+   placed on a Clock Capable IOB site that has dedicated fast path to BUFGCTRL
+   sites in its half of the device (TOP or BOTTOM). You may want to analyze why
+   this problem exists and correct it. This is normally an ERROR but the
+   CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN <gcm_c.PAD> allowing
+   your design to continue. This constraint disables all clock placer rules
+   related to the specified COMP.PIN. The use of this override is highly
+   discouraged as it may lead to very poor timing results. It is recommended
+   that this error condition be corrected in the design.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
    alu/arithmetic_unit/arithmetic_control/ci_c[1]_MUX_22_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:2452 - The IOB out_stage1<0> is either not constrained
-   (LOC) to a specific location and/or has an undefined I/O Standard
-   (IOSTANDARD). This condition may seriously affect the device and will be an
-   error in bitstream creation. It should be corrected by properly specifying
-   the pin location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB out_stage1<1> is either not constrained
-   (LOC) to a specific location and/or has an undefined I/O Standard
-   (IOSTANDARD). This condition may seriously affect the device and will be an
-   error in bitstream creation. It should be corrected by properly specifying
-   the pin location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB out_stage1<2> is either not constrained
-   (LOC) to a specific location and/or has an undefined I/O Standard
-   (IOSTANDARD). This condition may seriously affect the device and will be an
-   error in bitstream creation. It should be corrected by properly specifying
-   the pin location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB out_stage1<3> is either not constrained
-   (LOC) to a specific location and/or has an undefined I/O Standard
-   (IOSTANDARD). This condition may seriously affect the device and will be an
-   error in bitstream creation. It should be corrected by properly specifying
-   the pin location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB cout_stage1 is either not constrained
-   (LOC) to a specific location and/or has an undefined I/O Standard
-   (IOSTANDARD). This condition may seriously affect the device and will be an
-   error in bitstream creation. It should be corrected by properly specifying
-   the pin location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB data_a<0> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB data_a<1> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB gcm_b is either not constrained (LOC) to
-   a specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB gcm_c is either not constrained (LOC) to
-   a specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB data_a<2> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB gcm_d is either not constrained (LOC) to
-   a specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB data_a<3> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB data_b<0> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB data_b<1> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB ideco_bus<0> is either not constrained
-   (LOC) to a specific location and/or has an undefined I/O Standard
-   (IOSTANDARD). This condition may seriously affect the device and will be an
-   error in bitstream creation. It should be corrected by properly specifying
-   the pin location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB data_b<2> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB ideco_bus<1> is either not constrained
-   (LOC) to a specific location and/or has an undefined I/O Standard
-   (IOSTANDARD). This condition may seriously affect the device and will be an
-   error in bitstream creation. It should be corrected by properly specifying
-   the pin location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB data_b<3> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB ideco_bus<2> is either not constrained
-   (LOC) to a specific location and/or has an undefined I/O Standard
-   (IOSTANDARD). This condition may seriously affect the device and will be an
-   error in bitstream creation. It should be corrected by properly specifying
-   the pin location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB ideco_bus<3> is either not constrained
-   (LOC) to a specific location and/or has an undefined I/O Standard
-   (IOSTANDARD). This condition may seriously affect the device and will be an
-   error in bitstream creation. It should be corrected by properly specifying
-   the pin location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB ideco_bus<4> is either not constrained
-   (LOC) to a specific location and/or has an undefined I/O Standard
-   (IOSTANDARD). This condition may seriously affect the device and will be an
-   error in bitstream creation. It should be corrected by properly specifying
-   the pin location and I/O Standard.
 
 Section 3 - Informational
 -------------------------
@@ -255,27 +187,27 @@ Section 6 - IOB Properties
 | IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
 |                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
-| cout_stage1                        | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| data_a<0>                          | IOB              | INPUT     | LVCMOS18             |       |          |      | ILATCH       |          |          |
-| data_a<1>                          | IOB              | INPUT     | LVCMOS18             |       |          |      | ILATCH       |          |          |
-| data_a<2>                          | IOB              | INPUT     | LVCMOS18             |       |          |      | ILATCH       |          |          |
-| data_a<3>                          | IOB              | INPUT     | LVCMOS18             |       |          |      | ILATCH       |          |          |
-| data_b<0>                          | IOB              | INPUT     | LVCMOS18             |       |          |      | ILATCH       |          |          |
-| data_b<1>                          | IOB              | INPUT     | LVCMOS18             |       |          |      | ILATCH       |          |          |
-| data_b<2>                          | IOB              | INPUT     | LVCMOS18             |       |          |      | ILATCH       |          |          |
-| data_b<3>                          | IOB              | INPUT     | LVCMOS18             |       |          |      | ILATCH       |          |          |
-| gcm_b                              | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
-| gcm_c                              | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
-| gcm_d                              | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
-| ideco_bus<0>                       | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
-| ideco_bus<1>                       | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
-| ideco_bus<2>                       | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
-| ideco_bus<3>                       | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
-| ideco_bus<4>                       | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
-| out_stage1<0>                      | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| out_stage1<1>                      | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| out_stage1<2>                      | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| out_stage1<3>                      | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| cout_stage1                        | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| data_a<0>                          | IOB33            | INPUT     | LVCMOS33             |       |          |      | ILATCH       |          |          |
+| data_a<1>                          | IOB33            | INPUT     | LVCMOS33             |       |          |      | ILATCH       |          |          |
+| data_a<2>                          | IOB33            | INPUT     | LVCMOS33             |       |          |      | ILATCH       |          |          |
+| data_a<3>                          | IOB33            | INPUT     | LVCMOS33             |       |          |      | ILATCH       |          |          |
+| data_b<0>                          | IOB33            | INPUT     | LVCMOS33             |       |          |      | ILATCH       |          |          |
+| data_b<1>                          | IOB33            | INPUT     | LVCMOS33             |       |          |      | ILATCH       |          |          |
+| data_b<2>                          | IOB33            | INPUT     | LVCMOS33             |       |          |      | ILATCH       |          |          |
+| data_b<3>                          | IOB33            | INPUT     | LVCMOS33             |       |          |      | ILATCH       |          |          |
+| gcm_b                              | IOB33            | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| gcm_c                              | IOB33            | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| gcm_d                              | IOB33            | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| ideco_bus<0>                       | IOB33            | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| ideco_bus<1>                       | IOB33            | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| ideco_bus<2>                       | IOB33            | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| ideco_bus<3>                       | IOB33            | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| ideco_bus<4>                       | IOB33            | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| out_stage1<0>                      | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| out_stage1<1>                      | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| out_stage1<2>                      | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| out_stage1<3>                      | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Section 7 - RPMs

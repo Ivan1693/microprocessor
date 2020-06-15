@@ -1,4 +1,34 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Tue Apr 21 20:09:57 2020
+// Written by: Map P.20131013 on Tue Jun 09 15:28:50 2020
 //! **************************************************************************
+
+SCHEMATIC START;
+COMP "out_stage1<0>" LOCATE = SITE "R2" LEVEL 1;
+COMP "out_stage1<1>" LOCATE = SITE "U1" LEVEL 1;
+COMP "out_stage1<2>" LOCATE = SITE "P5" LEVEL 1;
+COMP "out_stage1<3>" LOCATE = SITE "R1" LEVEL 1;
+COMP "cout_stage1" LOCATE = SITE "P2" LEVEL 1;
+COMP "data_a<0>" LOCATE = SITE "P4" LEVEL 1;
+COMP "data_a<1>" LOCATE = SITE "P3" LEVEL 1;
+COMP "gcm_b" LOCATE = SITE "V5" LEVEL 1;
+PIN gcm_b_pin<0> = BEL "gcm_b" PINNAME PAD;
+PIN "gcm_b_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "gcm_c" LOCATE = SITE "V6" LEVEL 1;
+PIN gcm_c_pin<0> = BEL "gcm_c" PINNAME PAD;
+PIN "gcm_c_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "data_a<2>" LOCATE = SITE "R3" LEVEL 1;
+COMP "gcm_d" LOCATE = SITE "V7" LEVEL 1;
+PIN gcm_d_pin<0> = BEL "gcm_d" PINNAME PAD;
+PIN "gcm_d_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "data_a<3>" LOCATE = SITE "T1" LEVEL 1;
+COMP "data_b<0>" LOCATE = SITE "T3" LEVEL 1;
+COMP "data_b<1>" LOCATE = SITE "U2" LEVEL 1;
+COMP "ideco_bus<0>" LOCATE = SITE "R5" LEVEL 1;
+COMP "data_b<2>" LOCATE = SITE "V2" LEVEL 1;
+COMP "ideco_bus<1>" LOCATE = SITE "R6" LEVEL 1;
+COMP "data_b<3>" LOCATE = SITE "U4" LEVEL 1;
+COMP "ideco_bus<2>" LOCATE = SITE "R7" LEVEL 1;
+COMP "ideco_bus<3>" LOCATE = SITE "U8" LEVEL 1;
+COMP "ideco_bus<4>" LOCATE = SITE "U9" LEVEL 1;
+SCHEMATIC END;
 

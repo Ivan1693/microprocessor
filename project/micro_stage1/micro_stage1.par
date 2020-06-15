@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-ivan-OptiPlex-790::  Tue Apr 21 20:10:01 2020
+ivan-OptiPlex-790::  Tue Jun 09 15:29:00 2020
 
 par -w -intstyle ise -ol high -mt off micro_stage1_map.ncd micro_stage1.ncd
 micro_stage1.pcf 
@@ -42,7 +42,7 @@ Slice Logic Utilization:
     Number used exclusively as route-thrus:      0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                    10 out of  15,850    1%
+  Number of occupied Slices:                    13 out of  15,850    1%
   Number of LUT Flip Flop pairs used:           28
     Number with an unused Flip Flop:            19 out of      28   67%
     Number with an unused LUT:                   3 out of      28   10%
@@ -60,6 +60,7 @@ Slice Logic Distribution:
 
 IO Utilization:
   Number of bonded IOBs:                        21 out of     210   10%
+    Number of LOCed IOBs:                       21 out of      21  100%
     IOB Latches:                                 8
 
 Specific Feature Utilization:
@@ -110,11 +111,11 @@ Starting Router
 
 Phase  1  : 173 unrouted;      REAL time: 15 secs 
 
-Phase  2  : 148 unrouted;      REAL time: 15 secs 
+Phase  2  : 151 unrouted;      REAL time: 15 secs 
 
-Phase  3  : 73 unrouted;      REAL time: 15 secs 
+Phase  3  : 85 unrouted;      REAL time: 15 secs 
 
-Phase  4  : 73 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
+Phase  4  : 85 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
 
 Updating file: micro_stage1.ncd with current fully routed design.
 
@@ -128,7 +129,7 @@ Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 1
 
 Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
 Total REAL time to Router completion: 17 secs 
-Total CPU time to Router completion: 16 secs 
+Total CPU time to Router completion: 17 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -158,7 +159,7 @@ Generating Pad Report.
 All signals are completely routed.
 
 Total REAL time to PAR completion: 18 secs 
-Total CPU time to PAR completion: 17 secs 
+Total CPU time to PAR completion: 18 secs 
 
 Peak Memory Usage:  1098 MB
 

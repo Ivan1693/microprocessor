@@ -66,5 +66,4 @@ begin
 		rd: bank241 port map(bank_enable,data_a,data_b,rda_bus,rdb_bus);
 		acc: reg05 port map(gcm_c,acc_inbus,acc_bus);
 		acm: reg05 port map(gcm_d,acc_bus,acm_bus);
-	
 end architecture;

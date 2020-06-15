@@ -10,11 +10,8 @@ Target Device  : xc7a100t
 Target Package : csg324
 Target Speed   : -3
 Mapper Version : artix7 -- $Revision: 1.55 $
-Mapped Date    : Tue Apr 21 20:09:26 2020
+Mapped Date    : Tue Jun  9 15:28:28 2020
 
-WARNING:LIT:701 - PAD symbol "gcm_b" has an undefined IOSTANDARD.
-WARNING:LIT:702 - PAD symbol "gcm_b" is not constrained (LOC) to a specific
-   location.
 Mapping design into LUTs...
 Running directed packing...
 Running delay-based LUT packing...
@@ -22,52 +19,91 @@ Updating timing models...
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 27 secs 
+Total REAL time at the beginning of Placer: 19 secs 
 Total CPU  time at the beginning of Placer: 19 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:1004) REAL time: 30 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:31c08ee7) REAL time: 21 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:1004) REAL time: 30 secs 
+Phase 2.7  Design Feasibility Check (Checksum:31c08ee7) REAL time: 21 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:1004) REAL time: 30 secs 
+Phase 3.31  Local Placement Optimization (Checksum:31c08ee7) REAL time: 21 secs 
 
 Phase 4.2  Initial Placement for Architecture Specific Features
-.......
+
+.
+WARNING:Place:1399 - A clock IOB / BUFGCTRL clock component pair have been found
+   that are not placed at an optimal clock IOB / BUFGCTRL site pair. The clock
+   IOB component <gcm_d> is placed at site <V7>. The corresponding BUFGCTRL
+   component <gcm_d_BUFGP/BUFG> is placed at site <BUFGCTRL_X0Y0>. The clock IO
+   can use the fast path between the IOB and the Clock Buffer if the IOB is
+   placed on a Clock Capable IOB site that has dedicated fast path to BUFGCTRL
+   sites in its half of the device (TOP or BOTTOM). You may want to analyze why
+   this problem exists and correct it. This is normally an ERROR but the
+   CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN <gcm_d.PAD> allowing
+   your design to continue. This constraint disables all clock placer rules
+   related to the specified COMP.PIN. The use of this override is highly
+   discouraged as it may lead to very poor timing results. It is recommended
+   that this error condition be corrected in the design.
+WARNING:Place:1399 - A clock IOB / BUFGCTRL clock component pair have been found
+   that are not placed at an optimal clock IOB / BUFGCTRL site pair. The clock
+   IOB component <gcm_b> is placed at site <V5>. The corresponding BUFGCTRL
+   component <gcm_b_BUFGP/BUFG> is placed at site <BUFGCTRL_X0Y1>. The clock IO
+   can use the fast path between the IOB and the Clock Buffer if the IOB is
+   placed on a Clock Capable IOB site that has dedicated fast path to BUFGCTRL
+   sites in its half of the device (TOP or BOTTOM). You may want to analyze why
+   this problem exists and correct it. This is normally an ERROR but the
+   CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN <gcm_b.PAD> allowing
+   your design to continue. This constraint disables all clock placer rules
+   related to the specified COMP.PIN. The use of this override is highly
+   discouraged as it may lead to very poor timing results. It is recommended
+   that this error condition be corrected in the design.
+WARNING:Place:1399 - A clock IOB / BUFGCTRL clock component pair have been found
+   that are not placed at an optimal clock IOB / BUFGCTRL site pair. The clock
+   IOB component <gcm_c> is placed at site <V6>. The corresponding BUFGCTRL
+   component <gcm_c_BUFGP/BUFG> is placed at site <BUFGCTRL_X0Y2>. The clock IO
+   can use the fast path between the IOB and the Clock Buffer if the IOB is
+   placed on a Clock Capable IOB site that has dedicated fast path to BUFGCTRL
+   sites in its half of the device (TOP or BOTTOM). You may want to analyze why
+   this problem exists and correct it. This is normally an ERROR but the
+   CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN <gcm_c.PAD> allowing
+   your design to continue. This constraint disables all clock placer rules
+   related to the specified COMP.PIN. The use of this override is highly
+   discouraged as it may lead to very poor timing results. It is recommended
+   that this error condition be corrected in the design.
 Phase 4.2  Initial Placement for Architecture Specific Features
-(Checksum:25eac5ac) REAL time: 31 secs 
+(Checksum:68740e25) REAL time: 21 secs 
 
 Phase 5.30  Global Clock Region Assignment
-Phase 5.30  Global Clock Region Assignment (Checksum:25eac5ac) REAL time: 31 secs 
+Phase 5.30  Global Clock Region Assignment (Checksum:68740e25) REAL time: 21 secs 
 
 Phase 6.3  Local Placement Optimization
-....
-Phase 6.3  Local Placement Optimization (Checksum:72847d34) REAL time: 31 secs 
+Phase 6.3  Local Placement Optimization (Checksum:68740e25) REAL time: 21 secs 
 
 Phase 7.5  Local Placement Optimization
-Phase 7.5  Local Placement Optimization (Checksum:72847d34) REAL time: 31 secs 
+Phase 7.5  Local Placement Optimization (Checksum:68740e25) REAL time: 21 secs 
 
 Phase 8.8  Global Placement
-...
+..
 ................
 ................
-Phase 8.8  Global Placement (Checksum:c08c402f) REAL time: 31 secs 
+Phase 8.8  Global Placement (Checksum:e0cbc530) REAL time: 21 secs 
 
 Phase 9.5  Local Placement Optimization
-Phase 9.5  Local Placement Optimization (Checksum:c08c402f) REAL time: 31 secs 
+Phase 9.5  Local Placement Optimization (Checksum:e0cbc530) REAL time: 21 secs 
 
 Phase 10.18  Placement Optimization
-Phase 10.18  Placement Optimization (Checksum:c0f4e526) REAL time: 32 secs 
+Phase 10.18  Placement Optimization (Checksum:c9924d0) REAL time: 22 secs 
 
 Phase 11.5  Local Placement Optimization
-Phase 11.5  Local Placement Optimization (Checksum:c0f4e526) REAL time: 32 secs 
+Phase 11.5  Local Placement Optimization (Checksum:c9924d0) REAL time: 22 secs 
 
 Phase 12.34  Placement Validation
-Phase 12.34  Placement Validation (Checksum:c0f4e526) REAL time: 32 secs 
+Phase 12.34  Placement Validation (Checksum:c9924d0) REAL time: 22 secs 
 
-Total REAL time to Placer completion: 32 secs 
+Total REAL time to Placer completion: 22 secs 
 Total CPU  time to Placer completion: 22 secs 
 Running post-placement packing...
 Writing output files...
@@ -75,118 +111,13 @@ WARNING:PhysDesignRules:372 - Gated clock. Clock net
    alu/arithmetic_unit/arithmetic_control/ci_c[1]_MUX_22_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:2452 - The IOB out_stage1<0> is either not constrained
-   (LOC) to a specific location and/or has an undefined I/O Standard
-   (IOSTANDARD). This condition may seriously affect the device and will be an
-   error in bitstream creation. It should be corrected by properly specifying
-   the pin location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB out_stage1<1> is either not constrained
-   (LOC) to a specific location and/or has an undefined I/O Standard
-   (IOSTANDARD). This condition may seriously affect the device and will be an
-   error in bitstream creation. It should be corrected by properly specifying
-   the pin location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB out_stage1<2> is either not constrained
-   (LOC) to a specific location and/or has an undefined I/O Standard
-   (IOSTANDARD). This condition may seriously affect the device and will be an
-   error in bitstream creation. It should be corrected by properly specifying
-   the pin location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB out_stage1<3> is either not constrained
-   (LOC) to a specific location and/or has an undefined I/O Standard
-   (IOSTANDARD). This condition may seriously affect the device and will be an
-   error in bitstream creation. It should be corrected by properly specifying
-   the pin location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB cout_stage1 is either not constrained
-   (LOC) to a specific location and/or has an undefined I/O Standard
-   (IOSTANDARD). This condition may seriously affect the device and will be an
-   error in bitstream creation. It should be corrected by properly specifying
-   the pin location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB data_a<0> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB data_a<1> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB gcm_b is either not constrained (LOC) to
-   a specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB gcm_c is either not constrained (LOC) to
-   a specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB data_a<2> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB gcm_d is either not constrained (LOC) to
-   a specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB data_a<3> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB data_b<0> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB data_b<1> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB ideco_bus<0> is either not constrained
-   (LOC) to a specific location and/or has an undefined I/O Standard
-   (IOSTANDARD). This condition may seriously affect the device and will be an
-   error in bitstream creation. It should be corrected by properly specifying
-   the pin location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB data_b<2> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB ideco_bus<1> is either not constrained
-   (LOC) to a specific location and/or has an undefined I/O Standard
-   (IOSTANDARD). This condition may seriously affect the device and will be an
-   error in bitstream creation. It should be corrected by properly specifying
-   the pin location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB data_b<3> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB ideco_bus<2> is either not constrained
-   (LOC) to a specific location and/or has an undefined I/O Standard
-   (IOSTANDARD). This condition may seriously affect the device and will be an
-   error in bitstream creation. It should be corrected by properly specifying
-   the pin location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB ideco_bus<3> is either not constrained
-   (LOC) to a specific location and/or has an undefined I/O Standard
-   (IOSTANDARD). This condition may seriously affect the device and will be an
-   error in bitstream creation. It should be corrected by properly specifying
-   the pin location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB ideco_bus<4> is either not constrained
-   (LOC) to a specific location and/or has an undefined I/O Standard
-   (IOSTANDARD). This condition may seriously affect the device and will be an
-   error in bitstream creation. It should be corrected by properly specifying
-   the pin location and I/O Standard.
 
 Design Summary
 --------------
 
 Design Summary:
 Number of errors:      0
-Number of warnings:   24
+Number of warnings:    4
 Slice Logic Utilization:
   Number of Slice Registers:                     9 out of 126,800    1%
     Number used as Flip Flops:                   0
@@ -203,7 +134,7 @@ Slice Logic Utilization:
     Number used exclusively as route-thrus:      0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                    10 out of  15,850    1%
+  Number of occupied Slices:                    13 out of  15,850    1%
   Number of LUT Flip Flop pairs used:           28
     Number with an unused Flip Flop:            19 out of      28   67%
     Number with an unused LUT:                   3 out of      28   10%
@@ -222,6 +153,7 @@ Slice Logic Distribution:
 
 IO Utilization:
   Number of bonded IOBs:                        21 out of     210   10%
+    Number of LOCed IOBs:                       21 out of      21  100%
     IOB Latches:                                 8
 
 Specific Feature Utilization:
@@ -262,8 +194,8 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                2.55
 
-Peak Memory Usage:  1255 MB
-Total REAL time to MAP completion:  33 secs 
+Peak Memory Usage:  1258 MB
+Total REAL time to MAP completion:  23 secs 
 Total CPU time to MAP completion:   23 secs 
 
 Mapping completed.

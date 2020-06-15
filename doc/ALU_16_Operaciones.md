@@ -180,6 +180,118 @@ Los valores forzados para la simulación (instrcn, A y B) y los resultados esper
 <center>b)</center>
 > **Fig.5.** Simulación de las operaciones aritméticas (a) y lógicas (b). De arriba hacía abajo: unit_sel, op_sel, ci,a,b,a_prime, b_prime,is_a,fix,co y  s (sumador), co y s (ALU).
 
+## Código VHDL
+
+La carpeta VHDL anexa a este reporte contiene los archivos VHDL de todos los componentes necesarios para llevar a cabo la simulación de la ALU de 16 operaciones. El código principal de la ALU y de las sub-unidades aritmética y lógica se muestran a continuación.
+
+###### alu_16op.vhd
+
+```vhdl
+library ieee;
+use ieee.std_logic_1164.all;
+use work.alu_devs.all;
+
+entity alu_16op is
+	port(
+	 unit_sel : in std_logic;
+	 op_sel : in std_logic_vector(1 downto 0);
+	 ci : in std_logic;
+	 a : in std_logic_vector(3 downto 0);
+	 b : in std_logic_vector(3 downto 0);
+	 co : out std_logic;
+	 s : out std_logic_vector(3 downto 0)
+	 );
+end entity;
+
+architecture behavioral of alu_16op is
+	signal logic_unit_output: std_logic_vector(3 downto 0);
+	signal arith_unit_coutput: std_logic;
+	signal arith_unit_output: std_logic_vector(3 downto 0);
+begin
+	arithmetic_unit: arith_u port map
+        (a,b,op_sel,ci,arith_unit_coutput,arith_unit_output);
+	logic_unit: logic_u port map (a,b,op_sel,ci,logic_unit_output);
+	
+	process(unit_sel,arith_unit_output,arith_unit_coutput,logic_unit_output)
+	begin
+		if(unit_sel='0') then
+			s <= arith_unit_output;
+			co <= arith_unit_coutput;
+		else
+			s <= logic_unit_output;
+			co <= '0';
+		end if;
+	end process;
+end architecture;
+```
+
+###### arith_u
+
+```vhdl
+library ieee;
+use ieee.std_logic_1164.all;
+use work.alu_devs.ctrl_arith_u;
+use work.basic_devs.adder4bit;
+
+entity arith_u is
+	port (
+	 a: in std_logic_vector (3 downto 0);
+	 b: in std_logic_vector (3 downto 0);
+	 op_sel: in std_logic_vector (1 downto 0);
+	 ci: in std_logic;
+	 co: out std_logic;
+	 s: out std_logic_vector (3 downto 0)
+);
+end entity;
+
+architecture behavioral of arith_u is
+
+	signal adder_out : std_logic_vector(3 downto 0);
+	signal adder_cout : std_logic;
+	signal a_prime : std_logic_vector(3 downto 0);
+	signal b_prime : std_logic_vector(3 downto 0);
+	signal fix: std_logic;
+
+begin
+
+	arithmetic_control: ctrl_arith_u port map(op_sel,ci,a,b,a_prime,b_prime,fix);
+	full_4bit_adder: adder4bit port map(a_prime,b_prime,ci,adder_cout,adder_out);
+
+	process(fix,adder_cout,adder_out)
+	begin
+		s <= adder_out;
+		co <= fix xor adder_cout;
+
+	end process;
+end architecture;
+```
+
+###### logic_u
+
+```vhdl
+library ieee;
+use ieee.std_logic_1164.all;
+use work.basic_devs.logic_op_1bit;
+
+entity logic_u is
+	port (
+	 a: in std_logic_vector (3 downto 0);
+	 b: in std_logic_vector (3 downto 0);
+	 op_sel: in std_logic_vector (1 downto 0);
+	 ci: in STD_LOGIC;
+	 s: out std_logic_vector (3 downto 0)
+	);
+end entity;
+
+architecture behavioral of logic_u is
+begin
+	logic_unit_0 : logic_op_1bit port map(a(0),b(0),op_sel,ci,s(0));
+	logic_unit_1 : logic_op_1bit port map(a(1),b(1),op_sel,ci,s(1));
+	logic_unit_2 : logic_op_1bit port map(a(2),b(2),op_sel,ci,s(2));
+	logic_unit_3 : logic_op_1bit port map(a(3),b(3),op_sel,ci,s(3));
+end architecture;
+```
+
 
 
 ## Bibliografía y Referencias electrónicas
