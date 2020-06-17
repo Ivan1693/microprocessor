@@ -54,4 +54,10 @@ package memory_devs is
 		 q: out  std_logic
 	);
 	end component;
+    --ROM
+	component rom3216 is
+    	port(
+		 address : in STD_LOGIC_VECTOR (4 downto 0);
+		 data : out  STD_LOGIC_VECTOR (15 downto 0));
+	end component;
 end package ; 

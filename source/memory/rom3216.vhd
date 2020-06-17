@@ -1,13 +1,14 @@
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.NUMERIC_STD.ALL;
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
 
 entity rom3216 is
-    Port ( address : in STD_LOGIC_VECTOR (4 downto 0);
-           data : out  STD_LOGIC_VECTOR (15 downto 0));
+    Port ( address : in std_logic_vector (4 downto 0);
+           data : out  std_logic_vector (15 downto 0));
 end rom3216;
 
-architecture Behavioral of rom3216 is
+architecture behavioral of rom3216 is
 	type reg_grid is array (31 downto 0) of std_logic_vector(15 downto 0);
 	constant rom: reg_grid := (
 		"0000000000000000","0000000000000001","0000000000000010","0000000000000011",
@@ -20,5 +21,5 @@ architecture Behavioral of rom3216 is
 		"0000000000011100","0000000000011101","0000000000011110","0000000000011111");
 begin
 	data <= rom(to_integer(unsigned(address)));
-end Behavioral;
+end architecture;
 

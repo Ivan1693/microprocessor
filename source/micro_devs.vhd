@@ -29,6 +29,23 @@ package micro_devs is
 	   data_b: out std_logic_vector(4 downto 0)
 	  );
 	end component;
+	-- Decodificador de instrucción
+	component inst_deco is
+	    port ( inst : in  STD_LOGIC_VECTOR (15 downto 0);
+		 A : out  STD_LOGIC_VECTOR (4 downto 0);
+		 B : out  STD_LOGIC_VECTOR (4 downto 0);
+		 inst_out : out  STD_LOGIC_VECTOR (4 downto 0);
+		 PC : out  STD_LOGIC_VECTOR (4 downto 0);
+		 PC_in_enable : out STD_LOGIC);
+	end component;
+	-- Contador de programa
+	component prog_counter is
+	    port ( 
+		 addr_in : in  STD_LOGIC_VECTOR (4 downto 0);
+		 addr_out : out  STD_LOGIC_VECTOR (4 downto 0);
+		 enable_in : in  STD_LOGIC;
+		 clk : in  STD_LOGIC);
+	end component;
 	-- GCM
 	component gcm is
 	  port (

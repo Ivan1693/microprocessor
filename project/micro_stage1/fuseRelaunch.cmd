@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "/media/sf_XilinxShared/microprocessor/project/micro_stage1/rom3216_isim_beh.exe" -prj "/media/sf_XilinxShared/microprocessor/project/micro_stage1/rom3216_beh.prj" "work.rom3216" 
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/lagartijax4_isim_beh.exe" -prj "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/lagartijax4_beh.prj" "work.lagartijax4" 

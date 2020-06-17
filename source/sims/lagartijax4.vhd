@@ -1,7 +1,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 use work.micro_devs.all; 	-- Incluimos micro_stage1
-use work.basic_devs.all;			-- contador de 0 a 3 y demultiplexor de 1 a 4 y decos
+use work.basic_devs.all;	-- contador de 0 a 3 y demultiplexor de 1 a 4 y decos
 
 entity lagartijax4 is
 end entity;

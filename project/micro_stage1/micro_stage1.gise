@@ -23,11 +23,17 @@
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="acm_sim_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="acm_sim_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="inst_deco_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="lagartijax4_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="lagartijax4_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="lagartijax4_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="lagartijax4_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="rom3216.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="rom3216.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="rom3216.ngc"/>
@@ -53,7 +59,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1592365329" xil_pn:in_ck="1907196721451467850" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1592365329">
+    <transform xil_pn:end_ts="1592410568" xil_pn:in_ck="2858133154428320951" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1592410568">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="../../source/alu/alu_16op.vhd"/>
@@ -67,46 +73,49 @@
       <outfile xil_pn:name="../../source/basic/comp2bit.vhd"/>
       <outfile xil_pn:name="../../source/basic/comp4bit.vhd"/>
       <outfile xil_pn:name="../../source/basic/conta203.vhd"/>
+      <outfile xil_pn:name="../../source/basic/conta304.vhd"/>
+      <outfile xil_pn:name="../../source/basic/conta305.vhd"/>
+      <outfile xil_pn:name="../../source/basic/conta40F.vhd"/>
       <outfile xil_pn:name="../../source/basic/deco47seg.vhd"/>
       <outfile xil_pn:name="../../source/basic/dmux412.vhd"/>
+      <outfile xil_pn:name="../../source/basic/dmux513.vhd"/>
+      <outfile xil_pn:name="../../source/basic/dmux673.vhd"/>
       <outfile xil_pn:name="../../source/basic/full_adder.vhd"/>
       <outfile xil_pn:name="../../source/basic/logic_op_1bit.vhd"/>
+      <outfile xil_pn:name="../../source/basic/mux241.vhd"/>
       <outfile xil_pn:name="../../source/basic/mux251.vhd"/>
+      <outfile xil_pn:name="../../source/basic/mux643.vhd"/>
       <outfile xil_pn:name="../../source/basic_devs.vhd"/>
       <outfile xil_pn:name="../../source/memory/bank251.vhd"/>
       <outfile xil_pn:name="../../source/memory/ff0.vhd"/>
+      <outfile xil_pn:name="../../source/memory/reg010.vhd"/>
       <outfile xil_pn:name="../../source/memory/reg05.vhd"/>
       <outfile xil_pn:name="../../source/memory/rom3216.vhd"/>
       <outfile xil_pn:name="../../source/memory_devs.vhd"/>
+      <outfile xil_pn:name="../../source/micro/gcm.vhd"/>
       <outfile xil_pn:name="../../source/micro/inst_deco.vhd"/>
       <outfile xil_pn:name="../../source/micro/micro_stage1.vhd"/>
+      <outfile xil_pn:name="../../source/micro/micro_stage2.vhd"/>
+      <outfile xil_pn:name="../../source/micro/prog_counter.vhd"/>
       <outfile xil_pn:name="../../source/micro_devs.vhd"/>
       <outfile xil_pn:name="../../source/sims/acm_sim.vhd"/>
-      <outfile xil_pn:name="../../source/sims/top_sim.vhd"/>
+      <outfile xil_pn:name="../../source/sims/lagartijax4.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1592361665" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7427072065256941469" xil_pn:start_ts="1592361665">
+    <transform xil_pn:end_ts="1592410571" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2935241355533644706" xil_pn:start_ts="1592410571">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1592361665" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7289884128022644987" xil_pn:start_ts="1592361665">
+    <transform xil_pn:end_ts="1592410571" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8644382024553731900" xil_pn:start_ts="1592410571">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1592361665" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-7405466561040741053" xil_pn:start_ts="1592361665">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1592362767" xil_pn:in_ck="6415805642688225923" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1592362767">
+    <transform xil_pn:end_ts="1592410571" xil_pn:in_ck="2858133154428320951" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1592410571">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="../../source/alu/alu_16op.vhd"/>
       <outfile xil_pn:name="../../source/alu/arith_u.vhd"/>
       <outfile xil_pn:name="../../source/alu/ctrl_arith_u.vhd"/>
@@ -118,44 +127,54 @@
       <outfile xil_pn:name="../../source/basic/comp2bit.vhd"/>
       <outfile xil_pn:name="../../source/basic/comp4bit.vhd"/>
       <outfile xil_pn:name="../../source/basic/conta203.vhd"/>
+      <outfile xil_pn:name="../../source/basic/conta304.vhd"/>
+      <outfile xil_pn:name="../../source/basic/conta305.vhd"/>
+      <outfile xil_pn:name="../../source/basic/conta40F.vhd"/>
       <outfile xil_pn:name="../../source/basic/deco47seg.vhd"/>
       <outfile xil_pn:name="../../source/basic/dmux412.vhd"/>
+      <outfile xil_pn:name="../../source/basic/dmux513.vhd"/>
+      <outfile xil_pn:name="../../source/basic/dmux673.vhd"/>
       <outfile xil_pn:name="../../source/basic/full_adder.vhd"/>
       <outfile xil_pn:name="../../source/basic/logic_op_1bit.vhd"/>
+      <outfile xil_pn:name="../../source/basic/mux241.vhd"/>
       <outfile xil_pn:name="../../source/basic/mux251.vhd"/>
+      <outfile xil_pn:name="../../source/basic/mux643.vhd"/>
       <outfile xil_pn:name="../../source/basic_devs.vhd"/>
       <outfile xil_pn:name="../../source/memory/bank251.vhd"/>
       <outfile xil_pn:name="../../source/memory/ff0.vhd"/>
+      <outfile xil_pn:name="../../source/memory/reg010.vhd"/>
       <outfile xil_pn:name="../../source/memory/reg05.vhd"/>
       <outfile xil_pn:name="../../source/memory/rom3216.vhd"/>
       <outfile xil_pn:name="../../source/memory_devs.vhd"/>
+      <outfile xil_pn:name="../../source/micro/gcm.vhd"/>
+      <outfile xil_pn:name="../../source/micro/inst_deco.vhd"/>
       <outfile xil_pn:name="../../source/micro/micro_stage1.vhd"/>
+      <outfile xil_pn:name="../../source/micro/micro_stage2.vhd"/>
+      <outfile xil_pn:name="../../source/micro/prog_counter.vhd"/>
       <outfile xil_pn:name="../../source/micro_devs.vhd"/>
       <outfile xil_pn:name="../../source/sims/acm_sim.vhd"/>
-      <outfile xil_pn:name="../../source/sims/top_sim.vhd"/>
+      <outfile xil_pn:name="../../source/sims/lagartijax4.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1592362776" xil_pn:in_ck="6415805642688225923" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6054464660705535299" xil_pn:start_ts="1592362767">
+    <transform xil_pn:end_ts="1592410576" xil_pn:in_ck="2858133154428320951" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1951871850921798783" xil_pn:start_ts="1592410571">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="rom3216_beh.prj"/>
-      <outfile xil_pn:name="rom3216_isim_beh.exe"/>
+      <outfile xil_pn:name="lagartijax4_beh.prj"/>
+      <outfile xil_pn:name="lagartijax4_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1592362777" xil_pn:in_ck="-2013510066796809335" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6973110565388376330" xil_pn:start_ts="1592362776">
+    <transform xil_pn:end_ts="1592410576" xil_pn:in_ck="2890135175306285179" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4091974810496925612" xil_pn:start_ts="1592410576">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="rom3216_isim_beh.wdb"/>
+      <outfile xil_pn:name="lagartijax4_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1592361183" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1592361182">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -189,6 +208,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
