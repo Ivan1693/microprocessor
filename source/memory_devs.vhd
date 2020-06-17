@@ -12,6 +12,16 @@ package memory_devs is
 		 out01: out std_logic_vector(3 downto 0) 
 		);
 	end component;
+	-- Banco de registros de 2x5
+	component bank251 is
+		port(
+		 enable: in std_logic_vector(1 downto 0);
+		 reg00: in std_logic_vector(4 downto 0);
+		 reg01: in std_logic_vector(4 downto 0);
+		 out00: out std_logic_vector(4 downto 0);
+		 out01: out std_logic_vector(4 downto 0) 
+		);
+	end component;
 	--Registro 5 bits
 	component reg05 is
 	    port(

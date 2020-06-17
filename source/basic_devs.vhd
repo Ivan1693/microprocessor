@@ -90,6 +90,15 @@ package basic_devs is
 		 dst: out std_logic_vector(3 downto 0)
 		);
 	end component;
+	-- Multiplexor 2 a 1 de 5 bits
+	component mux251 is
+		port(
+			sel: in std_logic;
+			src00: in std_logic_vector(4 downto 0);
+			src01: in std_logic_vector(4 downto 0);
+			dst: out std_logic_vector(4 downto 0)
+		);
+	end component;
 	-- Multiplexor 6 a 1 de 4 bits
 	component mux643 is
 		port(

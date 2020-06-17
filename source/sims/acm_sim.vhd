@@ -4,10 +4,10 @@ use work.micro_devs.micro_stage1; 	-- Incluimos micro_stage1
 use work.basic_devs.all;			-- contador de 0 a 3 y demultiplexor de 1 a 4 y decos
 
 
-entity top_sim is
-end top_sim;
+entity acm_sim is
+end acm_sim;
  
-architecture behavior of top_sim is 
+architecture behavior of acm_sim is 
  --Señales micro_stage1
 	signal ideco_bus : std_logic_vector(4 downto 0); -- Instrucción
 	signal clk: std_logic;
@@ -17,8 +17,8 @@ architecture behavior of top_sim is
 	signal gcm_d : std_logic;
 
 -- Datos de prueba A y 5
-	signal data_a : std_logic_vector(4 downto 0):="01010";
-	signal data_b : std_logic_vector(4 downto 0):="00101";
+	signal data_a : std_logic_vector(4 downto 0);
+	signal data_b : std_logic_vector(4 downto 0);
 	
 -- Contador para simular GCM
 	signal gcm_count: std_logic_vector(1 downto 0); 
@@ -44,24 +44,25 @@ architecture behavior of top_sim is
 begin
 
 -- Simulamos cambio de intrucción cada 1600 ps con el registro B como segundo operando de la ALU
+	-- Prueba 1
+	data_a <= "00011", "01001" after 8000 ps, "00110" after 9600 ps;
+	data_b <= "00000";
 	ideco_bus <= 
-	 "10000" after 200 ps,
-	 "10001" after 1800 ps,
-	 "10010" after 3400 ps,
-	 "10011" after 5000 ps,
-	 "10100" after 6600 ps,
-	 "10101" after 8200 ps,
-	 "10110" after 9800 ps,
-	 "10111" after 11400 ps,
-	 "11000" after 13000 ps,
-	 "11001" after 14600 ps,
-	 "11010" after 16200 ps,
-	 "11011" after 17800 ps,
-	 "11100" after 19400 ps,
-	 "11101" after 21000 ps,
-	 "11110" after 22600 ps,
-	 "11111" after 24200 ps;
---
+		"00010" after 0 ps,
+		"10000" after 1600 ps,
+		"10000" after 3200 ps,
+		"10000" after 4800 ps,
+		"10000" after 6400 ps,
+		"11100" after 8000 ps,
+		"10001" after 9600 ps;
+
+	-- Prueba 2
+	--data_a <= "01000" after 0 ps, "01101" after 1600 ps, "00001" after 3200 ps;
+	--ideco_bus <= 
+		--"11111" after 0 ps,
+		--"10000" after 1600 ps,
+		--"10000" after 3200 ps;
+
 	--Buses a decodificadores
 	deco00 <= data_a(3) & data_a(2) & data_a(1) & data_a(0);
 	deco01 <= data_b(3) & data_b(2) & data_b(1) & data_b(0);

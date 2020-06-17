@@ -5,3 +5,66 @@ Rama: alu_mods
 	arith_u:
 	1. Se sustituyo el if de la linea 33 por una compuerta XOR.
 
+	Junio 15
+	
+	ERROR @ micro_satage1:
+
+		Analizando el proyecto con GHDL arroja el siguiente error:	
+			micro/micro_stage1.vhd:65:93:error: can't associate 'alu_bus' with signal interface "sb"
+			micro/micro_stage1.vhd:65:93:error: (type of 'alu_bus' is a subtype of std_logic_vector)
+			alu_devs.vhd:13:17:error: (type of signal interface "sb" is std_logic)
+		Esto debido a la modificación en los puertos de la alu. La entidad de la ALU se modifico a:
+
+		entity alu_16op is
+			port(
+			 unit_sel : in std_logic;
+			 op_sel : in std_logic_vector(1 downto 0);
+			 ci : in std_logic;
+			 a : in std_logic_vector(3 downto 0);
+			 b : in std_logic_vector(3 downto 0);
+			 sa : in std_logic;
+			 sb : in std_logic;
+			 sf : out std_logic;
+			 co : out std_logic;
+			 s : out std_logic_vector(3 downto 0)
+			 );
+		end entity;
+
+		Y la instancia de esta en micro_stage1 es:
+
+		alu: alu_16op port map(
+						unit_sel,	[OK]
+						op_sel,		[OK]
+						carry_in,	[OK]
+						rda_bus,	[OK]
+						regmux_bus,	[OK]
+						carry_out,	[!] (Compatible señal-puerto, pero orden erroneo)
+						alu_bus		[X]	(señal de 4 bits a puerto de 1 bit)
+		);
+
+		ADD @ memory_devs
+		Se agrega un banco de registros de 2 x 5.
+		nombre:	bank251 (2 elementos, 5 bits, 1 salida)
+
+		MOD @ micro_stage1
+		Se cambia el banco de registros rd de 4 a 5 bits
+
+		MOD @ alu_16op
+		Se eliminan los puertos de entrada sa y sb.
+		Se modifica el tamaño de los puertos de entrada a y b a 5 bits
+		Se añaden las señales: sa, a_mag, sb y b_mag
+
+		MOD @ alu_devs
+		Se actualiza la entidad alu_16op
+
+		ADD @ basic_devs
+		Se agrega un multiplexor 2 a 1 de 5 bits.
+		nombre:	mux251 (2 elementos, 5 bits, 1 bit)
+
+		MOD @ micro_stage1
+		Se cambia el multipliexor regmux 4 a 5 bits
+		Se elimina la señal acm_mag y se reemplaza por acm_bus. En un principio al ser los registros de datos de 4 bits, el último bit del acumulador quedaba sin usarse, por lo cual la salida de este se dividia en 2, acm_carry y acm_mag, este último entraba al mutiplexor regmux.
+
+		MOD @ alu_16op
+		Se elimina el puerto de salida sf, el valor de este se concatena con la salida de la operación. Se crea una señal para sustituir al puerto.
+		El puerto co recibe el acarreo de salida del sumador (esto para no dejar desconectado ese puerto).

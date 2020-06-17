@@ -1,9 +1,9 @@
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
+library ieee;
+use ieee.std_logic_1164.all;
 
 entity sign_control is
     Port ( c_prime : in  STD_LOGIC_VECTOR (1 downto 0);
-			  ci_prime : in  STD_LOGIC;
+		ci_prime : in  STD_LOGIC;
            SAB : in  STD_LOGIC;
            SF : out  STD_LOGIC;
            co : in  STD_LOGIC);

@@ -35,6 +35,7 @@ begin
 	operation_control_instance: operation_control port map(sa,sb,op_sel,ci,c_prime,ci_prime,sab);
 	arithmetic_control: ctrl_arith_u port map(c_prime,ci_prime,a,b,a_prime,b_prime,fix_aux);
 	full_4bit_adder: adder4bit port map(a_prime,b_prime,ci_prime,adder_cout,adder_out);
+	sign_control_instance: sign_control port map(c_prime,ci_prime,sab,sf,co_aux);
 
 	process(fix_aux,adder_cout,adder_out)
 	begin
@@ -42,7 +43,6 @@ begin
 		co_aux <= fix_aux xor adder_cout;
 	end process;
 	
-	sign_control_instance: sign_control port map(c_prime,ci_prime,sab,sf,co_aux);
-	co <= co_aux;
-	
+	co <= adder_cout;
+
 end architecture;

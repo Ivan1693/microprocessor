@@ -10,11 +10,11 @@ package micro_devs is
 	   gcm_c: in std_logic;	-- Señal del ACC
 	   gcm_d: in std_logic;	-- Señal del ACM   
 	   -- Posteriorment se leera de la ROM
-	   data_a: in std_logic_vector(3 downto 0);
-	   data_b: in std_logic_vector(3 downto 0);
+	   data_a: in std_logic_vector(4 downto 0);
+	   data_b: in std_logic_vector(4 downto 0);
 	   -- Salida para testbench
 	   cout_stage1: out std_logic;
-	   out_stage1: out std_logic_vector(3 downto 0)
+	   out_stage1: out std_logic_vector(4 downto 0)
 	  );
 	end component;
 	-- GCM
