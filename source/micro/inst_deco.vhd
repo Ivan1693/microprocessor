@@ -6,7 +6,8 @@ entity inst_deco is
            A : out  STD_LOGIC_VECTOR (4 downto 0);
            B : out  STD_LOGIC_VECTOR (4 downto 0);
            inst_out : out  STD_LOGIC_VECTOR (4 downto 0);
-           PC : out  STD_LOGIC_VECTOR (4 downto 0));
+           PC : out  STD_LOGIC_VECTOR (4 downto 0);
+			  PC_in_enable : out STD_LOGIC);
 end inst_deco;
 
 architecture Behavioral of inst_deco is
@@ -20,6 +21,7 @@ begin
 			A <= inst(4 downto 0);
 		else
 			PC <= inst(4 downto 0);
+			PC_in_enable <= inst(15);
 		end if;
 	end process;
 end Behavioral;
