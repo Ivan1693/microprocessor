@@ -7,7 +7,7 @@ use work.memory_devs.all;
 entity micro_stage1 is
   port(
    -- Bus temporal <- Aquí llega la instrucción desde el Decodificador de instrucción
-   ideco_bus: in std_logic_vector(4 downto 0);
+   inst_in: in std_logic_vector(4 downto 0);
    -- Señal del Genrador de ciclo de máquina GCM
    gcm_b: in std_logic;	-- Señal del RD
    gcm_c: in std_logic;	-- Señal del ACC
@@ -43,15 +43,15 @@ architecture behavioral of micro_stage1 is
 
 begin
 	-- Segmentación de instrucción
-		unit_sel <= ideco_bus(3);
-		op_sel <= 	ideco_bus(2) & ideco_bus(1);
-		carry_in <= ideco_bus(0);
+		unit_sel <= inst_in(3);
+		op_sel <= 	inst_in(2) & inst_in(1);
+		carry_in <= inst_in(0);
 
 
 	--Se selecciona las salidas del banco RD
 		bank_enable <= gcm_b & gcm_b;
 	--Se elige el segundo registro de entrada a la ALU (B o ACM)
-		regmux_sel <= ideco_bus(4);
+		regmux_sel <= inst_in(4);
 	-- Salida de ALU se cocatena para entrar a ACC
 		--acc_inbus <= carry_out & alu_bus;
 	-- Se toma sólo la magnitud del registro en ACM

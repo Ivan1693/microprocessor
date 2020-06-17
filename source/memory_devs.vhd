@@ -22,6 +22,14 @@ package memory_devs is
 		 out01: out std_logic_vector(4 downto 0) 
 		);
 	end component;
+	--Registro 16 bits
+	component reg010 is
+	    port (
+		 enable: in  std_logic;
+		 reg: in  std_logic_vector (15 downto 0);
+		 out_reg: out  std_logic_vector (15 downto 0)
+		);
+	end component;
 	--Registro 5 bits
 	component reg05 is
 	    port(

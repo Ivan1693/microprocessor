@@ -68,3 +68,8 @@ Rama: alu_mods
 		MOD @ alu_16op
 		Se elimina el puerto de salida sf, el valor de este se concatena con la salida de la operación. Se crea una señal para sustituir al puerto.
 		El puerto co recibe el acarreo de salida del sumador (esto para no dejar desconectado ese puerto).
+------------------------------------------------------------
+Rama: mircro_stage2
+	
+	ADD @ memory_devs
+	Se agrega registro de 16 bits

@@ -4,7 +4,7 @@ package micro_devs is
 	component micro_stage1 is
 	  port(
 	   -- Bus temporal <- Aquí llega la instrucción desde el Decodificador de instrucción
-	   ideco_bus: in std_logic_vector(4 downto 0);
+	   inst_in: in std_logic_vector(4 downto 0);
 	   -- Señal del Genrador de ciclo de máquina GCM
 	   gcm_b: in std_logic;	-- Señal del RD
 	   gcm_c: in std_logic;	-- Señal del ACC
@@ -15,6 +15,18 @@ package micro_devs is
 	   -- Salida para testbench
 	   cout_stage1: out std_logic;
 	   out_stage1: out std_logic_vector(4 downto 0)
+	  );
+	end component;
+	-- MicroStage2
+	component micro_stage2 is
+	  port (
+	  	gcm_a: in std_logic;	-- Señal del RI
+		gcm_e: in std_logic;	-- Señal del PC
+	   -- Salida de instrucción a micro:stage1
+	   inst_out_port: out std_logic_vector(4 downto 0);
+	   -- Salida de datos a micro_stage1
+	   data_a: out std_logic_vector(4 downto 0);
+	   data_b: out std_logic_vector(4 downto 0)
 	  );
 	end component;
 	-- GCM
