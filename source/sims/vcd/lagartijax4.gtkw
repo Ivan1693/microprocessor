@@ -1,0 +1,51 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Wed Jun 17 20:24:42 2020
+[*]
+[dumpfile] "/home/ivan/Escom/Arquitectura/microprocessor/source/master.vcd"
+[dumpfile_mtime] "Wed Jun 17 20:23:15 2020"
+[dumpfile_size] 14606336
+[savefile] "/home/ivan/Escom/Arquitectura/microprocessor/source/sims/vcd/lagartijax4.gtkw"
+[timestart] 166360000
+[size] 1680 979
+[pos] -1 -1
+*-21.000000 48090000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] lagartijax4.
+[treeopen] lagartijax4.micro_core_block.
+[treeopen] lagartijax4.micro_core_block.micro_stage1_block.
+[treeopen] lagartijax4.micro_core_block.micro_stage2_block.
+[sst_width] 220
+[signals_width] 190
+[sst_expanded] 1
+[sst_vpaned_height] 285
+@28
+lagartijax4.clk
+lagartijax4.gcm_a
+[color] 1
+lagartijax4.gcm_b
+lagartijax4.gcm_c
+[color] 3
+lagartijax4.gcm_d
+lagartijax4.gcm_e
+@200
+-
+@28
+[color] 2
+lagartijax4.micro_core_block.micro_stage1_block.rd.out00[4:0]
+[color] 3
+lagartijax4.micro_core_block.micro_stage1_block.rd.out01[4:0]
+[color] 5
+lagartijax4.micro_core_block.micro_stage1_block.acc.out_reg[4:0]
+[color] 6
+lagartijax4.micro_core_block.micro_stage1_block.acm.out_reg[4:0]
+@200
+-
+@28
+[color] 1
+lagartijax4.micro_core_block.stage_bus[4:0]
+lagartijax4.lagartijax4_out[4:0]
+lagartijax4.micro_core_block.micro_stage2_block.pc.in_enable
+@29
+lagartijax4.micro_core_block.micro_stage2_block.pc.out_reg_pc[4:0]
+[pattern_trace] 1
+[pattern_trace] 0

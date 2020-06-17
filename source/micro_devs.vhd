@@ -41,10 +41,10 @@ package micro_devs is
 	-- Contador de programa
 	component prog_counter is
 	    port ( 
-		 addr_in : in  STD_LOGIC_VECTOR (4 downto 0);
-		 addr_out : out  STD_LOGIC_VECTOR (4 downto 0);
-		 enable_in : in  STD_LOGIC;
-		 clk : in  STD_LOGIC);
+	    in_reg_pc: in std_logic_vector(4 downto 0);
+	    out_reg_pc: out std_logic_vector(4 downto 0);
+	    in_enable: in std_logic;
+	    clk: in std_logic);
 	end component;
 	-- GCM
 	component gcm is
@@ -56,5 +56,19 @@ package micro_devs is
 	  	gcm_d: out std_logic;
 	  	gcm_e: out std_logic
 	  );
+	end component;
+	--
+	component micro_core is
+		port(
+		gcm_a: in std_logic;
+		gcm_b: in std_logic;
+		gcm_c: in std_logic;
+		gcm_d: in std_logic;
+		gcm_e: in std_logic;
+		
+		--Puerto de salida
+		lagartijax4_out: out std_logic_vector(4 downto 0);
+		useless_carry: out std_logic
+		);
 	end component;
 end package; 
