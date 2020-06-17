@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "/media/sf_XilinxShared/microprocessor/project/micro_stage1/arith_u_isim_beh.exe" -prj "/media/sf_XilinxShared/microprocessor/project/micro_stage1/arith_u_beh.prj" "work.arith_u" 
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/acm_sim_isim_beh.exe" -prj "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/acm_sim_beh.prj" "work.acm_sim" 

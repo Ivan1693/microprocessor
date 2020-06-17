@@ -52,3 +52,6 @@ xst -intstyle ise -ifn "/home/ivan/Escom/Arquitectura/microprocessor/project/mic
 xst -intstyle ise -ifn "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/micro_stage1.xst" -ofn "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/micro_stage1.syr" 
 =======
 >>>>>>> 044831b47d41ca9eaae5a3a6e49e2b15b4d6d22c
+xst -intstyle ise -ifn "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/micro_stage1.xst" -ofn "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/micro_stage1.syr" 
+xst -intstyle ise -ifn "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/micro_stage1.xst" -ofn "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/micro_stage1.syr" 
+netgen -intstyle ise -ar Structure -tm micro_stage1 -w -dir netgen/synthesis -ofmt vhdl -sim micro_stage1.ngc micro_stage1_synthesis.vhd 

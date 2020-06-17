@@ -1,9 +1,6 @@
-set -tmpdir "xst/projnav.tmp"
-set -xsthdpdir "xst"
-run
--ifn micro_stage1.prj
--ofn micro_stage1
--ofmt NGC
+set -tmpdir "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/xst/projnav.tmp"
+set -xsthdpdir "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/xst"
+run -compileonly yes
 -p xc7a100t-3-csg324
 -top micro_stage1
 -opt_mode Speed
@@ -50,3 +47,4 @@ run
 -iob Auto
 -equivalent_register_removal YES
 -slice_utilization_ratio_maxmargin 5
+-ifn micro_stage1.prj

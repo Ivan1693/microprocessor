@@ -5,22 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-<<<<<<< HEAD
-Total CPU time to Xst completion: 0.04 secs
-=======
-Total CPU time to Xst completion: 0.17 secs
->>>>>>> 044831b47d41ca9eaae5a3a6e49e2b15b4d6d22c
+Total CPU time to Xst completion: 0.05 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-<<<<<<< HEAD
-Total CPU time to Xst completion: 0.04 secs
-=======
-Total CPU time to Xst completion: 0.17 secs
->>>>>>> 044831b47d41ca9eaae5a3a6e49e2b15b4d6d22c
+Total CPU time to Xst completion: 0.05 secs
  
 --> 
 Reading design: micro_stage1.prj
@@ -116,55 +108,58 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/basic_devs.vhd" into library work
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/basic_devs.vhd" into library work
 Parsing package <basic_devs>.
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/basic/comp2bit.vhd" into library work
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/comp2bit.vhd" into library work
 Parsing entity <comp2bit>.
 Parsing architecture <behavioral> of entity <comp2bit>.
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/basic/full_adder.vhd" into library work
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/full_adder.vhd" into library work
 Parsing entity <full_adder>.
 Parsing architecture <behavioral> of entity <full_adder>.
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/basic/comp4bit.vhd" into library work
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/comp4bit.vhd" into library work
 Parsing entity <comp4bit>.
 Parsing architecture <behavioral> of entity <comp4bit>.
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/memory_devs.vhd" into library work
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/memory_devs.vhd" into library work
 Parsing package <memory_devs>.
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/memory/ff0.vhd" into library work
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/memory/ff0.vhd" into library work
 Parsing entity <ff0>.
 Parsing architecture <behavioral> of entity <ff0>.
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/basic/logic_op_1bit.vhd" into library work
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/logic_op_1bit.vhd" into library work
 Parsing entity <logic_op_1bit>.
 Parsing architecture <behavioral> of entity <logic_op_1bit>.
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/basic/adder4bit.vhd" into library work
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/adder4bit.vhd" into library work
 Parsing entity <adder4bit>.
 Parsing architecture <behavioral> of entity <adder4bit>.
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/alu_devs.vhd" into library work
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/alu_devs.vhd" into library work
 Parsing package <alu_devs>.
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/alu/ctrl_arith_u.vhd" into library work
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/sign_control.vhd" into library work
+Parsing entity <sign_control>.
+Parsing architecture <Behavioral> of entity <sign_control>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/operation_control.vhd" into library work
+Parsing entity <operation_control>.
+Parsing architecture <Behavioral> of entity <operation_control>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/ctrl_arith_u.vhd" into library work
 Parsing entity <ctrl_arith_u>.
 Parsing architecture <behavioral> of entity <ctrl_arith_u>.
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/memory/reg04.vhd" into library work
-Parsing entity <reg04>.
-Parsing architecture <behavioral> of entity <reg04>.
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/alu/logic_u.vhd" into library work
-Parsing entity <logic_u>.
-Parsing architecture <behavioral> of entity <logic_u>.
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/alu/arith_u.vhd" into library work
-Parsing entity <arith_u>.
-Parsing architecture <behavioral> of entity <arith_u>.
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/memory/reg05.vhd" into library work
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/memory/reg05.vhd" into library work
 Parsing entity <reg05>.
 Parsing architecture <behavioral> of entity <reg05>.
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/memory/bank241.vhd" into library work
-Parsing entity <bank241>.
-Parsing architecture <behavioral> of entity <bank241>.
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/basic/mux241.vhd" into library work
-Parsing entity <mux241>.
-Parsing architecture <behavioral> of entity <mux241>.
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/alu/alu_16op.vhd" into library work
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/logic_u.vhd" into library work
+Parsing entity <logic_u>.
+Parsing architecture <behavioral> of entity <logic_u>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/arith_u.vhd" into library work
+Parsing entity <arith_u>.
+Parsing architecture <behavioral> of entity <arith_u>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/memory/bank251.vhd" into library work
+Parsing entity <bank251>.
+Parsing architecture <behavioral> of entity <bank251>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/mux251.vhd" into library work
+Parsing entity <mux251>.
+Parsing architecture <behavioral> of entity <mux251>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/alu_16op.vhd" into library work
 Parsing entity <alu_16op>.
 Parsing architecture <behavioral> of entity <alu_16op>.
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/source/micro/micro_stage1.vhd" into library work
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/micro/micro_stage1.vhd" into library work
 Parsing entity <micro_stage1>.
 Parsing architecture <behavioral> of entity <micro_stage1>.
 
@@ -173,157 +168,166 @@ Parsing architecture <behavioral> of entity <micro_stage1>.
 =========================================================================
 
 Elaborating entity <micro_stage1> (architecture <behavioral>) from library <work>.
-WARNING:HDLCompiler:1127 - "/media/sf_XilinxShared/microprocessor/source/micro/micro_stage1.vhd" Line 59: Assignment to acm_carry ignored, since the identifier is never used
 
-Elaborating entity <mux241> (architecture <behavioral>) from library <work>.
+Elaborating entity <mux251> (architecture <behavioral>) from library <work>.
 
 Elaborating entity <alu_16op> (architecture <behavioral>) from library <work>.
 
 Elaborating entity <arith_u> (architecture <behavioral>) from library <work>.
+
+Elaborating entity <operation_control> (architecture <Behavioral>) from library <work>.
+INFO:HDLCompiler:679 - "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/operation_control.vhd" Line 35. Case statement is complete. others clause is never selected
 
 Elaborating entity <ctrl_arith_u> (architecture <behavioral>) from library <work>.
 
 Elaborating entity <comp4bit> (architecture <behavioral>) from library <work>.
 
 Elaborating entity <comp2bit> (architecture <behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "/media/sf_XilinxShared/microprocessor/source/alu/ctrl_arith_u.vhd" Line 32. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "/media/sf_XilinxShared/microprocessor/source/alu/ctrl_arith_u.vhd" Line 41. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "/media/sf_XilinxShared/microprocessor/source/alu/ctrl_arith_u.vhd" Line 61. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "/media/sf_XilinxShared/microprocessor/source/alu/ctrl_arith_u.vhd" Line 69. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/ctrl_arith_u.vhd" Line 33. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/ctrl_arith_u.vhd" Line 43. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/ctrl_arith_u.vhd" Line 63. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/ctrl_arith_u.vhd" Line 71. Case statement is complete. others clause is never selected
 
 Elaborating entity <adder4bit> (architecture <behavioral>) from library <work>.
 
 Elaborating entity <full_adder> (architecture <behavioral>) from library <work>.
 
+Elaborating entity <sign_control> (architecture <Behavioral>) from library <work>.
+
 Elaborating entity <logic_u> (architecture <behavioral>) from library <work>.
 
 Elaborating entity <logic_op_1bit> (architecture <behavioral>) from library <work>.
 
-Elaborating entity <bank241> (architecture <behavioral>) from library <work>.
-
-Elaborating entity <reg04> (architecture <behavioral>) from library <work>.
-
-Elaborating entity <ff0> (architecture <behavioral>) from library <work>.
+Elaborating entity <bank251> (architecture <behavioral>) from library <work>.
 
 Elaborating entity <reg05> (architecture <behavioral>) from library <work>.
+
+Elaborating entity <ff0> (architecture <behavioral>) from library <work>.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <micro_stage1>.
-    Related source file is "/media/sf_XilinxShared/microprocessor/source/micro/micro_stage1.vhd".
+    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/micro/micro_stage1.vhd".
     Summary:
 	no macro.
 Unit <micro_stage1> synthesized.
 
-Synthesizing Unit <mux241>.
-    Related source file is "/media/sf_XilinxShared/microprocessor/source/basic/mux241.vhd".
+Synthesizing Unit <mux251>.
+    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/mux251.vhd".
     Summary:
 	inferred   1 Multiplexer(s).
-Unit <mux241> synthesized.
+Unit <mux251> synthesized.
 
 Synthesizing Unit <alu_16op>.
-    Related source file is "/media/sf_XilinxShared/microprocessor/source/alu/alu_16op.vhd".
+    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/alu_16op.vhd".
     Summary:
 	inferred   2 Multiplexer(s).
 Unit <alu_16op> synthesized.
 
 Synthesizing Unit <arith_u>.
-    Related source file is "/media/sf_XilinxShared/microprocessor/source/alu/arith_u.vhd".
+    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/arith_u.vhd".
     Summary:
 Unit <arith_u> synthesized.
 
+Synthesizing Unit <operation_control>.
+    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/operation_control.vhd".
+    Found 2-bit 4-to-1 multiplexer for signal <c_prime> created at line 19.
+    Found 1-bit 4-to-1 multiplexer for signal <ci_prime> created at line 19.
+    Found 1-bit 4-to-1 multiplexer for signal <SAB> created at line 19.
+    Summary:
+	inferred   3 Multiplexer(s).
+Unit <operation_control> synthesized.
+
 Synthesizing Unit <ctrl_arith_u>.
-    Related source file is "/media/sf_XilinxShared/microprocessor/source/alu/ctrl_arith_u.vhd".
-INFO:Xst:3210 - "/media/sf_XilinxShared/microprocessor/source/alu/ctrl_arith_u.vhd" line 22: Output port <is_b> of the instance <comparator> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/media/sf_XilinxShared/microprocessor/source/alu/ctrl_arith_u.vhd" line 22: Output port <are_equal> of the instance <comparator> is unconnected or connected to loadless signal.
-    Found 4-bit 3-to-1 multiplexer for signal <c[1]_b[3]_wide_mux_2_OUT> created at line 35.
-    Found 4-bit 4-to-1 multiplexer for signal <c[1]_PWR_14_o_wide_mux_12_OUT> created at line 64.
-WARNING:Xst:737 - Found 1-bit latch for signal <fix>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/ctrl_arith_u.vhd".
+INFO:Xst:3210 - "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/ctrl_arith_u.vhd" line 23: Output port <is_b> of the instance <comparator> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/ctrl_arith_u.vhd" line 23: Output port <are_equal> of the instance <comparator> is unconnected or connected to loadless signal.
+    Found 4-bit 3-to-1 multiplexer for signal <c[1]_b[3]_wide_mux_2_OUT> created at line 37.
+    Found 4-bit 4-to-1 multiplexer for signal <c[1]_PWR_16_o_wide_mux_12_OUT> created at line 66.
+WARNING:Xst:737 - Found 1-bit latch for signal <fix_aux>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
     Summary:
 	inferred   1 Latch(s).
-	inferred  14 Multiplexer(s).
+	inferred  15 Multiplexer(s).
 Unit <ctrl_arith_u> synthesized.
 
 Synthesizing Unit <comp4bit>.
-    Related source file is "/media/sf_XilinxShared/microprocessor/source/basic/comp4bit.vhd".
+    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/comp4bit.vhd".
     Summary:
 	no macro.
 Unit <comp4bit> synthesized.
 
 Synthesizing Unit <comp2bit>.
-    Related source file is "/media/sf_XilinxShared/microprocessor/source/basic/comp2bit.vhd".
+    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/comp2bit.vhd".
     Summary:
 Unit <comp2bit> synthesized.
 
 Synthesizing Unit <adder4bit>.
-    Related source file is "/media/sf_XilinxShared/microprocessor/source/basic/adder4bit.vhd".
+    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/adder4bit.vhd".
     Summary:
 	no macro.
 Unit <adder4bit> synthesized.
 
 Synthesizing Unit <full_adder>.
-    Related source file is "/media/sf_XilinxShared/microprocessor/source/basic/full_adder.vhd".
+    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/full_adder.vhd".
     Summary:
 Unit <full_adder> synthesized.
 
+Synthesizing Unit <sign_control>.
+    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/sign_control.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <sign_control> synthesized.
+
 Synthesizing Unit <logic_u>.
-    Related source file is "/media/sf_XilinxShared/microprocessor/source/alu/logic_u.vhd".
+    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/logic_u.vhd".
     Summary:
 	no macro.
 Unit <logic_u> synthesized.
 
 Synthesizing Unit <logic_op_1bit>.
-<<<<<<< HEAD
     Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/logic_op_1bit.vhd".
-=======
-    Related source file is "/media/sf_XilinxShared/microprocessor/source/basic/logic_op_1bit.vhd".
->>>>>>> 044831b47d41ca9eaae5a3a6e49e2b15b4d6d22c
-    Found 1-bit 4-to-1 multiplexer for signal <s_ci_MUX_30_o> created at line 15.
+    Found 1-bit 4-to-1 multiplexer for signal <s_ci_MUX_38_o> created at line 15.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <logic_op_1bit> synthesized.
 
-Synthesizing Unit <bank241>.
-    Related source file is "/media/sf_XilinxShared/microprocessor/source/memory/bank241.vhd".
+Synthesizing Unit <bank251>.
+    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/memory/bank251.vhd".
     Summary:
 	no macro.
-Unit <bank241> synthesized.
+Unit <bank251> synthesized.
 
-Synthesizing Unit <reg04>.
-    Related source file is "/media/sf_XilinxShared/microprocessor/source/memory/reg04.vhd".
+Synthesizing Unit <reg05>.
+    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/memory/reg05.vhd".
     Summary:
 	no macro.
-Unit <reg04> synthesized.
+Unit <reg05> synthesized.
 
 Synthesizing Unit <ff0>.
-    Related source file is "/media/sf_XilinxShared/microprocessor/source/memory/ff0.vhd".
+    Related source file is "/home/ivan/Escom/Arquitectura/microprocessor/source/memory/ff0.vhd".
 WARNING:Xst:737 - Found 1-bit latch for signal <q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
     Summary:
 	inferred   1 Latch(s).
 Unit <ff0> synthesized.
 
-Synthesizing Unit <reg05>.
-    Related source file is "/media/sf_XilinxShared/microprocessor/source/memory/reg05.vhd".
-    Summary:
-	no macro.
-Unit <reg05> synthesized.
-
 =========================================================================
 HDL Synthesis Report
 
 Macro Statistics
-# Latches                                              : 19
- 1-bit latch                                           : 19
-# Multiplexers                                         : 21
- 1-bit 2-to-1 multiplexer                              : 6
- 1-bit 4-to-1 multiplexer                              : 4
- 4-bit 2-to-1 multiplexer                              : 9
+# Latches                                              : 21
+ 1-bit latch                                           : 21
+# Multiplexers                                         : 26
+ 1-bit 2-to-1 multiplexer                              : 8
+ 1-bit 4-to-1 multiplexer                              : 6
+ 2-bit 4-to-1 multiplexer                              : 1
+ 4-bit 2-to-1 multiplexer                              : 7
  4-bit 3-to-1 multiplexer                              : 1
  4-bit 4-to-1 multiplexer                              : 1
-# Xors                                                 : 33
- 1-bit xor2                                            : 33
+ 5-bit 2-to-1 multiplexer                              : 2
+# Xors                                                 : 36
+ 1-bit xor2                                            : 36
 
 =========================================================================
 
@@ -331,31 +335,27 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-WARNING:Xst:1290 - Hierarchical block <ff4_block> is unconnected in block <acc>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <ff4_block> is unconnected in block <acm>.
-   It will be removed from the design.
 
 =========================================================================
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# Multiplexers                                         : 21
- 1-bit 2-to-1 multiplexer                              : 6
- 1-bit 4-to-1 multiplexer                              : 4
- 4-bit 2-to-1 multiplexer                              : 9
+# Multiplexers                                         : 25
+ 1-bit 2-to-1 multiplexer                              : 7
+ 1-bit 4-to-1 multiplexer                              : 6
+ 2-bit 4-to-1 multiplexer                              : 1
+ 4-bit 2-to-1 multiplexer                              : 7
  4-bit 3-to-1 multiplexer                              : 1
  4-bit 4-to-1 multiplexer                              : 1
-# Xors                                                 : 33
- 1-bit xor2                                            : 33
+ 5-bit 2-to-1 multiplexer                              : 2
+# Xors                                                 : 36
+ 1-bit xor2                                            : 36
 
 =========================================================================
 
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-WARNING:Xst:2677 - Node <acm/ff4_block/q> of sequential type is unconnected in block <micro_stage1>.
-WARNING:Xst:2677 - Node <acc/ff4_block/q> of sequential type is unconnected in block <micro_stage1>.
 
 Optimizing unit <micro_stage1> ...
 
@@ -392,18 +392,19 @@ Top Level Output File Name         : micro_stage1.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 31
-#      LUT3                        : 9
-#      LUT4                        : 1
-#      LUT5                        : 6
-#      LUT6                        : 15
-# FlipFlops/Latches                : 17
-#      LD                          : 17
+# BELS                             : 42
+#      LUT3                        : 7
+#      LUT4                        : 7
+#      LUT5                        : 9
+#      LUT6                        : 18
+#      MUXF7                       : 1
+# FlipFlops/Latches                : 21
+#      LD                          : 21
 # Clock Buffers                    : 3
 #      BUFGP                       : 3
-# IO Buffers                       : 18
-#      IBUF                        : 13
-#      OBUF                        : 5
+# IO Buffers                       : 21
+#      IBUF                        : 15
+#      OBUF                        : 6
 
 Device utilization summary:
 ---------------------------
@@ -412,21 +413,21 @@ Selected Device : 7a100tcsg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:               9  out of  126800     0%  
- Number of Slice LUTs:                   31  out of  63400     0%  
-    Number used as Logic:                31  out of  63400     0%  
+ Number of Slice Registers:              11  out of  126800     0%  
+ Number of Slice LUTs:                   41  out of  63400     0%  
+    Number used as Logic:                41  out of  63400     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:     35
-   Number with an unused Flip Flop:      26  out of     35    74%  
-   Number with an unused LUT:             4  out of     35    11%  
-   Number of fully used LUT-FF pairs:     5  out of     35    14%  
+ Number of LUT Flip Flop pairs used:     45
+   Number with an unused Flip Flop:      34  out of     45    75%  
+   Number with an unused LUT:             4  out of     45     8%  
+   Number of fully used LUT-FF pairs:     7  out of     45    15%  
    Number of unique control sets:         4
 
 IO Utilization: 
- Number of IOs:                          21
- Number of bonded IOBs:                  21  out of    210    10%  
-    IOB Flip Flops/Latches:               8
+ Number of IOs:                          24
+ Number of bonded IOBs:                  24  out of    210    11%  
+    IOB Flip Flops/Latches:              10
 
 Specific Feature Utilization:
  Number of BUFG/BUFGCTRLs:                3  out of     32     9%  
@@ -449,14 +450,14 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
--------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------+-------+
-Clock Signal                                                                                                             | Clock buffer(FF name)                              | Load  |
--------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------+-------+
-gcm_b                                                                                                                    | BUFGP                                              | 8     |
-gcm_d                                                                                                                    | BUFGP                                              | 4     |
-gcm_c                                                                                                                    | BUFGP                                              | 4     |
-alu/arithmetic_unit/arithmetic_control/ci_c[1]_MUX_22_o(alu/arithmetic_unit/arithmetic_control/Mmux_ci_c[1]_MUX_22_o11:O)| NONE(*)(alu/arithmetic_unit/arithmetic_control/fix)| 1     |
--------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------+-------+
+-------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------+-------+
+Clock Signal                                                                                                             | Clock buffer(FF name)                                  | Load  |
+-------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------+-------+
+gcm_c                                                                                                                    | BUFGP                                                  | 5     |
+gcm_d                                                                                                                    | BUFGP                                                  | 5     |
+gcm_b                                                                                                                    | BUFGP                                                  | 10    |
+alu/arithmetic_unit/arithmetic_control/ci_c[1]_MUX_29_o(alu/arithmetic_unit/arithmetic_control/Mmux_ci_c[1]_MUX_29_o11:O)| NONE(*)(alu/arithmetic_unit/arithmetic_control/fix_aux)| 1     |
+-------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------+-------+
 (*) This 1 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
 Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
@@ -471,17 +472,46 @@ Timing Summary:
 Speed Grade: -3
 
    Minimum period: No path found
-   Minimum input arrival time before clock: 3.975ns
-   Maximum output required time after clock: 4.565ns
-   Maximum combinational path delay: 4.258ns
+   Minimum input arrival time before clock: 5.568ns
+   Maximum output required time after clock: 6.144ns
+   Maximum combinational path delay: 5.851ns
 
 Timing Details:
 ---------------
 All values displayed in nanoseconds (ns)
 
 =========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'gcm_c'
+  Total number of paths / destination ports: 979 / 5
+-------------------------------------------------------------------------
+Offset:              5.568ns (Levels of Logic = 11)
+  Source:            ideco_bus<4> (PAD)
+  Destination:       acc/ff4_block/q (LATCH)
+  Destination Clock: gcm_c falling
+
+  Data Path: ideco_bus<4> to acc/ff4_block/q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            12   0.001   0.562  ideco_bus_4_IBUF (ideco_bus_4_IBUF)
+     LUT3:I0->O            3   0.097   0.305  regmux/Mmux_dst11 (regmux_bus<0>)
+     LUT6:I5->O            1   0.097   0.295  alu/arithmetic_unit/arithmetic_control/comparator/is_a1 (alu/arithmetic_unit/arithmetic_control/comparator/is_a)
+     LUT5:I4->O            5   0.097   0.575  alu/arithmetic_unit/arithmetic_control/comparator/is_a2 (alu/arithmetic_unit/arithmetic_control/is_a)
+     LUT4:I0->O            4   0.097   0.697  alu/arithmetic_unit/arithmetic_control/Mmux_b_prime231 (alu/arithmetic_unit/arithmetic_control/Mmux_b_prime23)
+     LUT6:I1->O            3   0.097   0.521  alu/arithmetic_unit/arithmetic_control/Mmux_b_prime21 (alu/arithmetic_unit/b_prime<0>)
+     LUT3:I0->O            2   0.097   0.515  alu/arithmetic_unit/full_4bit_adder/adder_a/co1 (alu/arithmetic_unit/full_4bit_adder/c<0>)
+     LUT5:I2->O            3   0.097   0.389  alu/arithmetic_unit/full_4bit_adder/adder_c/co1 (alu/arithmetic_unit/full_4bit_adder/c<2>)
+     LUT3:I1->O            1   0.097   0.556  alu/arithmetic_unit/full_4bit_adder/adder_d/co1 (alu/arith_unit_coutput)
+     LUT6:I2->O            1   0.097   0.000  alu/Mmux_s53_F (N10)
+     MUXF7:I0->O           2   0.277   0.000  alu/Mmux_s53 (out_stage1_4_OBUF)
+     LD:D                     -0.028          acc/ff4_block/q
+    ----------------------------------------
+    Total                      5.568ns (1.151ns logic, 4.417ns route)
+                                       (20.7% logic, 79.3% route)
+
+=========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'gcm_b'
-  Total number of paths / destination ports: 8 / 8
+  Total number of paths / destination ports: 10 / 10
 -------------------------------------------------------------------------
 Offset:              0.280ns (Levels of Logic = 1)
   Source:            data_a<0> (PAD)
@@ -499,173 +529,158 @@ Offset:              0.280ns (Levels of Logic = 1)
                                        (0.4% logic, 99.6% route)
 
 =========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'gcm_c'
-  Total number of paths / destination ports: 239 / 4
+Timing constraint: Default OFFSET IN BEFORE for Clock 'alu/arithmetic_unit/arithmetic_control/ci_c[1]_MUX_29_o'
+  Total number of paths / destination ports: 15 / 1
 -------------------------------------------------------------------------
-Offset:              3.975ns (Levels of Logic = 8)
+Offset:              1.865ns (Levels of Logic = 5)
   Source:            ideco_bus<4> (PAD)
-  Destination:       acc/ff3_block/q (LATCH)
-  Destination Clock: gcm_c falling
+  Destination:       alu/arithmetic_unit/arithmetic_control/fix_aux (LATCH)
+  Destination Clock: alu/arithmetic_unit/arithmetic_control/ci_c[1]_MUX_29_o falling
 
-  Data Path: ideco_bus<4> to acc/ff3_block/q
+  Data Path: ideco_bus<4> to alu/arithmetic_unit/arithmetic_control/fix_aux
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             9   0.001   0.548  ideco_bus_4_IBUF (ideco_bus_4_IBUF)
+     IBUF:I->O            12   0.001   0.562  ideco_bus_4_IBUF (ideco_bus_4_IBUF)
      LUT3:I0->O            3   0.097   0.305  regmux/Mmux_dst11 (regmux_bus<0>)
      LUT6:I5->O            1   0.097   0.295  alu/arithmetic_unit/arithmetic_control/comparator/is_a1 (alu/arithmetic_unit/arithmetic_control/comparator/is_a)
-     LUT5:I4->O            9   0.097   0.548  alu/arithmetic_unit/arithmetic_control/comparator/is_a2 (alu/arithmetic_unit/arithmetic_control/is_a)
-     LUT4:I1->O            3   0.097   0.693  alu/arithmetic_unit/arithmetic_control/Mmux_a_prime211 (alu/arithmetic_unit/arithmetic_control/Mmux_a_prime21)
-     LUT6:I1->O            3   0.097   0.389  alu/arithmetic_unit/arithmetic_control/Mmux_a_prime24 (alu/arithmetic_unit/a_prime<1>)
-     LUT5:I3->O            2   0.097   0.515  alu/arithmetic_unit/full_4bit_adder/adder_c/co1 (alu/arithmetic_unit/full_4bit_adder/c<2>)
-     LUT6:I3->O            2   0.097   0.000  alu/Mmux_s4 (out_stage1_3_OBUF)
-     LD:D                     -0.028          acc/ff3_block/q
+     LUT5:I4->O            5   0.097   0.314  alu/arithmetic_unit/arithmetic_control/comparator/is_a2 (alu/arithmetic_unit/arithmetic_control/is_a)
+     LUT4:I3->O            1   0.097   0.000  alu/arithmetic_unit/arithmetic_control/Mmux_c[1]_c[1]_MUX_28_o11 (alu/arithmetic_unit/arithmetic_control/c[1]_c[1]_MUX_28_o)
+     LD:D                     -0.028          alu/arithmetic_unit/arithmetic_control/fix_aux
     ----------------------------------------
-    Total                      3.975ns (0.680ns logic, 3.295ns route)
-                                       (17.1% logic, 82.9% route)
-
-=========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'alu/arithmetic_unit/arithmetic_control/ci_c[1]_MUX_22_o'
-  Total number of paths / destination ports: 6 / 1
--------------------------------------------------------------------------
-Offset:              1.954ns (Levels of Logic = 5)
-  Source:            ideco_bus<4> (PAD)
-  Destination:       alu/arithmetic_unit/arithmetic_control/fix (LATCH)
-  Destination Clock: alu/arithmetic_unit/arithmetic_control/ci_c[1]_MUX_22_o falling
-
-  Data Path: ideco_bus<4> to alu/arithmetic_unit/arithmetic_control/fix
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     IBUF:I->O             9   0.001   0.548  ideco_bus_4_IBUF (ideco_bus_4_IBUF)
-     LUT3:I0->O            3   0.097   0.305  regmux/Mmux_dst11 (regmux_bus<0>)
-     LUT6:I5->O            1   0.097   0.295  alu/arithmetic_unit/arithmetic_control/comparator/is_a1 (alu/arithmetic_unit/arithmetic_control/comparator/is_a)
-     LUT5:I4->O            9   0.097   0.416  alu/arithmetic_unit/arithmetic_control/comparator/is_a2 (alu/arithmetic_unit/arithmetic_control/is_a)
-     LUT3:I1->O            1   0.097   0.000  alu/arithmetic_unit/arithmetic_control/Mmux_c[1]_c[1]_MUX_21_o11 (alu/arithmetic_unit/arithmetic_control/c[1]_c[1]_MUX_21_o)
-     LD:D                     -0.028          alu/arithmetic_unit/arithmetic_control/fix
-    ----------------------------------------
-    Total                      1.954ns (0.389ns logic, 1.565ns route)
-                                       (19.9% logic, 80.1% route)
+    Total                      1.865ns (0.389ns logic, 1.476ns route)
+                                       (20.9% logic, 79.1% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'gcm_b'
-  Total number of paths / destination ports: 344 / 5
+  Total number of paths / destination ports: 955 / 6
 -------------------------------------------------------------------------
-Offset:              4.565ns (Levels of Logic = 8)
+Offset:              6.144ns (Levels of Logic = 11)
   Source:            rd/reg01_block/ff0_block/q (LATCH)
-  Destination:       out_stage1<3> (PAD)
+  Destination:       out_stage1<4> (PAD)
   Source Clock:      gcm_b falling
 
-  Data Path: rd/reg01_block/ff0_block/q to out_stage1<3>
+  Data Path: rd/reg01_block/ff0_block/q to out_stage1<4>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LD:G->Q               2   0.472   0.383  rd/reg01_block/ff0_block/q (rd/reg01_block/ff0_block/q)
+     LD:G->Q               2   0.472   0.384  rd/reg01_block/ff0_block/q (rd/reg01_block/ff0_block/q)
      LUT3:I1->O            3   0.097   0.305  regmux/Mmux_dst11 (regmux_bus<0>)
      LUT6:I5->O            1   0.097   0.295  alu/arithmetic_unit/arithmetic_control/comparator/is_a1 (alu/arithmetic_unit/arithmetic_control/comparator/is_a)
-     LUT5:I4->O            9   0.097   0.548  alu/arithmetic_unit/arithmetic_control/comparator/is_a2 (alu/arithmetic_unit/arithmetic_control/is_a)
-     LUT4:I1->O            3   0.097   0.693  alu/arithmetic_unit/arithmetic_control/Mmux_a_prime211 (alu/arithmetic_unit/arithmetic_control/Mmux_a_prime21)
-     LUT6:I1->O            3   0.097   0.389  alu/arithmetic_unit/arithmetic_control/Mmux_a_prime24 (alu/arithmetic_unit/a_prime<1>)
-     LUT5:I3->O            2   0.097   0.515  alu/arithmetic_unit/full_4bit_adder/adder_c/co1 (alu/arithmetic_unit/full_4bit_adder/c<2>)
-     LUT6:I3->O            2   0.097   0.283  alu/Mmux_s4 (out_stage1_3_OBUF)
-     OBUF:I->O                 0.000          out_stage1_3_OBUF (out_stage1<3>)
+     LUT5:I4->O            5   0.097   0.575  alu/arithmetic_unit/arithmetic_control/comparator/is_a2 (alu/arithmetic_unit/arithmetic_control/is_a)
+     LUT4:I0->O            4   0.097   0.697  alu/arithmetic_unit/arithmetic_control/Mmux_b_prime231 (alu/arithmetic_unit/arithmetic_control/Mmux_b_prime23)
+     LUT6:I1->O            3   0.097   0.521  alu/arithmetic_unit/arithmetic_control/Mmux_b_prime21 (alu/arithmetic_unit/b_prime<0>)
+     LUT3:I0->O            2   0.097   0.515  alu/arithmetic_unit/full_4bit_adder/adder_a/co1 (alu/arithmetic_unit/full_4bit_adder/c<0>)
+     LUT5:I2->O            3   0.097   0.389  alu/arithmetic_unit/full_4bit_adder/adder_c/co1 (alu/arithmetic_unit/full_4bit_adder/c<2>)
+     LUT3:I1->O            1   0.097   0.556  alu/arithmetic_unit/full_4bit_adder/adder_d/co1 (alu/arith_unit_coutput)
+     LUT6:I2->O            1   0.097   0.000  alu/Mmux_s53_F (N10)
+     MUXF7:I0->O           2   0.277   0.283  alu/Mmux_s53 (out_stage1_4_OBUF)
+     OBUF:I->O                 0.000          out_stage1_4_OBUF (out_stage1<4>)
     ----------------------------------------
-    Total                      4.565ns (1.151ns logic, 3.413ns route)
-                                       (25.2% logic, 74.8% route)
+    Total                      6.144ns (1.622ns logic, 4.522ns route)
+                                       (26.4% logic, 73.6% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'gcm_d'
-  Total number of paths / destination ports: 172 / 5
+  Total number of paths / destination ports: 475 / 6
 -------------------------------------------------------------------------
-Offset:              4.481ns (Levels of Logic = 8)
+Offset:              6.060ns (Levels of Logic = 11)
   Source:            acm/ff0_block/q (LATCH)
-  Destination:       out_stage1<3> (PAD)
+  Destination:       out_stage1<4> (PAD)
   Source Clock:      gcm_d falling
 
-  Data Path: acm/ff0_block/q to out_stage1<3>
+  Data Path: acm/ff0_block/q to out_stage1<4>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      LD:G->Q               2   0.472   0.299  acm/ff0_block/q (acm/ff0_block/q)
      LUT3:I2->O            3   0.097   0.305  regmux/Mmux_dst11 (regmux_bus<0>)
      LUT6:I5->O            1   0.097   0.295  alu/arithmetic_unit/arithmetic_control/comparator/is_a1 (alu/arithmetic_unit/arithmetic_control/comparator/is_a)
-     LUT5:I4->O            9   0.097   0.548  alu/arithmetic_unit/arithmetic_control/comparator/is_a2 (alu/arithmetic_unit/arithmetic_control/is_a)
-     LUT4:I1->O            3   0.097   0.693  alu/arithmetic_unit/arithmetic_control/Mmux_a_prime211 (alu/arithmetic_unit/arithmetic_control/Mmux_a_prime21)
-     LUT6:I1->O            3   0.097   0.389  alu/arithmetic_unit/arithmetic_control/Mmux_a_prime24 (alu/arithmetic_unit/a_prime<1>)
-     LUT5:I3->O            2   0.097   0.515  alu/arithmetic_unit/full_4bit_adder/adder_c/co1 (alu/arithmetic_unit/full_4bit_adder/c<2>)
-     LUT6:I3->O            2   0.097   0.283  alu/Mmux_s4 (out_stage1_3_OBUF)
-     OBUF:I->O                 0.000          out_stage1_3_OBUF (out_stage1<3>)
+     LUT5:I4->O            5   0.097   0.575  alu/arithmetic_unit/arithmetic_control/comparator/is_a2 (alu/arithmetic_unit/arithmetic_control/is_a)
+     LUT4:I0->O            4   0.097   0.697  alu/arithmetic_unit/arithmetic_control/Mmux_b_prime231 (alu/arithmetic_unit/arithmetic_control/Mmux_b_prime23)
+     LUT6:I1->O            3   0.097   0.521  alu/arithmetic_unit/arithmetic_control/Mmux_b_prime21 (alu/arithmetic_unit/b_prime<0>)
+     LUT3:I0->O            2   0.097   0.515  alu/arithmetic_unit/full_4bit_adder/adder_a/co1 (alu/arithmetic_unit/full_4bit_adder/c<0>)
+     LUT5:I2->O            3   0.097   0.389  alu/arithmetic_unit/full_4bit_adder/adder_c/co1 (alu/arithmetic_unit/full_4bit_adder/c<2>)
+     LUT3:I1->O            1   0.097   0.556  alu/arithmetic_unit/full_4bit_adder/adder_d/co1 (alu/arith_unit_coutput)
+     LUT6:I2->O            1   0.097   0.000  alu/Mmux_s53_F (N10)
+     MUXF7:I0->O           2   0.277   0.283  alu/Mmux_s53 (out_stage1_4_OBUF)
+     OBUF:I->O                 0.000          out_stage1_4_OBUF (out_stage1<4>)
     ----------------------------------------
-    Total                      4.481ns (1.151ns logic, 3.329ns route)
-                                       (25.7% logic, 74.3% route)
+    Total                      6.060ns (1.622ns logic, 4.438ns route)
+                                       (26.8% logic, 73.2% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'alu/arithmetic_unit/arithmetic_control/ci_c[1]_MUX_22_o'
+Timing constraint: Default OFFSET OUT AFTER for Clock 'alu/arithmetic_unit/arithmetic_control/ci_c[1]_MUX_29_o'
   Total number of paths / destination ports: 1 / 1
 -------------------------------------------------------------------------
-Offset:              1.405ns (Levels of Logic = 2)
-  Source:            alu/arithmetic_unit/arithmetic_control/fix (LATCH)
-  Destination:       cout_stage1 (PAD)
-  Source Clock:      alu/arithmetic_unit/arithmetic_control/ci_c[1]_MUX_22_o falling
+Offset:              1.641ns (Levels of Logic = 3)
+  Source:            alu/arithmetic_unit/arithmetic_control/fix_aux (LATCH)
+  Destination:       out_stage1<4> (PAD)
+  Source Clock:      alu/arithmetic_unit/arithmetic_control/ci_c[1]_MUX_29_o falling
 
-  Data Path: alu/arithmetic_unit/arithmetic_control/fix to cout_stage1
+  Data Path: alu/arithmetic_unit/arithmetic_control/fix_aux to out_stage1<4>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LD:G->Q               1   0.472   0.556  alu/arithmetic_unit/arithmetic_control/fix (alu/arithmetic_unit/arithmetic_control/fix)
-     LUT5:I1->O            1   0.097   0.279  alu/Mmux_co11 (cout_stage1_OBUF)
-     OBUF:I->O                 0.000          cout_stage1_OBUF (cout_stage1)
+     LD:G->Q               1   0.472   0.511  alu/arithmetic_unit/arithmetic_control/fix_aux (alu/arithmetic_unit/arithmetic_control/fix_aux)
+     LUT6:I3->O            1   0.097   0.000  alu/Mmux_s53_F (N10)
+     MUXF7:I0->O           2   0.277   0.283  alu/Mmux_s53 (out_stage1_4_OBUF)
+     OBUF:I->O                 0.000          out_stage1_4_OBUF (out_stage1<4>)
     ----------------------------------------
-    Total                      1.405ns (0.569ns logic, 0.836ns route)
-                                       (40.5% logic, 59.5% route)
+    Total                      1.641ns (0.846ns logic, 0.795ns route)
+                                       (51.6% logic, 48.4% route)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 331 / 5
+  Total number of paths / destination ports: 1257 / 6
 -------------------------------------------------------------------------
-Delay:               4.258ns (Levels of Logic = 9)
+Delay:               5.851ns (Levels of Logic = 12)
   Source:            ideco_bus<4> (PAD)
-  Destination:       out_stage1<3> (PAD)
+  Destination:       out_stage1<4> (PAD)
 
-  Data Path: ideco_bus<4> to out_stage1<3>
+  Data Path: ideco_bus<4> to out_stage1<4>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             9   0.001   0.548  ideco_bus_4_IBUF (ideco_bus_4_IBUF)
+     IBUF:I->O            12   0.001   0.562  ideco_bus_4_IBUF (ideco_bus_4_IBUF)
      LUT3:I0->O            3   0.097   0.305  regmux/Mmux_dst11 (regmux_bus<0>)
      LUT6:I5->O            1   0.097   0.295  alu/arithmetic_unit/arithmetic_control/comparator/is_a1 (alu/arithmetic_unit/arithmetic_control/comparator/is_a)
-     LUT5:I4->O            9   0.097   0.548  alu/arithmetic_unit/arithmetic_control/comparator/is_a2 (alu/arithmetic_unit/arithmetic_control/is_a)
-     LUT4:I1->O            3   0.097   0.693  alu/arithmetic_unit/arithmetic_control/Mmux_a_prime211 (alu/arithmetic_unit/arithmetic_control/Mmux_a_prime21)
-     LUT6:I1->O            3   0.097   0.389  alu/arithmetic_unit/arithmetic_control/Mmux_a_prime24 (alu/arithmetic_unit/a_prime<1>)
-     LUT5:I3->O            2   0.097   0.515  alu/arithmetic_unit/full_4bit_adder/adder_c/co1 (alu/arithmetic_unit/full_4bit_adder/c<2>)
-     LUT6:I3->O            2   0.097   0.283  alu/Mmux_s4 (out_stage1_3_OBUF)
-     OBUF:I->O                 0.000          out_stage1_3_OBUF (out_stage1<3>)
+     LUT5:I4->O            5   0.097   0.575  alu/arithmetic_unit/arithmetic_control/comparator/is_a2 (alu/arithmetic_unit/arithmetic_control/is_a)
+     LUT4:I0->O            4   0.097   0.697  alu/arithmetic_unit/arithmetic_control/Mmux_b_prime231 (alu/arithmetic_unit/arithmetic_control/Mmux_b_prime23)
+     LUT6:I1->O            3   0.097   0.521  alu/arithmetic_unit/arithmetic_control/Mmux_b_prime21 (alu/arithmetic_unit/b_prime<0>)
+     LUT3:I0->O            2   0.097   0.515  alu/arithmetic_unit/full_4bit_adder/adder_a/co1 (alu/arithmetic_unit/full_4bit_adder/c<0>)
+     LUT5:I2->O            3   0.097   0.389  alu/arithmetic_unit/full_4bit_adder/adder_c/co1 (alu/arithmetic_unit/full_4bit_adder/c<2>)
+     LUT3:I1->O            1   0.097   0.556  alu/arithmetic_unit/full_4bit_adder/adder_d/co1 (alu/arith_unit_coutput)
+     LUT6:I2->O            1   0.097   0.000  alu/Mmux_s53_F (N10)
+     MUXF7:I0->O           2   0.277   0.283  alu/Mmux_s53 (out_stage1_4_OBUF)
+     OBUF:I->O                 0.000          out_stage1_4_OBUF (out_stage1<4>)
     ----------------------------------------
-    Total                      4.258ns (0.680ns logic, 3.578ns route)
-                                       (16.0% logic, 84.0% route)
+    Total                      5.851ns (1.151ns logic, 4.700ns route)
+                                       (19.7% logic, 80.3% route)
 
 =========================================================================
 
 Cross Clock Domains Report:
 --------------------------
 
-Clock to Setup on destination clock alu/arithmetic_unit/arithmetic_control/ci_c[1]_MUX_22_o
+Clock to Setup on destination clock alu/arithmetic_unit/arithmetic_control/ci_c[1]_MUX_29_o
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-gcm_b          |         |         |    2.260|         |
-gcm_d          |         |         |    2.176|         |
+gcm_b          |         |         |    2.158|         |
+gcm_d          |         |         |    2.074|         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock gcm_c
----------------+---------+---------+---------+---------+
-               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
-Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
----------------+---------+---------+---------+---------+
-gcm_b          |         |         |    4.281|         |
-gcm_d          |         |         |    4.197|         |
----------------+---------+---------+---------+---------+
+-------------------------------------------------------+---------+---------+---------+---------+
+                                                       | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                                           |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------------------------------------------+---------+---------+---------+---------+
+alu/arithmetic_unit/arithmetic_control/ci_c[1]_MUX_29_o|         |         |    1.357|         |
+gcm_b                                                  |         |         |    5.860|         |
+gcm_d                                                  |         |         |    5.776|         |
+-------------------------------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock gcm_d
 ---------------+---------+---------+---------+---------+
@@ -678,24 +693,15 @@ gcm_c          |         |         |    0.751|         |
 =========================================================================
 
 
-<<<<<<< HEAD
-Total REAL time to Xst completion: 8.00 secs
-Total CPU time to Xst completion: 7.54 secs
-=======
-Total REAL time to Xst completion: 38.00 secs
-Total CPU time to Xst completion: 31.61 secs
->>>>>>> 044831b47d41ca9eaae5a3a6e49e2b15b4d6d22c
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.26 secs
  
 --> 
 
 
-<<<<<<< HEAD
-Total memory usage is 506220 kilobytes
-=======
-Total memory usage is 594784 kilobytes
->>>>>>> 044831b47d41ca9eaae5a3a6e49e2b15b4d6d22c
+Total memory usage is 506276 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    7 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
 Number of infos    :    3 (   0 filtered)
 

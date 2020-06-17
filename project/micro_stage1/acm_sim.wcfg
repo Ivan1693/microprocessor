@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/acm_sim_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="acm_sim" />
+            <top_module name="alu_devs" />
+            <top_module name="basic_devs" />
+            <top_module name="memory_devs" />
+            <top_module name="micro_devs" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="divider29" type="divider">
+      <obj_property name="label">GCM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#383838</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/acm_sim/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/acm_sim/gcm_a" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gcm_a</obj_property>
+      <obj_property name="ObjectShortName">gcm_a</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/acm_sim/gcm_b" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gcm_b</obj_property>
+      <obj_property name="ObjectShortName">gcm_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/acm_sim/gcm_c" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gcm_c</obj_property>
+      <obj_property name="ObjectShortName">gcm_c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/acm_sim/gcm_d" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gcm_d</obj_property>
+      <obj_property name="ObjectShortName">gcm_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider24" type="divider">
+      <obj_property name="label">Instrucción</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#383838</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/acm_sim/ideco_bus" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ideco_bus[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ideco_bus[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider23" type="divider">
+      <obj_property name="label">Entrada A</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#383838</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/acm_sim/data_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_a[4:0]</obj_property>
+      <obj_property name="ObjectShortName">data_a[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider25" type="divider">
+      <obj_property name="label">Acumulador</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#383838</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/acm_sim/micro_stage1_block/acm/out_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">out_reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider30" type="divider">
+      <obj_property name="label">Salida</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#383838</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/acm_sim/out_stage1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_stage1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">out_stage1[4:0]</obj_property>
+   </wvobject>
+</wave_config>
