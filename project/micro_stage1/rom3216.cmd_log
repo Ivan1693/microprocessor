@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/rom3216.xst" -ofn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/rom3216.syr" 
+xst -intstyle ise -ifn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/rom3216.xst" -ofn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/rom3216.syr" 
+xst -intstyle ise -ifn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/rom3216.xst" -ofn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/rom3216.syr" 
+xst -intstyle ise -ifn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/rom3216.xst" -ofn "/media/sf_XilinxShared/microprocessor/project/micro_stage1/rom3216.syr" 

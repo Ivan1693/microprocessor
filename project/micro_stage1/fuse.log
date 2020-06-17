@@ -1,37 +1,20 @@
-Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "secureip" -o "/media/sf_XilinxShared/microprocessor/project/micro_stage1/arith_u_isim_beh.exe" -prj "/media/sf_XilinxShared/microprocessor/project/micro_stage1/arith_u_beh.prj" "work.arith_u" 
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /media/sf_XilinxShared/microprocessor/project/micro_stage1/rom3216_isim_beh.exe -prj /media/sf_XilinxShared/microprocessor/project/micro_stage1/rom3216_beh.prj work.rom3216 
 ISim P.20131013 (signature 0xfbc00daa)
 Number of CPUs detected in this system: 1
 Turning on mult-threading, number of parallel sub-compilation jobs: 0 
 Determining compilation order of HDL files
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/project/micro_stage1/../../source/basic_devs.vhd" into library work
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/project/micro_stage1/../../source/basic/comp2bit.vhd" into library work
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/project/micro_stage1/../../source/basic/full_adder.vhd" into library work
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/project/micro_stage1/../../source/basic/comp4bit.vhd" into library work
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/project/micro_stage1/../../source/basic/adder4bit.vhd" into library work
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/project/micro_stage1/../../source/alu_devs.vhd" into library work
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/project/micro_stage1/../../source/alu/sign_control.vhd" into library work
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/project/micro_stage1/../../source/alu/operation_control.vhd" into library work
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/project/micro_stage1/../../source/alu/ctrl_arith_u.vhd" into library work
-Parsing VHDL file "/media/sf_XilinxShared/microprocessor/project/micro_stage1/../../source/alu/arith_u.vhd" into library work
+Parsing VHDL file "/media/sf_XilinxShared/microprocessor/project/micro_stage1/../../source/memory/rom3216.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 95676 KB
-Fuse CPU Usage: 2700 ms
+Fuse Memory Usage: 96832 KB
+Fuse CPU Usage: 2260 ms
 Compiling package standard
 Compiling package std_logic_1164
-Compiling package alu_devs
-Compiling package basic_devs
-Compiling architecture behavioral of entity operation_control [operation_control_default]
-Compiling architecture behavioral of entity comp2bit [comp2bit_default]
-Compiling architecture behavioral of entity comp4bit [comp4bit_default]
-Compiling architecture behavioral of entity ctrl_arith_u [ctrl_arith_u_default]
-Compiling architecture behavioral of entity full_adder [full_adder_default]
-Compiling architecture behavioral of entity adder4bit [adder4bit_default]
-Compiling architecture behavioral of entity sign_control [sign_control_default]
-Compiling architecture behavioral of entity arith_u
+Compiling package numeric_std
+Compiling architecture behavioral of entity rom3216
 Time Resolution for simulation is 1ps.
-Compiled 19 VHDL Units
-Built simulation executable /media/sf_XilinxShared/microprocessor/project/micro_stage1/arith_u_isim_beh.exe
-Fuse Memory Usage: 108444 KB
-Fuse CPU Usage: 2900 ms
-GCC CPU Usage: 450 ms
+Compiled 4 VHDL Units
+Built simulation executable /media/sf_XilinxShared/microprocessor/project/micro_stage1/rom3216_isim_beh.exe
+Fuse Memory Usage: 112260 KB
+Fuse CPU Usage: 2590 ms
+GCC CPU Usage: 3510 ms

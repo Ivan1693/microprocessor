@@ -3,19 +3,11 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<<<<<<< HEAD
-<application name="pn" timeStamp="Tue Jun  9 16:08:39 2020">
+<application name="pn" timeStamp="Wed Jun 17 02:36:20 2020">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="2C495F1E591DEEA733A7E7DE8E65D588" type="project"/>
-<property name="ProjectIteration" value="3" type="project"/>
-<property name="ProjectFile" value="/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/micro_stage1.xise" type="project"/>
-=======
-<application name="pn" timeStamp="Thu Jun 11 17:31:36 2020">
-<section name="Project Information" visible="false">
-<property name="ProjectID" value="2C495F1E591DEEA733A7E7DE8E65D588" type="project"/>
-<property name="ProjectIteration" value="1" type="project"/>
+<property name="ProjectIteration" value="0" type="project"/>
 <property name="ProjectFile" value="/media/sf_XilinxShared/microprocessor/project/micro_stage1/micro_stage1.xise" type="project"/>
->>>>>>> 044831b47d41ca9eaae5a3a6e49e2b15b4d6d22c
 <property name="ProjectCreationTimestamp" value="2020-04-16T13:45:50" type="project"/>
 </section>
 <section name="Project Statistics" visible="true">
@@ -28,7 +20,7 @@ This means code written to parse this file will need to be revisited each subseq
 
 Revisar documentación: Microprocesador - Stage 1" type="process"/>
 <property name="PROP_PropSpecInProjFile" value="Store all values" type="design"/>
-<property name="PROP_SelectedInstanceHierarchicalPath" value="/alu_sim" type="process"/>
+<property name="PROP_SelectedInstanceHierarchicalPath" value="/acm_sim" type="process"/>
 <property name="PROP_Simulator" value="ISim (VHDL/Verilog)" type="design"/>
 <property name="PROP_SynthTopFile" value="changed" type="process"/>
 <property name="PROP_Top_Level_Module_Type" value="HDL" type="design"/>
@@ -36,10 +28,9 @@ Revisar documentación: Microprocesador - Stage 1" type="process"/>
 <property name="PROP_UserConstraintEditorPreference" value="Text Editor" type="process"/>
 <property name="PROP_intProjectCreationTimestamp" value="2020-04-16T13:45:50" type="design"/>
 <property name="PROP_intWbtProjectID" value="2C495F1E591DEEA733A7E7DE8E65D588" type="design"/>
-<property name="PROP_intWbtProjectIteration" value="3" type="process"/>
 <property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
 <property name="PROP_intWorkingDirUsed" value="No" type="design"/>
-<property name="PROP_selectedSimRootSourceNode_behav" value="work.alu_sim" type="process"/>
+<property name="PROP_selectedSimRootSourceNode_behav" value="work.acm_sim" type="process"/>
 <property name="PROP_AutoTop" value="false" type="design"/>
 <property name="PROP_DevFamily" value="Artix7" type="design"/>
 <property name="PROP_DevDevice" value="xc7a100t" type="design"/>
@@ -48,12 +39,7 @@ Revisar documentación: Microprocesador - Stage 1" type="process"/>
 <property name="PROP_Synthesis_Tool" value="XST (VHDL/Verilog)" type="design"/>
 <property name="PROP_DevSpeed" value="-3" type="design"/>
 <property name="PROP_PreferredLanguage" value="VHDL" type="design"/>
-<<<<<<< HEAD
-<property name="FILE_UCF" value="1" type="source"/>
-<property name="FILE_VHDL" value="24" type="source"/>
-=======
-<property name="FILE_VHDL" value="26" type="source"/>
->>>>>>> 044831b47d41ca9eaae5a3a6e49e2b15b4d6d22c
+<property name="FILE_VHDL" value="27" type="source"/>
 </section>
 </application>
 </document>
