@@ -1,17 +1,19 @@
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
+library ieee;
+use ieee.std_logic_1164.all;
 
 entity operation_control is
-    Port ( SA : in  STD_LOGIC;
-           SB : in  STD_LOGIC;
-           c : in  STD_LOGIC_VECTOR (1 downto 0);
-			  ci : in STD_LOGIC;
-           c_prime : out  STD_LOGIC_VECTOR (1 downto 0);
-			  ci_prime : out STD_LOGIC;
-           SAB : out  STD_LOGIC);
+    port(
+	 SA : in  STD_LOGIC;
+	 SB : in  STD_LOGIC;
+	 c : in  STD_LOGIC_VECTOR (1 downto 0);
+	 ci : in STD_LOGIC;
+	 c_prime : out  STD_LOGIC_VECTOR (1 downto 0);
+ 	 ci_prime : out STD_LOGIC;
+	 SAB : out  STD_LOGIC
+	 );
 end operation_control;
 
-architecture Behavioral of operation_control is
+architecture behavioral of operation_control is
 
 begin
 	process(c,SA,SB,ci)
@@ -37,5 +39,5 @@ begin
 									SAB <= '0';
 			end case;
 	end process;
-end Behavioral;
+end behavioral;
 

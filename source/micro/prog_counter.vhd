@@ -16,10 +16,8 @@ architecture behavioral of prog_counter is
 signal q_tmp: std_logic_vector(4 downto 0):="00000";
 
 begin
-
     process(clk)
     begin
-        
         if clk='1' then
             if(q_tmp = "11111") then
                 q_tmp <= "00000";
@@ -45,7 +43,5 @@ begin
                 q_tmp<=in_reg_pc;
             end if;
         end if;
-
     end process;
-
 end architecture;

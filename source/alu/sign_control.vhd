@@ -2,14 +2,15 @@ library ieee;
 use ieee.std_logic_1164.all;
 
 entity sign_control is
-    Port ( c_prime : in  STD_LOGIC_VECTOR (1 downto 0);
-		ci_prime : in  STD_LOGIC;
-           SAB : in  STD_LOGIC;
-           SF : out  STD_LOGIC;
-           co : in  STD_LOGIC);
+    port(
+     c_prime : in  STD_LOGIC_VECTOR (1 downto 0);
+	 ci_prime : in  STD_LOGIC;
+	 SAB : in  STD_LOGIC;
+	 SF : out  STD_LOGIC;
+	 co : in  STD_LOGIC
+	);
 end sign_control;
-
-architecture Behavioral of sign_control is
+architecture behavioral of sign_control is
 begin
 	process(c_prime,SAB,ci_prime,co)
 		begin
@@ -19,5 +20,5 @@ begin
 				SF <= SAB;
 			end if;
 	end process;
-end Behavioral;
+end behavioral;
 

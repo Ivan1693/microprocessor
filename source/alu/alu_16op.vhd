@@ -1,4 +1,3 @@
--- Checar decrementos
 library ieee;
 use ieee.std_logic_1164.all;
 use work.alu_devs.all;
@@ -10,14 +9,10 @@ entity alu_16op is
 	 ci : in std_logic;
 	 a : in std_logic_vector(4 downto 0);
 	 b : in std_logic_vector(4 downto 0);
-	 --sa : in std_logic;
-	 --sb : in std_logic;
 	 co : out std_logic;
-	 --sf : out std_logic;
 	 s : out std_logic_vector(4 downto 0)
 	 );
 end entity;
-
 architecture behavioral of alu_16op is
 
 	signal a_mag: std_logic_vector(3 downto 0);

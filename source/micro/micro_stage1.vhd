@@ -6,16 +6,12 @@ use work.memory_devs.all;
 
 entity micro_stage1 is
   port(
-   -- Bus temporal <- Aquí llega la instrucción desde el Decodificador de instrucción
    inst_in: in std_logic_vector(4 downto 0);
-   -- Señal del Genrador de ciclo de máquina GCM
    gcm_b: in std_logic;	-- Señal del RD
    gcm_c: in std_logic;	-- Señal del ACC
    gcm_d: in std_logic;	-- Señal del ACM
-   -- Posteriorment se leera de la ROM
    data_a: in std_logic_vector(4 downto 0);
    data_b: in std_logic_vector(4 downto 0);
-   -- Salida para testbench
    cout_stage1: out std_logic;
    out_stage1: out std_logic_vector(4 downto 0)
   );
@@ -47,19 +43,9 @@ begin
 		op_sel <= 	inst_in(2) & inst_in(1);
 		carry_in <= inst_in(0);
 
-
-	--Se selecciona las salidas del banco RD
 		bank_enable <= gcm_b & gcm_b;
-	--Se elige el segundo registro de entrada a la ALU (B o ACM)
 		regmux_sel <= inst_in(4);
-	-- Salida de ALU se cocatena para entrar a ACC
-		--acc_inbus <= carry_out & alu_bus;
-	-- Se toma sólo la magnitud del registro en ACM
-		--acm_mag <= acm_bus(3) & acm_bus(2) & acm_bus(1) & acm_bus(0);
-	-- Señal del acarreo de la entrada en ACM (No se usa por el momento)
-		--acm_carry <= acm_bus(4);
-	
-	-- Salida de micro_stage1 para decodificador de 7 segmentos
+
 		cout_stage1 <= carry_out;
 		out_stage1 <= alu_bus;
 

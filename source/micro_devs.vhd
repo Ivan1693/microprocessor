@@ -1,6 +1,13 @@
 library ieee;
 use ieee.std_logic_1164.all;
 package micro_devs is
+	component lagartijax4 is
+		port(
+		 clk_in: in std_logic;
+		 lagartijax4_out: out std_logic_vector(4 downto 0);
+		 adder_co: out std_logic
+		);
+	end component;
 	component micro_stage1 is
 	  port(
 	   -- Bus temporal <- Aquí llega la instrucción desde el Decodificador de instrucción

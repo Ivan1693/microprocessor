@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>Decodificador - LagartijaX4</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Overpass&family=Overpass+Mono:wght@300&display=swap');
+</style>
+<script type="text/javascript" src="master.js"></script>
+<style type="text/css">
+
+	body {
+		background:url('doc/images/icon.png') no-repeat 98% 98% #111 fixed;
+
+		color:#FFF;
+		background-size: 10%;
+		height: 90vh;
+		padding: 2%;
+		margin: 0;
+		font-family: 'Overpass', sans-serif;
+	}
+	label,input {
+		padding: 5px;
+		font-family: 'Overpass Mono', monospace;
+		font-size: 16px;
+	}
+	label {
+		background-color: #555;
+		margin-right:  5px;
+	}
+	input {
+		background-color: rgba(255,255,255,0.1);
+		border:1px solid #777;
+		color: #FFF;
+		margin-bottom: 3px;
+	}
+	#input_box {
+		width:270px;
+		max-height: 550px;
+		overflow-x: hidden;
+		overflow-y: auto;
+		padding: 20px;
+		background-color: #222;
+		position: fixed;
+		left: 20px;
+		top: 2;
+		margin-top: 40px;
+	}
+
+	#button_box {
+		text-align: center;
+		width: 290px;
+		height: 20px;
+		position: fixed;
+		left: 20px;
+		z-index: 3;
+		background-color: #222;
+		padding: 10px;
+		margin-top: -2px;
+	}
+	h3 {
+		margin:0;
+	}
+	table {
+		font-family: Overpass Mono;
+	}
+	table.decode_table {
+		width: auto;
+		position: absolute;
+		left: 350px;
+		
+	}
+	table td {
+		padding: 10px;
+		background-color: #222;
+	}
+	table tr:hover td {
+		background-color: #333;
+	}
+
+	table .tbl_head td {
+		background-color: #444;
+	}
+	#export_box textarea{
+		width: 500px;
+		height: 500px;
+	}
+	#export_box{
+		background-color: #222;
+		padding: 20px;
+		position: fixed;
+		left: 50%;
+		margin-left: -250px;
+		top: 200px;
+		border:1px solid #444;
+		box-shadow: 0 0 10px #000;
+		z-index: 1;
+	}
+	#export_box button {
+		display: block;
+		width: 100%;
+	}
+	#instr_table {
+		text-align: center;
+		position: absolute;
+		right: 2%;
+		z-index: 4;
+		background-color: rgba(0,0,0,0.5);
+		padding: 10px;
+		border: 1px solid #333;
+		box-shadow: 0 0 10px #000;		
+	}
+	#instr_table table {
+		display: none;
+
+
+	}
+	#instr_table button {
+		width: 100%;
+	}
+</style>
+</head>
+
+<body>
+	<img width="100%" style="margin-bottom: 10px;filter: invert();" src="doc/images/logo.png">
+	<div id="button_box">
+		<button onclick="add()">Add</button>
+		<button onclick="del()">Delete</button>
+		<button onclick="load()">Load</button>
+		<button onclick="decode()">Decode</button>
+		<button onclick="download()">Export</button>
+	</div>
+	<div id="input_box">
+		<h3>Instrucciones</h3>
+		<label>0x0</label><input size="16" maxlength="16" type="text" name="bits">
+	</div>
+	<div id="instr_table">
+		<button onclick="showInstr()">Show</button>
+	<table>
+	   <thead>
+	      <tr class="tbl_head">
+	         <td style="text-align:center;"><span>unit_sel</span></th>
+	         <td style="text-align:center;"><span>op_sel &amp; ci</span></th>
+	         <td><span>hex</span></th>
+	         <td style="text-align:center;"><span>operación</span></th>
+	      </tr>
+	   </thead>
+	   <tbody>
+	      <tr>
+	         <td style="text-align:center;"><span>0</span></td>
+	         <td style="text-align:center;"><span>000</span></td>
+	         <td><span>0</span></td>
+	         <td style="text-align:center;"><span>suma</span></td>
+	      </tr>
+	      <tr>
+	         <td style="text-align:center;"><span>0</span></td>
+	         <td style="text-align:center;"><span>001</span></td>
+	         <td><span>1</span></td>
+	         <td style="text-align:center;"><span>resta</span></td>
+	      </tr>
+	      <tr>
+	         <td style="text-align:center;"><span>0</span></td>
+	         <td style="text-align:center;"><span>010</span></td>
+	         <td><span>2</span></td>
+	         <td style="text-align:center;"><span>transferencia A</span></td>
+	      </tr>
+	      <tr>
+	         <td style="text-align:center;"><span>0</span></td>
+	         <td style="text-align:center;"><span>011</span></td>
+	         <td><span>3</span></td>
+	         <td style="text-align:center;"><span>incremento A</span></td>
+	      </tr>
+	      <tr>
+	         <td style="text-align:center;"><span>0</span></td>
+	         <td style="text-align:center;"><span>100</span></td>
+	         <td><span>4</span></td>
+	         <td style="text-align:center;"><span>transferencia B</span></td>
+	      </tr>
+	      <tr>
+	         <td style="text-align:center;"><span>0</span></td>
+	         <td style="text-align:center;"><span>101</span></td>
+	         <td><span>5</span></td>
+	         <td style="text-align:center;"><span>incremento B</span></td>
+	      </tr>
+	      <tr>
+	         <td style="text-align:center;"><span>0</span></td>
+	         <td style="text-align:center;"><span>110</span></td>
+	         <td><span>6</span></td>
+	         <td style="text-align:center;"><span>decremento A</span></td>
+	      </tr>
+	      <tr>
+	         <td style="text-align:center;"><span>0</span></td>
+	         <td style="text-align:center;"><span>111</span></td>
+	         <td><span>7</span></td>
+	         <td style="text-align:center;"><span>decremento B</span></td>
+	      </tr>
+	      <tr>
+	         <td style="text-align:center;"><span>1</span></td>
+	         <td style="text-align:center;"><span>000</span></td>
+	         <td><span>8</span></td>
+	         <td style="text-align:center;"><span>AND</span></td>
+	      </tr>
+	      <tr>
+	         <td style="text-align:center;"><span>1</span></td>
+	         <td style="text-align:center;"><span>001</span></td>
+	         <td><span>9</span></td>
+	         <td style="text-align:center;"><span>NAND</span></td>
+	      </tr>
+	      <tr>
+	         <td style="text-align:center;"><span>1</span></td>
+	         <td style="text-align:center;"><span>010</span></td>
+	         <td><span>A</span></td>
+	         <td style="text-align:center;"><span>OR</span></td>
+	      </tr>
+	      <tr>
+	         <td style="text-align:center;"><span>1</span></td>
+	         <td style="text-align:center;"><span>011</span></td>
+	         <td><span>B</span></td>
+	         <td style="text-align:center;"><span>NOR</span></td>
+	      </tr>
+	      <tr>
+	         <td style="text-align:center;"><span>1</span></td>
+	         <td style="text-align:center;"><span>100</span></td>
+	         <td><span>C</span></td>
+	         <td style="text-align:center;"><span>XOR</span></td>
+	      </tr>
+	      <tr>
+	         <td style="text-align:center;"><span>1</span></td>
+	         <td style="text-align:center;"><span>101</span></td>
+	         <td><span>D</span></td>
+	         <td style="text-align:center;"><span>XNOR</span></td>
+	      </tr>
+	      <tr>
+	         <td style="text-align:center;"><span>1</span></td>
+	         <td style="text-align:center;"><span>110</span></td>
+	         <td><span>E</span></td>
+	         <td style="text-align:center;"><span>BUFFER A</span></td>
+	      </tr>
+	      <tr>
+	         <td style="text-align:center;"><span>1</span></td>
+	         <td style="text-align:center;"><span>111</span></td>
+	         <td><span>F</span></td>
+	         <td style="text-align:center;"><span>NOT A</span></td>
+	      </tr>
+	   </tbody>
+	</table>
+		
+	</div>
+</body>
+</html>
