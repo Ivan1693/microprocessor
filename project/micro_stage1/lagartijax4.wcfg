@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/lagartijax4_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="alu_devs" />
+            <top_module name="basic_devs" />
+            <top_module name="lagartijax4" />
+            <top_module name="memory_devs" />
+            <top_module name="micro_devs" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="/lagartijax4/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus11" type="vbus" db_ref_id="1">
+      <obj_property name="label">GCM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/lagartijax4/gcm_a" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">gcm_a</obj_property>
+         <obj_property name="ObjectShortName">gcm_a</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lagartijax4/gcm_b" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">gcm_b</obj_property>
+         <obj_property name="ObjectShortName">gcm_b</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lagartijax4/gcm_c" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">gcm_c</obj_property>
+         <obj_property name="ObjectShortName">gcm_c</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lagartijax4/gcm_d" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">gcm_d</obj_property>
+         <obj_property name="ObjectShortName">gcm_d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lagartijax4/gcm_e" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">gcm_e</obj_property>
+         <obj_property name="ObjectShortName">gcm_e</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4/lagartijax4_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lagartijax4_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">lagartijax4_out[4:0]</obj_property>
+   </wvobject>
+</wave_config>

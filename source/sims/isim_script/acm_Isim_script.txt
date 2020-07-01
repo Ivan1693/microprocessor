@@ -1,32 +1,284 @@
 restart
-run all
+isim force add {/micro_stage1/inst_in} 00010 -radix bin 
+isim force add {/micro_stage1/data_a} 00011 -radix bin 
+isim force add {/micro_stage1/data_b} 00000 -radix bin 
 isim force add {/micro_stage1/gcm_b} 1 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
 isim force add {/micro_stage1/gcm_c} 1 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
 isim force add {/micro_stage1/gcm_d} 1 -radix bin 
-# 
-isim force add {/micro_stage1/ideco_bus} 00001 -radix bin  
-isim force add {/micro_stage1/regmux_sel} 1 -radix bin 
-isim force add {/micro_stage1/bank_enable} 11 -radix bin 
-isim force add {/micro_stage1/data_a} 0011 -radix bin 
-isim force add {/micro_stage1/data_b} 0010 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+
+isim force add {/micro_stage1/inst_in} 10000 -radix bin 
+isim force add {/micro_stage1/data_a} 00011 -radix bin 
+isim force add {/micro_stage1/data_b} 00000 -radix bin 
+isim force add {/micro_stage1/gcm_b} 1 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 1 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 1 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+
+isim force add {/micro_stage1/inst_in} 10000 -radix bin 
+isim force add {/micro_stage1/data_a} 00011 -radix bin 
+isim force add {/micro_stage1/data_b} 00000 -radix bin 
+isim force add {/micro_stage1/gcm_b} 1 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 1 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 1 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+
+isim force add {/micro_stage1/inst_in} 10000 -radix bin 
+isim force add {/micro_stage1/data_a} 00011 -radix bin 
+isim force add {/micro_stage1/data_b} 00000 -radix bin 
+isim force add {/micro_stage1/gcm_b} 1 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 1 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 1 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+
+isim force add {/micro_stage1/inst_in} 10000 -radix bin 
+isim force add {/micro_stage1/data_a} 00011 -radix bin 
+isim force add {/micro_stage1/data_b} 00000 -radix bin 
+isim force add {/micro_stage1/gcm_b} 1 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 1 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 1 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+
+isim force add {/micro_stage1/inst_in} 11100 -radix bin 
+isim force add {/micro_stage1/data_a} 01001 -radix bin 
+isim force add {/micro_stage1/data_b} 00000 -radix bin 
+isim force add {/micro_stage1/gcm_b} 1 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 1 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 1 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+
+isim force add {/micro_stage1/inst_in} 10001 -radix bin 
+isim force add {/micro_stage1/data_a} 00110 -radix bin 
+isim force add {/micro_stage1/data_b} 00000 -radix bin 
+isim force add {/micro_stage1/gcm_b} 1 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 1 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 1 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
 run 400ps
 
-# Se elige ACM como segundo operando [3+0=3]
-isim force add {/micro_stage1/regmux_sel} 0 -radix bin
-run 400ps
+# RESTA
 
-# A+ACM=3+3=6
-isim force add {/micro_stage1/ideco_bus} 00000 -radix bin  
-run 400ps
 
-# A+ACM=3+6=9
-isim force add {/micro_stage1/ideco_bus} 00000 -radix bin  
-run 400ps
+restart
+isim force add {/micro_stage1/inst_in} 11111 -radix bin 
+isim force add {/micro_stage1/data_a} 01000 -radix bin 
+isim force add {/micro_stage1/data_b} 00000 -radix bin 
+isim force add {/micro_stage1/gcm_b} 1 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 1 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 1 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
 
-# A+ACM=3+9=12
-isim force add {/micro_stage1/ideco_bus} 00000 -radix bin  
-run 400ps
+isim force add {/micro_stage1/inst_in} 10000 -radix bin 
+isim force add {/micro_stage1/data_a} 01101 -radix bin 
+isim force add {/micro_stage1/data_b} 00000 -radix bin 
+isim force add {/micro_stage1/gcm_b} 1 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 1 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 1 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
 
-# A+ACM=3+12=15
-isim force add {/micro_stage1/ideco_bus} 00000 -radix bin  
-run 400ps
+isim force add {/micro_stage1/inst_in} 10000 -radix bin 
+isim force add {/micro_stage1/data_a} 00001 -radix bin 
+isim force add {/micro_stage1/data_b} 00000 -radix bin 
+isim force add {/micro_stage1/gcm_b} 1 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 1 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 1 -radix bin 
+run 200ps
+isim force add {/micro_stage1/gcm_b} 0 -radix bin 
+isim force add {/micro_stage1/gcm_c} 0 -radix bin 
+isim force add {/micro_stage1/gcm_d} 0 -radix bin 
+run 200ps

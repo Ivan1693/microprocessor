@@ -39,8 +39,8 @@ begin
             if in_enable='0' then
                 out_reg_pc<=q_tmp;
             else
-                out_reg_pc<=in_reg_pc;
-                q_tmp<=in_reg_pc;
+                    out_reg_pc<=in_reg_pc;
+                    q_tmp<=in_reg_pc;
             end if;
         end if;
     end process;

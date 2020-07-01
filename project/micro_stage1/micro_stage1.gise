@@ -59,47 +59,13 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1592410568" xil_pn:in_ck="2858133154428320951" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1592410568">
+    <transform xil_pn:end_ts="1593037297" xil_pn:in_ck="3181749932928077490" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1593037297">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="../../source/alu/alu_16op.vhd"/>
-      <outfile xil_pn:name="../../source/alu/arith_u.vhd"/>
-      <outfile xil_pn:name="../../source/alu/ctrl_arith_u.vhd"/>
-      <outfile xil_pn:name="../../source/alu/logic_u.vhd"/>
-      <outfile xil_pn:name="../../source/alu/operation_control.vhd"/>
-      <outfile xil_pn:name="../../source/alu/sign_control.vhd"/>
-      <outfile xil_pn:name="../../source/alu_devs.vhd"/>
-      <outfile xil_pn:name="../../source/basic/adder4bit.vhd"/>
-      <outfile xil_pn:name="../../source/basic/comp2bit.vhd"/>
-      <outfile xil_pn:name="../../source/basic/comp4bit.vhd"/>
-      <outfile xil_pn:name="../../source/basic/conta203.vhd"/>
-      <outfile xil_pn:name="../../source/basic/conta304.vhd"/>
-      <outfile xil_pn:name="../../source/basic/conta305.vhd"/>
-      <outfile xil_pn:name="../../source/basic/conta40F.vhd"/>
-      <outfile xil_pn:name="../../source/basic/deco47seg.vhd"/>
-      <outfile xil_pn:name="../../source/basic/dmux412.vhd"/>
-      <outfile xil_pn:name="../../source/basic/dmux513.vhd"/>
-      <outfile xil_pn:name="../../source/basic/dmux673.vhd"/>
-      <outfile xil_pn:name="../../source/basic/full_adder.vhd"/>
-      <outfile xil_pn:name="../../source/basic/logic_op_1bit.vhd"/>
-      <outfile xil_pn:name="../../source/basic/mux241.vhd"/>
-      <outfile xil_pn:name="../../source/basic/mux251.vhd"/>
-      <outfile xil_pn:name="../../source/basic/mux643.vhd"/>
-      <outfile xil_pn:name="../../source/basic_devs.vhd"/>
-      <outfile xil_pn:name="../../source/memory/bank251.vhd"/>
-      <outfile xil_pn:name="../../source/memory/ff0.vhd"/>
-      <outfile xil_pn:name="../../source/memory/reg010.vhd"/>
-      <outfile xil_pn:name="../../source/memory/reg05.vhd"/>
-      <outfile xil_pn:name="../../source/memory/rom3216.vhd"/>
-      <outfile xil_pn:name="../../source/memory_devs.vhd"/>
-      <outfile xil_pn:name="../../source/micro/gcm.vhd"/>
-      <outfile xil_pn:name="../../source/micro/inst_deco.vhd"/>
-      <outfile xil_pn:name="../../source/micro/micro_stage1.vhd"/>
-      <outfile xil_pn:name="../../source/micro/micro_stage2.vhd"/>
-      <outfile xil_pn:name="../../source/micro/prog_counter.vhd"/>
-      <outfile xil_pn:name="../../source/micro_devs.vhd"/>
-      <outfile xil_pn:name="../../source/sims/acm_sim.vhd"/>
-      <outfile xil_pn:name="../../source/sims/lagartijax4.vhd"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1592410571" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2935241355533644706" xil_pn:start_ts="1592410571">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -109,72 +75,40 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1592361665" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-7405466561040741053" xil_pn:start_ts="1592361665">
+    <transform xil_pn:end_ts="1593036756" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="2193608243088025547" xil_pn:start_ts="1593036756">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1592410571" xil_pn:in_ck="2858133154428320951" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1592410571">
+    <transform xil_pn:end_ts="1593037300" xil_pn:in_ck="3181749932928077490" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1593037300">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="../../source/alu/alu_16op.vhd"/>
-      <outfile xil_pn:name="../../source/alu/arith_u.vhd"/>
-      <outfile xil_pn:name="../../source/alu/ctrl_arith_u.vhd"/>
-      <outfile xil_pn:name="../../source/alu/logic_u.vhd"/>
-      <outfile xil_pn:name="../../source/alu/operation_control.vhd"/>
-      <outfile xil_pn:name="../../source/alu/sign_control.vhd"/>
-      <outfile xil_pn:name="../../source/alu_devs.vhd"/>
-      <outfile xil_pn:name="../../source/basic/adder4bit.vhd"/>
-      <outfile xil_pn:name="../../source/basic/comp2bit.vhd"/>
-      <outfile xil_pn:name="../../source/basic/comp4bit.vhd"/>
-      <outfile xil_pn:name="../../source/basic/conta203.vhd"/>
-      <outfile xil_pn:name="../../source/basic/conta304.vhd"/>
-      <outfile xil_pn:name="../../source/basic/conta305.vhd"/>
-      <outfile xil_pn:name="../../source/basic/conta40F.vhd"/>
-      <outfile xil_pn:name="../../source/basic/deco47seg.vhd"/>
-      <outfile xil_pn:name="../../source/basic/dmux412.vhd"/>
-      <outfile xil_pn:name="../../source/basic/dmux513.vhd"/>
-      <outfile xil_pn:name="../../source/basic/dmux673.vhd"/>
-      <outfile xil_pn:name="../../source/basic/full_adder.vhd"/>
-      <outfile xil_pn:name="../../source/basic/logic_op_1bit.vhd"/>
-      <outfile xil_pn:name="../../source/basic/mux241.vhd"/>
-      <outfile xil_pn:name="../../source/basic/mux251.vhd"/>
-      <outfile xil_pn:name="../../source/basic/mux643.vhd"/>
-      <outfile xil_pn:name="../../source/basic_devs.vhd"/>
-      <outfile xil_pn:name="../../source/memory/bank251.vhd"/>
-      <outfile xil_pn:name="../../source/memory/ff0.vhd"/>
-      <outfile xil_pn:name="../../source/memory/reg010.vhd"/>
-      <outfile xil_pn:name="../../source/memory/reg05.vhd"/>
-      <outfile xil_pn:name="../../source/memory/rom3216.vhd"/>
-      <outfile xil_pn:name="../../source/memory_devs.vhd"/>
-      <outfile xil_pn:name="../../source/micro/gcm.vhd"/>
-      <outfile xil_pn:name="../../source/micro/inst_deco.vhd"/>
-      <outfile xil_pn:name="../../source/micro/micro_stage1.vhd"/>
-      <outfile xil_pn:name="../../source/micro/micro_stage2.vhd"/>
-      <outfile xil_pn:name="../../source/micro/prog_counter.vhd"/>
-      <outfile xil_pn:name="../../source/micro_devs.vhd"/>
-      <outfile xil_pn:name="../../source/sims/acm_sim.vhd"/>
-      <outfile xil_pn:name="../../source/sims/lagartijax4.vhd"/>
-    </transform>
-    <transform xil_pn:end_ts="1592410576" xil_pn:in_ck="2858133154428320951" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1951871850921798783" xil_pn:start_ts="1592410571">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="fuse.log"/>
-      <outfile xil_pn:name="isim"/>
-      <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="lagartijax4_beh.prj"/>
-      <outfile xil_pn:name="lagartijax4_isim_beh.exe"/>
-      <outfile xil_pn:name="xilinxsim.ini"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1592410576" xil_pn:in_ck="2890135175306285179" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4091974810496925612" xil_pn:start_ts="1592410576">
+    <transform xil_pn:end_ts="1593037302" xil_pn:in_ck="3181749932928077490" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1951871850921798783" xil_pn:start_ts="1593037300">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="isim.cmd"/>
-      <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="lagartijax4_isim_beh.wdb"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1593037302" xil_pn:in_ck="2890135175306285179" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4091974810496925612" xil_pn:start_ts="1593037302">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1592361183" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1592361182">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -183,10 +117,12 @@
     <transform xil_pn:end_ts="1592361183" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="7495432669375181371" xil_pn:start_ts="1592361183">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1592361183" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-7405466561040741053" xil_pn:start_ts="1592361183">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1592361183" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1592361183">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -195,33 +131,30 @@
     <transform xil_pn:end_ts="1592361183" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="7427072065256941469" xil_pn:start_ts="1592361183">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1592361183" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1592361183">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
     <transform xil_pn:end_ts="1592361183" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-8561199399639076851" xil_pn:start_ts="1592361183">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
     <transform xil_pn:end_ts="1592361415" xil_pn:in_ck="780777213984558420" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-6112714565633588278" xil_pn:start_ts="1592361378">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
-      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="rom3216.lso"/>
-      <outfile xil_pn:name="rom3216.ngc"/>
-      <outfile xil_pn:name="rom3216.ngr"/>
-      <outfile xil_pn:name="rom3216.prj"/>
-      <outfile xil_pn:name="rom3216.stx"/>
-      <outfile xil_pn:name="rom3216.syr"/>
-      <outfile xil_pn:name="rom3216.xst"/>
-      <outfile xil_pn:name="rom3216_xst.xrpt"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
-      <outfile xil_pn:name="xst"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
   </transforms>
 

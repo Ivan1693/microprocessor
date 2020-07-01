@@ -3,12 +3,14 @@ use ieee.std_logic_1164.all;
 
 entity inst_deco is
     port ( 
+    	
      inst : in  std_logic_vector (15 downto 0);
 	 a : out  std_logic_vector (4 downto 0);
 	 b : out  std_logic_vector (4 downto 0);
 	 inst_out : out  std_logic_vector (4 downto 0);
 	 pc : out  std_logic_vector (4 downto 0);
-	 pc_in_enable : out std_logic);
+	 pc_in_enable : out std_logic
+	 );
 end entity;
 
 architecture behavioral of inst_deco is

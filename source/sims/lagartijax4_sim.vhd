@@ -19,7 +19,7 @@ begin
 	-- Proceso de reloj
 	clk_process:process
 	begin
-	clk <= '0', '1' after clk_period/2;
+	clk <= '1', '0' after clk_period/2;
 	wait for clk_period;
 	end process;
 

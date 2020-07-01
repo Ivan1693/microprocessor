@@ -32,11 +32,9 @@ int main(int argc, char **argv)
     ieee_p_2592010699_init();
     work_p_4021828688_init();
     work_p_3419143329_init();
+    work_a_1057416116_3212880686_init();
     work_p_0674221568_init();
     work_p_2363495891_init();
-    work_a_0913730937_3212880686_init();
-    work_a_0435480694_3212880686_init();
-    work_a_1057416116_3212880686_init();
     work_a_1082377108_3212880686_init();
     work_a_4288625000_3212880686_init();
     work_a_3823634089_3212880686_init();
@@ -59,6 +57,7 @@ int main(int argc, char **argv)
     work_a_3540323257_3212880686_init();
     work_a_1381716451_3212880686_init();
     work_a_2980580674_3212880686_init();
+    work_a_3979877283_3212880686_init();
     work_a_3342043759_3212880686_init();
 
 
