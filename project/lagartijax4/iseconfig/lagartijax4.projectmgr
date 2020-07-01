@@ -83,6 +83,7 @@
          <ClosedNode>/lagartijax4 - behavioral |home|ivan|Escom|Arquitectura|microprocessor|source|micro|lagartijax4.vhd</ClosedNode>
          <ClosedNode>/lagartijax4 - behavioral |home|ivan|Escom|Arquitectura|microprocessor|source|micro|lagartijax4.vhd/micro_core_block - micro_core - behavioral/micro_stage1_block - micro_stage1 - behavioral</ClosedNode>
          <ClosedNode>/lagartijax4 - behavioral |home|ivan|Escom|Arquitectura|microprocessor|source|micro|lagartijax4.vhd/micro_core_block - micro_core - behavioral/micro_stage2_block - micro_stage2 - behavioral</ClosedNode>
+         <ClosedNode>/lagartijax4_sim - behavioral |home|ivan|Escom|Arquitectura|microprocessor|source|sims|lagartijax4_sim.vhd</ClosedNode>
          <ClosedNode>/lagartijax4_sim - behavioral |home|ivan|Escom|Arquitectura|microprocessor|source|sims|lagartijax4_sim.vhd/lagartijax4_block - lagartijax4 - behavioral/micro_core_block - micro_core - behavioral/micro_stage1_block - micro_stage1 - behavioral/acc - reg05 - behavioral</ClosedNode>
          <ClosedNode>/lagartijax4_sim - behavioral |home|ivan|Escom|Arquitectura|microprocessor|source|sims|lagartijax4_sim.vhd/lagartijax4_block - lagartijax4 - behavioral/micro_core_block - micro_core - behavioral/micro_stage1_block - micro_stage1 - behavioral/acm - reg05 - behavioral</ClosedNode>
          <ClosedNode>/lagartijax4_sim - behavioral |home|ivan|Escom|Arquitectura|microprocessor|source|sims|lagartijax4_sim.vhd/lagartijax4_block - lagartijax4 - behavioral/micro_core_block - micro_core - behavioral/micro_stage1_block - micro_stage1 - behavioral/alu - alu_16op - behavioral</ClosedNode>
@@ -91,13 +92,13 @@
          <ClosedNode>/lagartijax4_sim - behavioral |home|ivan|Escom|Arquitectura|microprocessor|source|sims|lagartijax4_sim.vhd/lagartijax4_block - lagartijax4 - behavioral/micro_core_block - micro_core - behavioral/micro_stage2_block - micro_stage2 - behavioral/ri - reg010 - behavioral</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>micro_stage1_block - micro_stage1 - behavioral (/home/ivan/Escom/Arquitectura/microprocessor/source/micro/micro_stage1.vhd)</SelectedItem>
+         <SelectedItem>lagartijax4_sim - behavioral (/home/ivan/Escom/Arquitectura/microprocessor/source/sims/lagartijax4_sim.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000023b000000020000000000000000000000000200000064ffffffff0000008100000003000000020000023b0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000018a000000020000000000000000000000000200000064ffffffff0000008100000003000000020000018a0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>micro_stage1_block - micro_stage1 - behavioral (/home/ivan/Escom/Arquitectura/microprocessor/source/micro/micro_stage1.vhd)</CurrentItem>
+      <CurrentItem>lagartijax4_sim - behavioral (/home/ivan/Escom/Arquitectura/microprocessor/source/sims/lagartijax4_sim.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>

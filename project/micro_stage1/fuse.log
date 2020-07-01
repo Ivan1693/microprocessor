@@ -1,4 +1,4 @@
-Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/lagartijax4_isim_beh.exe -prj /home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/lagartijax4_beh.prj work.lagartijax4 
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/top_sim_isim_beh.exe -prj /home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/top_sim_beh.prj work.top_sim 
 ISim P.20131013 (signature 0xfbc00daa)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
@@ -18,30 +18,27 @@ Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_st
 Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/../../source/memory/reg05.vhd" into library work
 Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/../../source/alu/logic_u.vhd" into library work
 Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/../../source/alu/arith_u.vhd" into library work
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/../../source/micro_devs.vhd" into library work
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/../../source/micro/prog_counter.vhd" into library work
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/../../source/micro/inst_deco.vhd" into library work
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/../../source/memory/rom3216.vhd" into library work
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/../../source/memory/reg010.vhd" into library work
 Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/../../source/memory/bank251.vhd" into library work
 Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/../../source/basic/mux251.vhd" into library work
 Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/../../source/alu/alu_16op.vhd" into library work
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/../../source/micro/micro_stage2.vhd" into library work
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/../../source/micro_devs.vhd" into library work
 Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/../../source/micro/micro_stage1.vhd" into library work
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/../../source/micro/micro_core.vhd" into library work
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/../../source/micro/gcm.vhd" into library work
-Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/../../source/sims/lagartijax4.vhd" into library work
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/../../source/basic/dmux412.vhd" into library work
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/../../source/basic/deco47seg.vhd" into library work
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/../../source/basic/conta203.vhd" into library work
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/../../source/sims/stage1_sim.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 98332 KB
-Fuse CPU Usage: 920 ms
+Fuse Memory Usage: 96784 KB
+Fuse CPU Usage: 940 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package micro_devs
 Compiling package basic_devs
-Compiling architecture behavioral of entity gcm [gcm_default]
 Compiling package alu_devs
 Compiling package memory_devs
+Compiling architecture behavioral of entity conta203 [conta203_default]
+Compiling architecture behavioral of entity dmux412 [dmux412_default]
 Compiling architecture behavioral of entity mux251 [mux251_default]
 Compiling architecture behavioral of entity operation_control [operation_control_default]
 Compiling architecture behavioral of entity comp2bit [comp2bit_default]
@@ -58,18 +55,12 @@ Compiling architecture behavioral of entity ff0 [ff0_default]
 Compiling architecture behavioral of entity reg05 [reg05_default]
 Compiling architecture behavioral of entity bank251 [bank251_default]
 Compiling architecture behavioral of entity micro_stage1 [micro_stage1_default]
-Compiling package numeric_std
-Compiling architecture behavioral of entity reg010 [reg010_default]
-Compiling architecture behavioral of entity inst_deco [inst_deco_default]
-Compiling architecture behavioral of entity prog_counter [prog_counter_default]
-Compiling architecture behavioral of entity rom3216 [rom3216_default]
-Compiling architecture behavioral of entity micro_stage2 [micro_stage2_default]
-Compiling architecture behavioral of entity micro_core [micro_core_default]
-Compiling architecture behavioral of entity lagartijax4
+Compiling architecture behavioral of entity deco47seg [deco47seg_default]
+Compiling architecture behavior of entity top_sim
 Time Resolution for simulation is 1ps.
-Waiting for 18 sub-compilation(s) to finish...
-Compiled 54 VHDL Units
-Built simulation executable /home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/lagartijax4_isim_beh.exe
-Fuse Memory Usage: 678812 KB
-Fuse CPU Usage: 1050 ms
-GCC CPU Usage: 1280 ms
+Waiting for 17 sub-compilation(s) to finish...
+Compiled 45 VHDL Units
+Built simulation executable /home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/top_sim_isim_beh.exe
+Fuse Memory Usage: 670756 KB
+Fuse CPU Usage: 980 ms
+GCC CPU Usage: 1120 ms

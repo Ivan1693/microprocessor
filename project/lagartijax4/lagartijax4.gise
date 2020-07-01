@@ -35,13 +35,13 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="lagartijax4.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="lagartijax4.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="lagartijax4.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="lagartijax4_sim_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="lagartijax4_sim_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="lagartijax4_sim_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="lagartijax4_sim_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="lagartijax4_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="lagartijax4_xst.xrpt"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="micro_stage1_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="micro_stage1_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="micro_stage1_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="micro_stage1_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
     <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/lagartijax4_synthesis.nlf"/>
@@ -91,11 +91,11 @@
       <outfile xil_pn:name="../../source/micro_devs.vhd"/>
       <outfile xil_pn:name="../../source/sims/lagartijax4_sim.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1593533041" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-5689588528468569055" xil_pn:start_ts="1593533041">
+    <transform xil_pn:end_ts="1593630880" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="5737382379889065094" xil_pn:start_ts="1593630880">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1593533041" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6388612315529372801" xil_pn:start_ts="1593533041">
+    <transform xil_pn:end_ts="1593630880" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-9070621849711574172" xil_pn:start_ts="1593630880">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -136,28 +136,26 @@
       <outfile xil_pn:name="../../source/micro_devs.vhd"/>
       <outfile xil_pn:name="../../source/sims/lagartijax4_sim.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1593533044" xil_pn:in_ck="9098567315907166481" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6849106204532505989" xil_pn:start_ts="1593533041">
+    <transform xil_pn:end_ts="1593630883" xil_pn:in_ck="9098567315907166481" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-2063497203037915697" xil_pn:start_ts="1593630880">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="micro_stage1_beh.prj"/>
-      <outfile xil_pn:name="micro_stage1_isim_beh.exe"/>
+      <outfile xil_pn:name="lagartijax4_sim_beh.prj"/>
+      <outfile xil_pn:name="lagartijax4_sim_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1593550448" xil_pn:in_ck="7808642104417009096" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3466486210078943566" xil_pn:start_ts="1593550447">
+    <transform xil_pn:end_ts="1593630883" xil_pn:in_ck="7808642104417009096" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4713677151184768892" xil_pn:start_ts="1593630883">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="micro_stage1_isim_beh.wdb"/>
+      <outfile xil_pn:name="lagartijax4_sim_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1593377146" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1593377145">
       <status xil_pn:value="SuccessfullyRun"/>

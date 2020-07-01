@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/lagartijax4_isim_beh.exe" -prj "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/lagartijax4_beh.prj" "work.lagartijax4" 
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/top_sim_isim_beh.exe" -prj "/home/ivan/Escom/Arquitectura/microprocessor/project/micro_stage1/top_sim_beh.prj" "work.top_sim" 
