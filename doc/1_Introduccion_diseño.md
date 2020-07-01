@@ -1,6 +1,6 @@
 # I: Introducción
 
-El presente trabajo describe el proceso de diseño y modelado en VHDL de un microprocesador de 4 bits basado en la arquitectura de computadora Von Neumann.
+Hoy en día la familiaridad que se tiene con las tecnología, hace que los procesos de cómputo de cualquier dispositivo electrónico sean transparentes, extremadamente rápidos y accesibles desde casi cualquier lugar en el planeta. Los dispositivos y tecnologías que se utilizan conforman una vasta variedad, sin embargo, la totalidad de estos requieren de un componente mas que fundamental, el procesador o microprocesador. Como veremos a continuación en la definición de microprocesador, este junto con los diferentes mecanismos de comunicación entre dispositivos, conforman el cerebro y columna vertebral de cualquier máquina que requiera realizar cálculos.  El presente trabajo describe el proceso de diseño y modelado en VHDL de un microprocesador de 4 bits de arquitectura Von Neumann con un conjunto de instrucciones basadas en el formato de instrucción RISC.
 
 # Definiciones
 
@@ -8,9 +8,13 @@ El presente trabajo describe el proceso de diseño y modelado en VHDL de un micr
 
 El término **microprocesador** hace referencia a un circuito integrado digital encargado de ejecutar los programas de una computadora. Dicho circuito trabaja al nivel mas bajo de hardware, es decir la información que procesa se representa en forma binaria. El procesador lleva acabo una serie de instrucciones que principalmente se refiere a la carga/escritura de valores en alguno localidad de memoria o registro y a operaciones aritméticas y lógicas sobre uno o mas operandos. A pesar de que las funciones de un procesador son comunes entre los diferentes diseños y arquitecturas, estos presentan diferencias en cuanto los componentes que los conforman o la manera en que se procesa la información.
 
+<img src="images/micro.jpg"  />
+
 #### Arquitectura
 
 Dentro del diseño de computadoras existen dos principales tipos de arquitecturas que describen a un muy alto nivel los componente básicos y relaciones entre estos de una computadora, la máquina Harvard y la de Von Neumann. Regularmente estas descripciones se suelen referir a la totalidad de una computadora digital, sin embargo son aplicables al concepto de microprocesador. La principal diferencia entre estas máquinas es la forma en que manejan la memoria, mientras la máquina Harvard cuenta con un par de unidades de memoria que manejan por separado los datos a procesar y las instrucciones, la máquina de Von Neuemann cuenta con un solo elemento de memoria del cual se leen tanto los datos como las instrucciones.
+
+
 
 <img src="images/vonNeumann_Harvard.png" style="zoom: 25%;" />
 
@@ -22,7 +26,17 @@ Si bien la diferencia entre ambas radica sólo en la forma de manejar la memoria
 
 #### Instrucciones RISC
 
-[DESCRIPCION DE RISC]
+Reduced Instruction Set Computer, es el significado del acrónimo RISC, el cual se refiere a un tipo de procesador que implementa en su diseño un conjunto de instrucciones reducido y de longitud fija. Una de las ventajas de utilizar un conjunto de instrucciones RISC es la rapidez en su ejecución y su sencillez, como lo menciona la siguiente cita:
+
+
+
+> [...] La principal virtud de RISC es tener un conjunto de instrucciones muy simples que se ejecutarán más rápidamente en el procesador. Existe un catálogo de pocas instrucciones y éstas son muy sencillas, lo cual implica también que para una cierta tarea compleja necesitaremos un mayor número de ellas, y por esto el programa final tendrá una longitud mayor y además accederá en un mayor número de ocasiones a los datos almacenados en la memoria. *[Pablo Espeso](https://www.xataka.com/autor/whiskito)*. *CISC frente a RISC, una batalla en blanco y negro*. [5] 
+
+
+
+Establecido lo anterior se hace evidente que para el diseño de un microprocesador de 4 bits, el formato de instrucciones RISC, o como lo define Behrooz [1], la filosofía RISC supone la mejor opción para la implementación de este y ademas permite una mejor descripción con fines didácticos. Como se abordará mas adelante, el conjunto de instrucciones manejados por el procesador de 4 bits, se conforma de varios campos de diferente longitud teniendo en total 16 bits por instrucción. Como se abordará mas adelante, el significado de estos campos varía de acuerdo a la operación que se realiza.
+
+<div style="text-align:center;page-break-after: always; break-after: page;"></div>
 
 # Diseño
 
@@ -59,6 +73,8 @@ La segmentación y la modulación del microprocesador permite el control y organ
 ![](schematic/lagartijax4.png)
 
 > **fig.1.4** Diseño del microprocesador LagartijaX4 según la segmentación propuesta y el diseño inicial dado.
+
+<div style="text-align:center;page-break-after: always; break-after: page;"></div>
 
 ## Implementación del diseño
 
@@ -138,4 +154,14 @@ begin
     end process;
 end architecture;
 ```
+
+## Niveles de diseño
+
+La descripción de los circuitos que integran el proyecto se hace manera estructural, por ende es posible identificar una jerarquía de niveles de diseño y de manera conveniente establecer un punto de observación del funcionamiento del módulo a diferentes escalas. Es decir, la descripción estructural nos permite situarnos en algún dispositivo en particular y observar tanto su comportamiento como el de los dispositivos en niveles inferiores. 
+
+![](images/design_level.png)
+
+> **fig.1.7.** Niveles del diseño para el microprocesador a escala de componentes; es decir, el árbol de conforma de dispositivos integrados por dispositivos básicos.
+
+
 

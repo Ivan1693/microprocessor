@@ -18,8 +18,6 @@ Para implementar esta función se agregaron dos bloques a la unidad aritmética,
 
 > **fig.3.1.** Diagrama de la ALU de 16 Operaciones con signos
 
-
-
 ### Control de operación para suma/resta
 
 Existe una equivalencia (Tabla 3.0) entre la suma con signos diferentes y la resta con signos iguales, es decir, según los signos de los operandos de entrada, la operación requerida se puede realizar considerando solamente la magnitud, la operación (suma o resta) equivalente correspondiente y finalmente realizando un ajuste en el signo del resultado de salida. La ventaja que esto supone se aprovecha para  modelar el comportamiento del bloque de control de operación  mostrado en la Tabla 3.1. 
@@ -78,8 +76,6 @@ Conociendo el signo de ambos ($S_{AB}$), la operación equivalente u operación 
 
 > **Tabla 3.2.** Tabla de verdad del control de signo para la suma y resta y ecuación booleana de salida para $S_F$.
 
-
-
 ### Control de operación para transferencia, incremento y decremento
 
 Para estas operaciones aritméticas restantes, se usaron las equivalencias entre el incremento de signo positivo y el decremento de signo negativo y viceversa, con el fin de definir el comportamiento del control de operación y signo en estas operaciones; cabe mencionar que la operación transferencia no requiere de esta función.
@@ -108,8 +104,6 @@ Para estas operaciones aritméticas restantes, se usaron las equivalencias entre
 
 > **Tabla 3.3. **Tabla de verdad del control de signo para el incremento, decremento y transferencia. Ecuaciones de salida para $c\_prime(0) ,\ c\_prime(1),\ ci\_prime$ y $S_{AB}$.
 
-
-
 #### Control de signo para la transferencia, incremento y decremento
 
 | $S_{AB}$ | $c\_prime$ | <u>$S_F$</u> |
@@ -132,6 +126,8 @@ Para estas operaciones aritméticas restantes, se usaron las equivalencias entre
 | $S_{AB}$ |
 
 > **Tabla 3.4.** Tabla de verdad del control de signo para el incremento, decremento y transferencia y ecuación de salida para $S_F$.
+
+<div style="text-align:center;page-break-after: always; break-after: page;"></div>
 
 ### Simulación
 
@@ -165,17 +161,13 @@ Se realizaron 5 simulaciones para cada operación aritmética (suma, resta, tran
 
 > **fig.3.6.** Decremento: los primeros 2 ciclos son la operación decremento de A con signo positivo y negativo, los siguientes 2 son para la decremento de B
 
-
-
 ## ROM
 
 Una memoria ROM es un dispositivo digital que permite almacenar y acceder a la información aunque se apague el dispositivo, en un microcontrolador la memoria ROM se usa para almacenar las instrucciones y a veces variables que no cambian. Para que el microcontrolador pueda funcionar independientemente es necesario incorporarle un modulo de memoria que nos permitirá ejecutar las instrucciones secuencialmente al acceder a una dirección mediante el contador de programa.
 
 Una memoria ROM consiste en $2^n$ registros de m bits, m multiplexores de n bits de selección que permite acceder a los m bits de un registro, a la linea de selección de la memoria ROM se le conoce como dirección de memoria, ya que cada registro corresponde con un valor de esta dirección de memoria, en la figura 3.7 se muestra el esquema de la memoria ROM utilizada.
 
-
-
-![](schematic/rom.png)
+<img src="schematic/rom.png" style="zoom: 25%;" />
 
 > **fig.3.7.** Diagrama a bloques del módulo de memoria ROM.
 
@@ -183,11 +175,19 @@ Una memoria ROM consiste en $2^n$ registros de m bits, m multiplexores de n bits
 
 En este caso se uso una memoria ROM con 32 registros de 16 bits y una linea de selección de 5 bits `addr_in`, se selecciono el tamaño de 32 registro ya que esta memoria es unicamente para pruebas, los registros son de 16 bits que corresponde con el formato de instrucción del microcontrolador. 
 
-## Registro de instrucción RI + Decodificador de instrucción
+## <small>Registro de instrucción RI + Decodificador de instrucción</small>
 
 El registro de instrucción almacena y entrega la instrucción que se obtiene de la memoria ROM al activarse el ciclo de reloj correspondiente al decodificador de instrucción, este se encarga de obtener los datos de la instrucción y preparar los registros necesarios para realizar la operación en el ciclo de la ALU, que puede ser activar la entrada del contador de programa e ingresar una nueva dirección o colocar las entradas en los registros de datos así como la operación a realizar en la ALU. Este modulo se puede representar como un demultiplexor que recibe la instrucción y la envía al contador de programa o a la ALU.
 
-## Contador de programa PC <<<<<<<<<
+## Contador de programa PC
+
+El contador de programa (PC) es un registro del procesador de un computador que indica la posición donde está el procesador en su secuencia de instrucciones. Para que el microcontrolador pueda funcionar independientemente es necesario este componente, puesto que nos permite acceder a una dirección de memoria y ejecutar las instrucciones.
+
+Un contador de programa simplemente realiza la función de contador, llevando el registro de las instrucciones que se están ejecutando y cuando se manda a llamar el `in_enable`, realiza una instrucción especifica, en la figura 3.8 se muestra el diagrama del componente implementado.
+
+<img src="schematic/pc.png" style="zoom: 33%;" />
+
+> **fig.3.8.** El puerto entrada `in_reg_enabe` recibe un señal en alto cuando se debe hacer un "salto" a la dirección indicada en puerto de entrada de 5 bits  `in_reg_pc`. El puerto de salida ` out_reg_pc` se conecta mediante un bus a la ROM para obtener de la dirección especificada la instrucción de 16 bits. El puerto de entrada `clk` recibe la señal del E del GCM para secuenciar de forma correcta el funcionamiento del PC.
 
 ## Instrucción de 16 bits
 
@@ -198,23 +198,6 @@ El funcionamiento en conjunto de las dos etapas del microprocesador, implica el 
 | alu  | regmux_sel | unit_sel | op_sel | carry_in | dato B | dato A |
 
 > **Tabla 3.5.** Formato de instrucción de 16 bits
-
-| 15   | 14      | 13   | 12-10 | 9-5  | 4-0  |
-| ---- | ------- | ---- | ----- | ---- | ---- |
-| i/o  | ram/rom | w/t  | -     | dir  | dato |
-
-```
-15	14	13	12-10	9-5			4-0
-0	0	0	
-0	0	1
-0	1	0
-0	1	1
-1	0	0	  X		 X  		dir			Escribir en PC
-1	1	0	  X		dato		dir			Escribir en RAM
-1	1	1	  X		dir_dst		dir_src		Transferir
-```
-
-
 
 # GCM
 
@@ -242,6 +225,8 @@ En el diseño del microprocesador establecimos que la segmentación de este se d
 | D     | Cargar en el registro ACM el valor almacenado en el registro ACC |
 | E     | Aumentar o modificar el contador del programa                |
 
+<div style="text-align:center;page-break-after: always; break-after: page;"></div>
+
 ## Descripción
 
 La descripción del **Generador de Ciclo de Máquina** se puede hacer mediante un contador de anillo de 5 bits cuya comportamiento se describe en la Tabla 3.5. A la salida de este contador se conecta un codificador de 5 entradas a 5 salidas el cual se encarga de enviar el bit encendido del estado actual del contador al puerto de salida correspondiente a la salida A-E, según sea el caso.
@@ -256,12 +241,14 @@ La descripción del **Generador de Ciclo de Máquina** se puede hacer mediante u
 
 > **Tabla 3.6.** Tabla de estados del contador de anillo utilizado en el GCM.
 
-<img src="/home/ivan/Escom/Arquitectura/microprocessor/doc/schematic/GCM.png"  />
+<img src="/home/ivan/Escom/Arquitectura/microprocessor/doc/schematic/GCM.png" style="zoom: 20%;" />
 
-> **fig.3.x.** Diagrama a bloques del GCM.
+> **fig.3.9.** Diagrama a bloques del GCM.
 
-## Simulación 
+### <small>Simulación </small>
 
 La siguiente figura muestra la simulación correspondiente al GCM. Se muestran los ciclos  a diferentes escalas de tiempo con un periodo de $400 ps$.
 
-![](/home/ivan/Escom/Arquitectura/microprocessor/doc/images/gcm_sim.png)
+<img src="/home/ivan/Escom/Arquitectura/microprocessor/doc/images/gcm_sim.png" style="zoom: 40%;" />
+
+> **fig.3.10.** Simulación del funcionamiento del GCM con las 5 señales A-E.

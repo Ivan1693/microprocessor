@@ -20,9 +20,6 @@ El diagrama es una representación del nivel mas alto del módulo, en este se de
 
 Recordando la definición de microprocesador, se refiere a este como el "cerebro" de una computadora, pues es el encargado de ejecutar los programas del sistema operativo así como los programas de usuario; esta ejecución implica principalmente un conjunto de operaciones básicas en forma binaria, tarea de la cual la Unidad Aritmética Lógica (ALU) es la encargada.
 
-> **Definición**
-> Conjunto de circuitos electrónicos encargados de realizar tanto operaciones aritméticas como suma y resta, así como operaciones lógicas AND, OR, NAN, NOR, etc. sobre datos proporcionados por la unidad de control, registros, memoria o dispositivos de E/S en un microprocesador. El componente principal de una ALU es un sumador, pues la manipulación de los datos entrada de este, permiten realizar no solo la operación de suma, sino resta, incrementos, decrementos o transferencias.
-
 ### Diseño
 
 La unidad de procesamiento se divide en dos sub-unidades: la lógica y la aritmética (**Fig.1**). Estas dos unidades se han considerado como dos bloques independientes `arith_u` y `logic_u`. Cada sub-unidad es capaz de realizar 8 operaciones cada una, sobre uno o los dos operandos que se especifiquen de entrada. La selección de la unidad y de la operación se hace en función de los valores de los campos recibidos en la instrucción. Esta instrucción es un conjunto de bits que se reciben desde el codificador de instrucción, elemento de una segunda etapa del microprocesador, por lo cual para pruebas y depuración de este módulo se sustituye dicho conjunto de bits provenientes del decodificador por un vector de 5 bits `instrcn` (Tabla 2.1).
@@ -32,6 +29,8 @@ La unidad de procesamiento se divide en dos sub-unidades: la lógica y la aritm�
 <img src="/home/ivan/Escom/Arquitectura/microprocessor/doc/schematic/alu_16op_schematic.png" alt="fig2" style="zoom: 25%;" />
 
 > **fig.2.2** Diagrama de bloques de la ALU 16 operaciones. 
+
+<div style="text-align:center;page-break-after: always; break-after: page;"></div>
 
 #### Instrucciones
 
@@ -70,6 +69,8 @@ señal	:	[regmux_sel]	[unit_sel]	[op_sel]	[carry_in]
 |    1     |     111     | F    |      NOT A      |
 
 > **Tabla 2.1.** Código de instrucciones ALU 16 bits
+
+<div style="text-align:center;page-break-after: always; break-after: page;"></div>
 
 #### Unidad lógica
 
@@ -178,13 +179,14 @@ Los valores forzados para la simulación (instrcn, A y B) y los resultados esper
 
 > **Tabla 2.5.** Entradas y salidas esperadas en la simulación.
 
-<img src="images/alu_sim_arith.png" style="zoom: 67%;" />
 
-<center>a)</center>
 
-<img src="images/alu_sim_logic.png" style="zoom: 67%;" />
-
-<center>b)</center>
+<table>
+    <tr>
+        <td width="50%" style="padding:0;"><img src="images/sims/alu_sim_arith.png" width="100%" /></td>
+        <td width="50%" style="padding:0;"><img src="images/sims/alu_sim_logic.png" width="100%" /></td>
+    </tr>
+</table>
 
 > **fig.2.6.** Simulación de las operaciones aritméticas (a) y lógicas (b). De arriba hacía abajo: unit_sel, op_sel, ci,a,b,a_prime, b_prime,is_a,fix,co y  s (sumador), co y s (ALU).
 
@@ -196,15 +198,11 @@ Cada uno de los registros utilizados en este módulo cuenta con un puerto de act
 
 > **fig.2.7** Diagrama de registros y banco de registros.
 
-## Niveles de diseño
-
-La descripción de los circuitos que integran el proyecto se hace manera estructural, por ende es posible identificar una jerarquía de niveles de diseño y de manera conveniente establecer un punto de observación del funcionamiento del módulo a diferentes escalas. Es decir, la descripción estructural nos permite situarnos en algún dispositivo en particular y observar tanto su comportamiento como el de los dispositivos en niveles inferiores.  Para efectos de esta etapa, se define el módulo **micro_stage1** como el nivel superior inicial y a partir de este se derivan los niveles subsecuentes haciendo uso de una estructura de árbol.
-
  #### Árbol de instancias
 
-Representa de forma jerárquica los niveles de diseño y denota las instancias  que se hacen en cada componente que integra el módulo. Cada hoja se compone del nombre de la instancia seguido de su tipo.  Como se observa el dispositivo con el mayor número de instancias y niveles inferiores es la **alu**.
+Representa de forma jerárquica los niveles de diseño y denota las instancias  que se hacen en cada componente que integra el módulo. Cada hoja se compone del nombre de la instancia seguido de su tipo.  Como se observa el dispositivo con el mayor número de instancias y niveles inferiores es la **alu**. Para efectos de esta etapa, se define el módulo **micro_stage1** como el nivel superior inicial y a partir de este se derivan los niveles subsecuentes haciendo uso de una estructura de árbol.
 
-<img src="/home/ivan/Escom/Arquitectura/microprocessor/doc/images/instance_tree.png" style="zoom:150%;" />
+<img src="/home/ivan/Escom/Arquitectura/microprocessor/doc/images/instance_tree.png"  />
 
 > **fig.2.8.** Árbol de instancias para el stage 1.
 
@@ -252,47 +250,46 @@ $$
 
 Como se ha indicado anteriormente, la simulación del testbench obedece al diagrama del modulo mostrado en la fig.1 y por ende el despliegue de la información se da a través de displays de 7 segmentos. Para interpretar de forma mas ágil los resultados en la simulación se utiliza la siguiente tabla con la representación en binario, hexadecimal y gráfica de las posibles salidas del decodificador de 4 bits a 7 segmentos.
 
-| binario | hexadecimal | gráfico                                        | binario | hexadecimal | gráfico                                      |
-| ------- | ----------- | ---------------------------------------------- | ------- | ----------- | -------------------------------------------- |
-| 111111  | 7F          | <img src="images/off.png" style="zoom:50%;" /> | 0000000 | 00          | <img src="images/8.png" style="zoom:50%;" /> |
-| 0000001 | 01          | <img src="images/0.png" style="zoom:50%;" />   | 0000100 | 04          | <img src="images/9.png" style="zoom:50%;" /> |
-| 1001111 | 4F          | <img src="images/1.png" style="zoom:50%;" />   | 0001000 | 08          | <img src="images/A.png" style="zoom:50%;" /> |
-| 0010010 | 12          | <img src="images/2.png" style="zoom:50%;" />   | 1100000 | 60          | <img src="images/B.png" style="zoom:50%;" /> |
-| 0000110 | 06          | <img src="images/3.png" style="zoom:50%;" />   | 1110010 | 72          | <img src="images/C.png" style="zoom:50%;" /> |
-| 1001100 | 4C          | <img src="images/4.png" style="zoom:50%;" />   | 1000010 | 42          | <img src="images/D.png" style="zoom:50%;" /> |
-| 0100100 | 24          | <img src="images/5.png" style="zoom:50%;" />   | 0110000 | 30          | <img src="images/E.png" style="zoom:50%;" /> |
-| 0100000 | 20          | <img src="images/6.png" style="zoom:50%;" />   | 0111000 | 38          | <img src="images/F.png" style="zoom:50%;" /> |
-| 0001111 | 0F          | <img src="images/7.png" style="zoom:50%;" />   |         |             |                                              |
+| bin       | hex  |                    gráfico                     | bin       | hex  | gráfico                                      | bin       | hex  | gráfico                                      |
+| --------- | :--: | :--------------------------------------------: | --------- | ---- | -------------------------------------------- | --------- | ---- | -------------------------------------------- |
+| `111111`  | `7F` | <img src="images/off.png" style="zoom:50%;" /> | `0100100` | `24` | <img src="images/5.png" style="zoom:50%;" /> | `1100000` | `60` | <img src="images/B.png" style="zoom:50%;" /> |
+| `0000001` | `01` |  <img src="images/0.png" style="zoom:50%;" />  | `0100000` | `20` | <img src="images/6.png" style="zoom:50%;" /> | `1110010` | `72` | <img src="images/C.png" style="zoom:50%;" /> |
+| `1001111` | `4F` |  <img src="images/1.png" style="zoom:50%;" />  | `0001111` | `0F` | <img src="images/7.png" style="zoom:50%;" /> | `1000010` | `42` | <img src="images/D.png" style="zoom:50%;" /> |
+| `0010010` | `12` |  <img src="images/2.png" style="zoom:50%;" />  | `0000000` | `00` | <img src="images/8.png" style="zoom:50%;" /> | `0110000` | `30` | <img src="images/E.png" style="zoom:50%;" /> |
+| `0000110` | `06` |  <img src="images/3.png" style="zoom:50%;" />  | `0000100` | `04` | <img src="images/9.png" style="zoom:50%;" /> | `0111000` | `38` | <img src="images/F.png" style="zoom:50%;" /> |
+| `1001100` | `4C` |  <img src="images/4.png" style="zoom:50%;" />  | `0001000` | `08` | <img src="images/A.png" style="zoom:50%;" /> |           |      |                                              |
 
 > **Tabla 2.7.** Display de 7 segmentos.
+
+<div style="text-align:center;page-break-after: always; break-after: page;"></div>
 
 ### Testbench
 
 Las figuras (2.10-2.17) que se presentan a continuación corresponden a la simulación del testbench, en este se realiza la carga de cada una de las 16 operaciones que realiza la ALU con dos operandos constantes $A=1010$ y $B=0101$. Como se definió anteriormente, el tiempo necesario para realizar los 4 procesos habilitados por las señales A-D es de $1.6\ ns=1600\ ps$, periodo que se denota en la simulación mediante marcadores. La señal correspondiente al bus de entrada de instrucción a la ALU y al display 2 se resalta con color anaranjado y las señales correspondientes a los buses que conectan los displays 3 y 4, acarreo y salida respectivamente, se resaltan con color azul. La parte inferior muestra la representación gráfica de los displays 2,3 y 4 en función del valor de las señales antes mencionadas. Por encima de estos displays se indica la operación que se realiza en ese periodo de tiempo.
 
-#### Operaciones [0-3]
+
 
 ![](/home/ivan/Escom/Arquitectura/microprocessor/doc/images/testbench_1.jpg)
 
-> **fig.2.10.** Se denota con color rojo el retraso de $200\ ps$ que se obtiene debido a el inicio del reloj en 0. Para el caso de la primera operación el valor de los displays 3 y 4 en los primeros $600\ ps$ es igual a **4F** que representa el display apagado. Esto debido a la secuencia de operaciones que realiza el módulo en sincronía con las señales A-D. Como se observa en el diagrama del módulo, la señal de acarreo y la señal de salida de la ALU toman el valor del resultado de la operación hasta que se cargan los registros en la ALU con la señal B, por ende, valor de los displays se actualiza con cada pulso alto de la señal B.
+> **fig.2.10. Operaciones [0-3].** Se denota con color rojo el retraso de $200\ ps$ que se obtiene debido a el inicio del reloj en 0. Para el caso de la primera operación el valor de los displays 3 y 4 en los primeros $600\ ps$ es igual a **4F** que representa el display apagado. Esto debido a la secuencia de operaciones que realiza el módulo en sincronía con las señales A-D. Como se observa en el diagrama del módulo, la señal de acarreo y la señal de salida de la ALU toman el valor del resultado de la operación hasta que se cargan los registros en la ALU con la señal B, por ende, valor de los displays se actualiza con cada pulso alto de la señal B.
 
-#### Operaciones [4-7]
+
 
 ![](/home/ivan/Escom/Arquitectura/microprocessor/doc/images/testbench_2.jpg)
 
-> **fig.2.11.**
+> **fig.2.11. Operaciones [4-7].**
 
-#### Operaciones [8-11]
+
 
 ![](/home/ivan/Escom/Arquitectura/microprocessor/doc/images/testbench_3.jpg)
 
-> **fig.2.12.**
+> **fig.2.12. Operaciones [8-11].**
 
-#### Operaciones [C-F]
+
 
 ![](/home/ivan/Escom/Arquitectura/microprocessor/doc/images/testbench_4.jpg)
 
-> **fig2.13.**
+> **fig2.13. Operaciones [C-F].**
 
 ### micro_stage1
 
@@ -307,26 +304,30 @@ Es este nivel de simulación se forzan las contantes $A = 0011$ y $B=0111$  para
 
 La señales de entrada de la **ALU** correspondientes a la instrucción `unit_sel`, `op_sel`, `ci`, el acarreo de salida `co` y el valor de salida 4 bits `s` se identifican con color amarillo. La señal de enable y el bus de salida del banco de registro **RD**, se identifican con color rosa. Las señales del registro **ACC** se identifica con color cyan y el registro **ACM** color fucsia. Las señales del multiplexor **regmux** se identifican con color gris y finalmente los valores de entrada al módulo con color verde.
 
-#### B-A
+
 
 ![](/home/ivan/Escom/Arquitectura/microprocessor/doc/images/micro_1.jpg)
 
-> **fig.2.14.** En la ejecución de la primer instrucción durante el pulso A se carga la instrucción a la ALU y se hace la selección de B como segundo operando. Pasados $600\ ps$ durante el pulso B se activa el banco de registros RD y se obtiene la salida de la operación de la ALU en el bus correspondiente. Para el pulso C, $1000\ ps$ después, se carga el resultado de la operación en el registro ACC y finalmente pasados $1200\ ps$ se carga el valor de ACC en ACM. Este proceso se repite a partir de cada cambio de instrucción o pulso positivo de la señal A. El tiempo inactivo o de valor indefinido de cada dispositivo se denota con un sombreado rojo en la figura. Estos tiempos inactivos se deben a la secuencia de las señales A-C.
+> **fig.2.14. B-A.** En la ejecución de la primer instrucción durante el pulso A se carga la instrucción a la ALU y se hace la selección de B como segundo operando. Pasados $600\ ps$ durante el pulso B se activa el banco de registros RD y se obtiene la salida de la operación de la ALU en el bus correspondiente. Para el pulso C, $1000\ ps$ después, se carga el resultado de la operación en el registro ACC y finalmente pasados $1200\ ps$ se carga el valor de ACC en ACM. Este proceso se repite a partir de cada cambio de instrucción o pulso positivo de la señal A. El tiempo inactivo o de valor indefinido de cada dispositivo se denota con un sombreado rojo en la figura. Estos tiempos inactivos se deben a la secuencia de las señales A-C.
 
-#### ACM++
+
 
 ![](/home/ivan/Escom/Arquitectura/microprocessor/doc/images/micro_2.jpg)
 
-> **fig.2.15.** Una vez ejecutada la primer instrucción los valores de los registro se actualizan cada pulso del GCM correspondiente.
+> **fig.2.15. ACM++.** Una vez ejecutada la primer instrucción los valores de los registro se actualizan cada pulso del GCM correspondiente.
 
-#### A and ACM
+
 
 ![](/home/ivan/Escom/Arquitectura/microprocessor/doc/images/micro_3.jpg)
 
-> **fig.2.16.**
+> **fig.2.16. A and ACM.**
 
-#### ACM--
+
 
 ![](/home/ivan/Escom/Arquitectura/microprocessor/doc/images/micro_4.jpg)
 
-> **fig.2.17.**
+> **fig.2.17.ACM--.**
+
+
+
+II: Stage 1

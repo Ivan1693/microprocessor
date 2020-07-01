@@ -1,120 +1,120 @@
 v 4
-file . "micro/prog_counter.vhd" "4f057255e3a63ae7b3253f0e613d6ab09bbf2e1d" "20200630053539.817":
+file . "micro/prog_counter.vhd" "4f057255e3a63ae7b3253f0e613d6ab09bbf2e1d" "20200701190550.214":
   entity prog_counter at 1( 0) + 0 on 87;
   architecture behavioral of prog_counter at 14( 270) + 0 on 88;
-file . "micro/micro_stage1.vhd" "65bd0c7709f08e0e5c70abab49a82c62b960dd2d" "20200630053539.796":
+file . "micro/micro_stage1.vhd" "65bd0c7709f08e0e5c70abab49a82c62b960dd2d" "20200701190550.201":
   entity micro_stage1 at 1( 0) + 0 on 83;
   architecture behavioral of micro_stage1 at 20( 504) + 0 on 84;
-file . "micro/lagartijax4.vhd" "78c70c8a51a3b0205894fcb615f0846bbf0c0d9d" "20200630053539.782":
+file . "micro/lagartijax4.vhd" "78c70c8a51a3b0205894fcb615f0846bbf0c0d9d" "20200701190550.189":
   entity lagartijax4 at 1( 0) + 0 on 79;
   architecture behavioral of lagartijax4 at 13( 218) + 0 on 80;
-file . "micro/gcm.vhd" "4713ea4c2afd4b243d3bd523bd6e7f016afa883b" "20200630053539.769":
+file . "micro/gcm.vhd" "4713ea4c2afd4b243d3bd523bd6e7f016afa883b" "20200701190550.179":
   entity gcm at 1( 0) + 0 on 75;
   architecture behavioral of gcm at 17( 279) + 0 on 76;
-file . "alu/sign_control.vhd" "5d5490f01a27ed497f676aade263d8f85221c7dd" "20200630053539.755":
+file . "alu/sign_control.vhd" "5d5490f01a27ed497f676aade263d8f85221c7dd" "20200701190550.168":
   entity sign_control at 1( 0) + 0 on 72;
   architecture behavioral of sign_control at 13( 244) + 0 on 73;
-file . "alu/logic_u.vhd" "17eb30d21b2f3670f54597cabeaf5343cb389d7f" "20200630053539.745":
+file . "alu/logic_u.vhd" "17eb30d21b2f3670f54597cabeaf5343cb389d7f" "20200701190550.159":
   entity logic_u at 1( 0) + 0 on 68;
   architecture behavioral of logic_u at 15( 317) + 0 on 69;
-file . "alu/arith_u.vhd" "902fb6755aeea2203f5024d3bed443ea56146a76" "20200630053539.733":
+file . "alu/arith_u.vhd" "902fb6755aeea2203f5024d3bed443ea56146a76" "20200701190550.147":
   entity arith_u at 1( 0) + 0 on 64;
   architecture behavioral of arith_u at 22( 502) + 0 on 65;
-file . "alu_devs.vhd" "5ccd1f1747322d072828c5abd72d96b5445a49c3" "20200630053539.719":
+file . "alu_devs.vhd" "5ccd1f1747322d072828c5abd72d96b5445a49c3" "20200701190550.135":
   package alu_devs at 1( 0) + 0 on 61;
-file . "memory/reg05.vhd" "e52d32e83d52f5e6ec48baf75206206b51473273" "20200630053539.707":
+file . "memory/reg05.vhd" "e52d32e83d52f5e6ec48baf75206206b51473273" "20200701190550.124":
   entity reg05 at 1( 0) + 0 on 57;
   architecture behavioral of reg05 at 13( 239) + 0 on 58;
-file . "memory/reg010.vhd" "282653eba433c99c78a5f7b39c59ab670ff1609c" "20200630053539.697":
+file . "memory/reg010.vhd" "282653eba433c99c78a5f7b39c59ab670ff1609c" "20200701190550.114":
   entity reg010 at 1( 0) + 0 on 53;
   architecture behavioral of reg010 at 13( 242) + 0 on 54;
-file . "memory/bank641.vhd" "ea809f375824c5cd15b433c1ea4fe3358ac95033" "20200630053539.685":
+file . "memory/bank641.vhd" "ea809f375824c5cd15b433c1ea4fe3358ac95033" "20200701190550.105":
   entity bank641 at 1( 0) + 0 on 49;
   architecture behavioral of bank641 at 15( 341) + 0 on 50;
-file . "memory/bank241.vhd" "ff447422ef94f6286651231744a3a79a438e882f" "20200630053539.673":
+file . "memory/bank241.vhd" "ff447422ef94f6286651231744a3a79a438e882f" "20200701190550.095":
   entity bank241 at 1( 0) + 0 on 45;
   architecture behavioral of bank241 at 15( 341) + 0 on 46;
-file . "basic/mux643.vhd" "f58bf3c2ce843f456e029c5a0e8c8647cb824a24" "20200630053539.660":
+file . "basic/mux643.vhd" "f58bf3c2ce843f456e029c5a0e8c8647cb824a24" "20200701190550.084":
   entity mux643 at 1( 0) + 0 on 42;
   architecture behavioral of mux643 at 17( 433) + 0 on 43;
-file . "basic/mux241.vhd" "e48562a361ae75a74c3309baa902e5647d74b8b3" "20200630053539.649":
+file . "basic/mux241.vhd" "e48562a361ae75a74c3309baa902e5647d74b8b3" "20200701190550.075":
   entity mux241 at 1( 0) + 0 on 38;
   architecture behavioral of mux241 at 13( 242) + 0 on 39;
-file . "basic/full_adder.vhd" "bc4182697327853709e7a3f641d44449e2cf503a" "20200630053539.637":
+file . "basic/full_adder.vhd" "bc4182697327853709e7a3f641d44449e2cf503a" "20200701190550.063":
   entity full_adder at 1( 0) + 0 on 34;
   architecture behavioral of full_adder at 14( 200) + 0 on 35;
-file . "basic/dmux513.vhd" "20865e963aa82a540ce337b23c8f72f31b2f31db" "20200630053539.628":
+file . "basic/dmux513.vhd" "20865e963aa82a540ce337b23c8f72f31b2f31db" "20200701190550.054":
   entity dmux513 at 1( 0) + 0 on 30;
   architecture behavioral of dmux513 at 16( 277) + 0 on 31;
-file . "basic/deco47seg.vhd" "1bf9b54862c9725023d868f7d1edc344f3f968d7" "20200630053539.617":
+file . "basic/deco47seg.vhd" "1bf9b54862c9725023d868f7d1edc344f3f968d7" "20200701190550.046":
   entity deco47seg at 1( 0) + 0 on 26;
   architecture behavioral of deco47seg at 11( 188) + 0 on 27;
-file . "basic/conta305.vhd" "fa8104b758976a69d36885560a73fcacf1c9bc49" "20200630053539.603":
+file . "basic/conta305.vhd" "fa8104b758976a69d36885560a73fcacf1c9bc49" "20200701190550.035":
   entity conta305 at 1( 0) + 0 on 22;
   architecture behavioral of conta305 at 11( 162) + 0 on 23;
-file . "basic/conta203.vhd" "066850efdcb863511437f451816b91373c557a0b" "20200630053539.594":
+file . "basic/conta203.vhd" "066850efdcb863511437f451816b91373c557a0b" "20200701190550.026":
   entity conta203 at 1( 0) + 0 on 18;
   architecture behavioral of conta203 at 11( 162) + 0 on 19;
-file . "basic/comp2bit.vhd" "a986debf7883bd334f68797f599c13d8475cc3d0" "20200630053539.583":
+file . "basic/comp2bit.vhd" "a986debf7883bd334f68797f599c13d8475cc3d0" "20200701190550.013":
   entity comp2bit at 1( 0) + 0 on 14;
   architecture behavioral of comp2bit at 14( 250) + 0 on 15;
-file . "basic_devs.vhd" "cd628ff2f67c4043829931ade909e1382efd4261" "20200630053539.568":
+file . "basic_devs.vhd" "cd628ff2f67c4043829931ade909e1382efd4261" "20200701190549.996":
   package basic_devs at 1( 0) + 0 on 11;
-file . "basic/adder4bit.vhd" "80f16296c35b8406b8100de865f7c79b2746b4bf" "20200630053539.577":
+file . "basic/adder4bit.vhd" "80f16296c35b8406b8100de865f7c79b2746b4bf" "20200701190550.007":
   entity adder4bit at 1( 0) + 0 on 12;
   architecture behavioral of adder4bit at 15( 297) + 0 on 13;
-file . "basic/comp4bit.vhd" "0b7ebc05ad7ffd2bfa4c1392c020d79f63fd4f54" "20200630053539.589":
+file . "basic/comp4bit.vhd" "0b7ebc05ad7ffd2bfa4c1392c020d79f63fd4f54" "20200701190550.022":
   entity comp4bit at 1( 0) + 0 on 16;
   architecture behavioral of comp4bit at 15( 282) + 0 on 17;
-file . "basic/conta304.vhd" "87fb925fef67f967c0e320a0094df2d6d94dc1f0" "20200630053539.599":
+file . "basic/conta304.vhd" "87fb925fef67f967c0e320a0094df2d6d94dc1f0" "20200701190550.030":
   entity conta304 at 1( 0) + 0 on 20;
   architecture behavioral of conta304 at 11( 162) + 0 on 21;
-file . "basic/conta40F.vhd" "9516b3c35745c8cd7f6b4188c7cb466438c73b45" "20200630053539.612":
+file . "basic/conta40F.vhd" "9516b3c35745c8cd7f6b4188c7cb466438c73b45" "20200701190550.042":
   entity conta40f at 1( 0) + 0 on 24;
   architecture behavioral of conta40f at 15( 322) + 0 on 25;
-file . "basic/dmux412.vhd" "eea5de402c9a64208f5edd46f58a65adddec6960" "20200630053539.622":
+file . "basic/dmux412.vhd" "eea5de402c9a64208f5edd46f58a65adddec6960" "20200701190550.050":
   entity dmux412 at 1( 0) + 0 on 28;
   architecture behavioral of dmux412 at 15( 253) + 0 on 29;
-file . "basic/dmux673.vhd" "f3627b369576069f0385bebe6ff0a5cbfbf92141" "20200630053539.633":
+file . "basic/dmux673.vhd" "f3627b369576069f0385bebe6ff0a5cbfbf92141" "20200701190550.058":
   entity dmux673 at 1( 0) + 0 on 32;
   architecture behavioral of dmux673 at 17( 439) + 0 on 33;
-file . "basic/logic_op_1bit.vhd" "44fbaf03f007bff2ef0a8ec81ab356062b700266" "20200630053539.644":
+file . "basic/logic_op_1bit.vhd" "44fbaf03f007bff2ef0a8ec81ab356062b700266" "20200701190550.069":
   entity logic_op_1bit at 1( 0) + 0 on 36;
   architecture behavioral of logic_op_1bit at 13( 223) + 0 on 37;
-file . "basic/mux251.vhd" "d7bb3d5a922e84c55a685e6f9e6354fa176b5517" "20200630053539.655":
+file . "basic/mux251.vhd" "d7bb3d5a922e84c55a685e6f9e6354fa176b5517" "20200701190550.080":
   entity mux251 at 1( 0) + 0 on 40;
   architecture behavioral of mux251 at 13( 230) + 0 on 41;
-file . "memory_devs.vhd" "7aa683374d086312ffe2377907639d0cd0d46356" "20200630053539.665":
+file . "memory_devs.vhd" "7aa683374d086312ffe2377907639d0cd0d46356" "20200701190550.088":
   package memory_devs at 1( 0) + 0 on 44;
-file . "memory/bank251.vhd" "2be3559e4935d0d597a8f6101fca8992ecf7047b" "20200630053539.679":
+file . "memory/bank251.vhd" "2be3559e4935d0d597a8f6101fca8992ecf7047b" "20200701190550.100":
   entity bank251 at 1( 0) + 0 on 47;
   architecture behavioral of bank251 at 15( 327) + 0 on 48;
-file . "memory/ff0.vhd" "0d043d3a442aa4648abde3619a8ddf408d0a4320" "20200630053539.691":
+file . "memory/ff0.vhd" "0d043d3a442aa4648abde3619a8ddf408d0a4320" "20200701190550.109":
   entity ff0 at 1( 0) + 0 on 51;
   architecture behavioral of ff0 at 12( 157) + 0 on 52;
-file . "memory/reg04.vhd" "6e1357238646c6ed080d7752ec1b0acd1720a61c" "20200630053539.702":
+file . "memory/reg04.vhd" "6e1357238646c6ed080d7752ec1b0acd1720a61c" "20200701190550.119":
   entity reg04 at 1( 0) + 0 on 55;
   architecture behavioral of reg04 at 13( 239) + 0 on 56;
-file . "memory/rom3216.vhd" "bb2315a5e16eb32ce32fc4755c955da29482767a" "20200630053539.714":
+file . "memory/rom3216.vhd" "bb2315a5e16eb32ce32fc4755c955da29482767a" "20200701190550.131":
   entity rom3216 at 1( 0) + 0 on 59;
   architecture behavioral of rom3216 at 10( 213) + 0 on 60;
-file . "alu/alu_16op.vhd" "1653cacbb2c39cbbdaa0cd45b1ad393bdf431100" "20200630053539.726":
+file . "alu/alu_16op.vhd" "1653cacbb2c39cbbdaa0cd45b1ad393bdf431100" "20200701190550.142":
   entity alu_16op at 1( 0) + 0 on 62;
   architecture behavioral of alu_16op at 16( 356) + 0 on 63;
-file . "alu/ctrl_arith_u.vhd" "de050451b9a8a7b154eb9fa0b096202df10e37d3" "20200630053539.738":
+file . "alu/ctrl_arith_u.vhd" "de050451b9a8a7b154eb9fa0b096202df10e37d3" "20200701190550.153":
   entity ctrl_arith_u at 1( 0) + 0 on 66;
   architecture behavioral of ctrl_arith_u at 17( 392) + 0 on 67;
-file . "alu/operation_control.vhd" "0d5fa2b089eb55f0160d97a83dc36c247842e211" "20200630053539.750":
+file . "alu/operation_control.vhd" "0d5fa2b089eb55f0160d97a83dc36c247842e211" "20200701190550.164":
   entity operation_control at 1( 0) + 0 on 70;
   architecture behavioral of operation_control at 16( 317) + 0 on 71;
-file . "micro_devs.vhd" "8a97b7b6447166be4200ccf2aa72636afc5ba47e" "20200630053539.760":
+file . "micro_devs.vhd" "8a97b7b6447166be4200ccf2aa72636afc5ba47e" "20200701190550.172":
   package micro_devs at 1( 0) + 0 on 74;
-file . "micro/inst_deco.vhd" "35923570e1c641e1e492400506184b422df6c4ca" "20200630053539.775":
+file . "micro/inst_deco.vhd" "35923570e1c641e1e492400506184b422df6c4ca" "20200701190550.184":
   entity inst_deco at 1( 0) + 0 on 77;
   architecture behavioral of inst_deco at 16( 355) + 0 on 78;
-file . "micro/micro_core.vhd" "13bb25940e4c4d8f8e14bf4b559b795d1422df8c" "20200630053539.789":
+file . "micro/micro_core.vhd" "13bb25940e4c4d8f8e14bf4b559b795d1422df8c" "20200701190550.194":
   entity micro_core at 1( 0) + 0 on 81;
   architecture behavioral of micro_core at 18( 362) + 0 on 82;
-file . "micro/micro_stage2.vhd" "9e7534673b3bab1036e253656c2245519daba508" "20200630053539.806":
+file . "micro/micro_stage2.vhd" "9e7534673b3bab1036e253656c2245519daba508" "20200701190550.207":
   entity micro_stage2 at 1( 0) + 0 on 85;
   architecture behavioral of micro_stage2 at 20( 495) + 0 on 86;
