@@ -1,0 +1,138 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/ivan/Escom/Arquitectura/microprocessor/project/lagartijax4/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/ivan/Escom/Arquitectura/microprocessor/project/lagartijax4/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: lagartijax4.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/basic_devs.vhd" into library work
+Parsing package <basic_devs>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/comp2bit.vhd" into library work
+Parsing entity <comp2bit>.
+Parsing architecture <behavioral> of entity <comp2bit>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/full_adder.vhd" into library work
+Parsing entity <full_adder>.
+Parsing architecture <behavioral> of entity <full_adder>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/comp4bit.vhd" into library work
+Parsing entity <comp4bit>.
+Parsing architecture <behavioral> of entity <comp4bit>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/memory_devs.vhd" into library work
+Parsing package <memory_devs>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/memory/ff0.vhd" into library work
+Parsing entity <ff0>.
+Parsing architecture <behavioral> of entity <ff0>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/logic_op_1bit.vhd" into library work
+Parsing entity <logic_op_1bit>.
+Parsing architecture <behavioral> of entity <logic_op_1bit>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/adder4bit.vhd" into library work
+Parsing entity <adder4bit>.
+Parsing architecture <behavioral> of entity <adder4bit>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/alu_devs.vhd" into library work
+Parsing package <alu_devs>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/sign_control.vhd" into library work
+Parsing entity <sign_control>.
+Parsing architecture <behavioral> of entity <sign_control>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/operation_control.vhd" into library work
+Parsing entity <operation_control>.
+Parsing architecture <behavioral> of entity <operation_control>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/ctrl_arith_u.vhd" into library work
+Parsing entity <ctrl_arith_u>.
+Parsing architecture <behavioral> of entity <ctrl_arith_u>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/memory/reg05.vhd" into library work
+Parsing entity <reg05>.
+Parsing architecture <behavioral> of entity <reg05>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/logic_u.vhd" into library work
+Parsing entity <logic_u>.
+Parsing architecture <behavioral> of entity <logic_u>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/arith_u.vhd" into library work
+Parsing entity <arith_u>.
+Parsing architecture <behavioral> of entity <arith_u>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/micro_devs.vhd" into library work
+Parsing package <micro_devs>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/micro/prog_counter.vhd" into library work
+Parsing entity <prog_counter>.
+Parsing architecture <behavioral> of entity <prog_counter>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/micro/inst_deco.vhd" into library work
+Parsing entity <inst_deco>.
+Parsing architecture <behavioral> of entity <inst_deco>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/memory/rom3216.vhd" into library work
+Parsing entity <rom3216>.
+Parsing architecture <behavioral> of entity <rom3216>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/memory/reg010.vhd" into library work
+Parsing entity <reg010>.
+Parsing architecture <behavioral> of entity <reg010>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/memory/bank251.vhd" into library work
+Parsing entity <bank251>.
+Parsing architecture <behavioral> of entity <bank251>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/basic/mux251.vhd" into library work
+Parsing entity <mux251>.
+Parsing architecture <behavioral> of entity <mux251>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/alu/alu_16op.vhd" into library work
+Parsing entity <alu_16op>.
+Parsing architecture <behavioral> of entity <alu_16op>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/micro/micro_stage2.vhd" into library work
+Parsing entity <micro_stage2>.
+Parsing architecture <behavioral> of entity <micro_stage2>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/micro/micro_stage1.vhd" into library work
+Parsing entity <micro_stage1>.
+Parsing architecture <behavioral> of entity <micro_stage1>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/micro/micro_core.vhd" into library work
+Parsing entity <micro_core>.
+Parsing architecture <behavioral> of entity <micro_core>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/micro/gcm.vhd" into library work
+Parsing entity <gcm>.
+Parsing architecture <behavioral> of entity <gcm>.
+Parsing VHDL file "/home/ivan/Escom/Arquitectura/microprocessor/source/micro/lagartijax4.vhd" into library work
+Parsing entity <lagartijax4>.
+Parsing architecture <behavioral> of entity <lagartijax4>.
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.43 secs
+ 
+--> 
+
+
+Total memory usage is 345240 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

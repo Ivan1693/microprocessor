@@ -1,0 +1,29 @@
+Command line:
+   rom3216_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  33033
+
+Mon Jun 29 14:48:10 2020
+
+
+ Elaboration Time: 0.06 sec
+
+ Current Memory Usage: 246.69 Meg
+
+ Total Signals          : 2
+ Total Nets             : 21
+ Total Signal Drivers   : 1
+ Total Blocks           : 3
+ Total Primitive Blocks : 3
+ Total Processes        : 1
+ Total Traceable Variables  : 14
+ Total Scalar Nets and Variables : 1016
+Total Line Count : 1
+
+ Total Simulation Time: 0.06 sec
+
+ Current Memory Usage: 322.191 Meg
+
+Mon Jun 29 14:48:51 2020
+

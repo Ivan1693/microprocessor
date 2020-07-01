@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ivan/Escom/Arquitectura/microprocessor/project/lagartijax4/lagartijax4.xst" -ofn "/home/ivan/Escom/Arquitectura/microprocessor/project/lagartijax4/lagartijax4.syr" 
+netgen -intstyle ise -ar Structure -tm lagartijax4 -w -dir netgen/synthesis -ofmt vhdl -sim lagartijax4.ngc lagartijax4_synthesis.vhd 

@@ -1,0 +1,31 @@
+Command line:
+   lagartijax4_sim_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54195
+
+Tue Jun 30 00:37:09 2020
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 247.263 Meg
+
+ Total Signals          : 336
+ Total Nets             : 179
+ Total Signal Drivers   : 106
+ Total Blocks           : 76
+ Total Primitive Blocks : 59
+ Total Processes        : 91
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 1175
+Total Line Count : 189
+Total Line Count : 189
+Total Line Count : 189
+
+ Total Simulation Time: 0.09 sec
+
+ Current Memory Usage: 322.765 Meg
+
+Tue Jun 30 01:32:30 2020
+

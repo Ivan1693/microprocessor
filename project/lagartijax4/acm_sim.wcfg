@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ivan/Escom/Arquitectura/microprocessor/project/lagartijax4/micro_stage1_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="alu_devs" />
+            <top_module name="basic_devs" />
+            <top_module name="memory_devs" />
+            <top_module name="micro_stage1" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="divider41" type="divider">
+      <obj_property name="label">GCM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#373737</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_stage1/gcm_b" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gcm_b</obj_property>
+      <obj_property name="ObjectShortName">gcm_b</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff7700</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_stage1/gcm_c" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gcm_c</obj_property>
+      <obj_property name="ObjectShortName">gcm_c</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#d500ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_stage1/gcm_d" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gcm_d</obj_property>
+      <obj_property name="ObjectShortName">gcm_d</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#c8ff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider31" type="divider">
+      <obj_property name="label">Instrucción</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#373737</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_stage1/inst_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">inst_in[4:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_in[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider27" type="divider">
+      <obj_property name="label">RD</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#373737</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_stage1/rd/reg00_block/reg" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg[4:0]</obj_property>
+      <obj_property name="label">rd_a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_stage1/rd/reg01_block/reg" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg[4:0]</obj_property>
+      <obj_property name="label">rd_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider28" type="divider">
+      <obj_property name="label">ACC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#373737</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_stage1/acc/enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#d500ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_stage1/acc/out_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">out_reg[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#d500ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_stage1/acc/reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#d500ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider29" type="divider">
+      <obj_property name="label">ACM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#373737</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_stage1/acm/enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#c8ff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_stage1/acm/out_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">out_reg[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#c8ff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_stage1/acm/reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#c8ff00</obj_property>
+   </wvobject>
+</wave_config>
