@@ -330,4 +330,3 @@ La señales de entrada de la **ALU** correspondientes a la instrucción `unit_se
 
 
 
-II: Stage 1

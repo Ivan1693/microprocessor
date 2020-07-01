@@ -1,13 +1,24 @@
-# Arquitectura de computadoras - Proyecto Final
+![](doc/images/logo.png)
 
-## Microprocesador de 4 bits
+## Resumen
 
-El siguiente repositorio consta de los archivos de diseño en VHDL de un microprocesador de 4 bits basado en la arquitectura Von Neuman. 
+El siguiente repositorio corresponde al proyecto final del curso de Arquitectura de Computadoras de la [Escuela Superior de Cómputo](https://www.escom.ipn.mx/); este contiene material relacionado con el diseño e implementación mediante el lenguaje descripción VHDL de un microprocesador de 4 bits de arquitectura Von Neumann e instrucciones de longitud fija de 16 bits basadas en RISC. El nombre [LagartijaX4](https://github.com/Ivan1693/microprocessor) está inspirado en el procesador [Lagarto](https://www.proyectos.cic.ipn.mx/index.php/lagarto) desarrollado por el Centro de Investigación en Computación del IPN. 
 
-![](doc/schematic/base_microprocessor.png)
+**Reporte**
+[LagartijaX4-ReporteFinal.pdf](https://github.com/Ivan1693/microprocessor/raw/micro_stage2/doc/pdf/LagartijaX4-ReporteFinal.pdf)
 
+![](doc/schematic/lagartijax4.png)
 
+## Estructura del repositorio
 
-> #### Equipo:
->
-> Este repositorio es el resultado de la re-estructuración del proyecto original de arqui. Incluyo tanto el proyecto de ISE, como los archivos VHD que lo integran. Dentro de la carpeta `doc` pueden encontrar un archivo llamado [Equipo.md][doc/Equipo.md] dónde expongo algunas de las ideas y consideraciones que tome para llevar a cabo el trabajo (les pido por favor lo lean para explicarme un poco). Los archivos `M̀icroprocesador - Stage 1`, `Simulación`y  `Anexos [A|B]`integran el reporte de la primera parte del proyecto. Pueden encontrar estos archivos en formato **.md** en la misma carpeta `doc`, una versión HTML dentro de la carpeta `html` y otra versión combinada en PDF dentro de la carpeta `pdf`. 
+El root del proyecto es el directorio **microprocessor**, el directorio **project** contiene el proyecto de **ISE** nombrado **lagartijax4**. El directorio **doc** contiene archivos de documentación, diagramas, etc. Finalmente el código VHD se organiza en el directorio **source**. Dentro de source existe un directorio llamado **sims** este contiene los archivos testbench (*_tb.vhd) para las simulaciones de los módulos  dentro del directorio **testbench**  para varias de las entidades que están declaradas en los paquetes y finalmente el directorio **gtkw** contiene los archivos de configuración de simulación de **GTKWave**.
+
+![](doc/images/project_tree.png)
+
+## Equipo
+
+| Abraham Zaid Aguilar Reyes | Brandon Iván Hernández Reséndiz |       Rámses Fuentes Perez       |
+| :------------------------: | :-----------------------------: | :------------------------------: |
+| https://github.com/Zaiks13 |   https://github.com/Ivan1693   | https://github.com/CobraUltimate |
+
+![](doc/images/escom.png)
