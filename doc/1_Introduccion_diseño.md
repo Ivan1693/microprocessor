@@ -1,8 +1,8 @@
 # I: Introducción
 
-Hoy en día la familiaridad que se tiene con las tecnología, hace que los procesos de cómputo de cualquier dispositivo electrónico sean transparentes, extremadamente rápidos y accesibles desde casi cualquier lugar en el planeta. Los dispositivos y tecnologías que se utilizan conforman una vasta variedad, sin embargo, la totalidad de estos requieren de un componente mas que fundamental, el procesador o microprocesador. Como veremos a continuación en la definición de microprocesador, este junto con los diferentes mecanismos de comunicación entre dispositivos, conforman el cerebro y columna vertebral de cualquier máquina que requiera realizar cálculos.  El presente trabajo describe el proceso de diseño y modelado en VHDL de un microprocesador de 4 bits de arquitectura Von Neumann con un conjunto de instrucciones basadas en el formato de instrucción RISC.
+Los microprocesadores sustentan la mayoría de sistemas de cómputo en el mundo, conforman el cerebro y la columna vertebral de cualquier máquina que realiza cálculos. Actualmente los avances en la fabricación y diseño de microprocesadores, hace que los procesos de cómputo de cualquier dispositivo electrónico sean transparentes, extremadamente rápidos y accesibles desde casi cualquier lugar en el planeta. El desarrollo de un microprocesador requiere de consideraciones previas como lo es el formato de instrucción, tamaño de datos, la arquitectura, el número de operaciones, entre otras. El objetivo de este trabajo es dar seguimiento y documentar cada módulo del desarrollo de un procesador básico con funcionalidades limitadas, implementando una unidad aritmético lógica (ALU) con 16 operaciones, 8 aritméticas y 8 lógicas, permitiendo la entrada de dos operandos y la reutilización de la salida de la ALU, con un memoria ROM que permita almacenar y leer las instrucciones de programa.
 
-# Definiciones
+La estructura del trabajo se divide en los siguientes capítulos: Diseño, Stage I, Stage II, GCM y LagartijaX4.
 
 #### Microprocesador
 

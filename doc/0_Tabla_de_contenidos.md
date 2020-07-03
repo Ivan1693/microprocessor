@@ -4,7 +4,6 @@
 </style>
 <table>
     <tr><td style="font-weight:bold;">I: Introducción</td><td>1</td></tr>
-    <tr><td style="text-indent:1em;">Definciones</td><td>2</td></tr>
     <tr><td style="text-indent:2em;">Microprocesador</td><td>2</td></tr>
     <tr><td style="text-indent:2em;">Arquitectura</td><td>2</td></tr>
     <tr><td style="text-indent:2em;">Instrucciones RISC</td><td>3</td></tr>
@@ -35,6 +34,7 @@
     <tr><td style="text-indent:2em;"> micro_stage1</td><td>22</td></tr>
 </table>
 
+
 <div style="text-align:center;page-break-after: always; break-after: page;"></div>
 
 <style>
@@ -60,6 +60,6 @@
     <tr><td style="text-indent:1em;"> Instrucciones de prueba</td><td>38</td></tr>
     <tr><td style="text-indent:1em;"> Simulación</td><td>39</td></tr>
     <tr><td style="text-indent:1em;"> Conclusión</td><td>43</td></tr>
-    <tr><td style="font-weight:bold;"> Bibliografía y Referencias electrónicas</td><td>46</td></tr>
-    <tr><td style="font-weight:bold;"> Anexo A: Nomenclatura de dispositivos</td><td>47</td></tr>
+    <tr><td style="font-weight:bold;"> Bibliografía y Referencias electrónicas</td><td>45</td></tr>
+    <tr><td style="font-weight:bold;"> Anexo A: Nomenclatura de dispositivos</td><td>46</td></tr>
 </table>
