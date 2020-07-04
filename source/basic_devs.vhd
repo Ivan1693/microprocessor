@@ -47,7 +47,7 @@ package basic_devs is
 		port(
 		 a : in std_logic;
 		 b : in std_logic;
-		 c : in std_logic_vector (2 downto 0);
+		 c : in std_logic_vector (1 downto 0);
 		 ci : in std_logic;
 		 s : out std_logic);
 	end component;

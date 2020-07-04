@@ -20,7 +20,7 @@ end entity;
 architecture behavioral of micro_stage1 is
 	
 	signal unit_sel: std_logic;
-	signal op_sel: std_logic_vector(2 downto 0);
+	signal op_sel: std_logic_vector(1 downto 0);
 	signal carry_in: std_logic;
 	signal carry_out: std_logic;
 	signal regmux_sel: std_logic;

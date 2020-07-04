@@ -11,7 +11,7 @@ entity arith_u is
 	 b: in std_logic_vector (3 downto 0);
 	 sa: in std_logic;
 	 sb: in std_logic;
-	 op_sel: in std_logic_vector (2 downto 0);
+	 op_sel: in std_logic_vector (1 downto 0);
 	 ci: in std_logic;
 	 co: out std_logic;
 	 sf: out std_logic;
@@ -27,7 +27,7 @@ architecture behavioral of arith_u is
 	signal b_prime : std_logic_vector(3 downto 0);
 	signal sab : std_logic;
 	signal ci_prime : std_logic;
-	signal c_prime : std_logic_vector(2 downto 0);
+	signal c_prime : std_logic_vector(1 downto 0);
 	signal co_aux : std_logic;
 	signal fix_aux : std_logic;
 
