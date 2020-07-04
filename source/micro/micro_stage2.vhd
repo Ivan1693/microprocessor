@@ -26,7 +26,6 @@ architecture behavioral of micro_stage2 is
 begin
 	
 	ri: reg010 port map(gcm_a,rom_bus,instr_bus);
-	deco: inst_deco port map(instr_bus,data_a,data_b,inst_out_port,pc_in_bus,pc_in_enable);
 	pc: prog_counter port map(pc_in_bus,addr_bus,pc_in_enable,gcm_e);
 	rom: rom3216 port map(addr_bus,rom_bus);
 
