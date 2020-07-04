@@ -22,6 +22,16 @@ package memory_devs is
 		 out01: out std_logic_vector(4 downto 0) 
 		);
 	end component;
+	-- Banco de registro de 32x5
+	component bank325 is
+    Port ( address_in: in  std_logic_vector (4 downto 0);
+			  address_out_a: in  std_logic_vector (4 downto 0);
+			  address_out_b: in  std_logic_vector (4 downto 0);
+			  data_in: in  std_logic_vector (4 downto 0);
+           data_out_a: out  std_logic_vector (4 downto 0);
+			  data_out_b: out  std_logic_vector (4 downto 0);
+           enable: in  std_logic);
+	end component;
 	--Registro 16 bits
 	component reg010 is
 	    port (
@@ -54,10 +64,20 @@ package memory_devs is
 		 q: out  std_logic
 	);
 	end component;
-    --ROM
+   --ROM
 	component rom3216 is
     	port(
 		 address : in STD_LOGIC_VECTOR (4 downto 0);
 		 data : out  STD_LOGIC_VECTOR (15 downto 0));
+	end component;
+	--RAM
+	component ram325 is
+    Port ( data_in_a : in  std_logic_vector (4 downto 0);
+           data_in_b : in  std_logic_vector (4 downto 0);
+			  acc_in: in std_logic_vector (4 downto 0);
+			  data_out_a : out  std_logic_vector (4 downto 0);
+           data_out_b : out  std_logic_vector (4 downto 0);
+           control : in  std_logic_vector (1 downto 0);
+           gcm_d : in  std_logic);
 	end component;
 end package ; 

@@ -5,6 +5,7 @@ use work.memory_devs.bank325;
 entity ram325 is
     Port ( data_in_a : in  std_logic_vector (4 downto 0);
            data_in_b : in  std_logic_vector (4 downto 0);
+			  acc_in : in  std_logic_vector (4 downto 0);
            data_out_a : out  std_logic_vector (4 downto 0);
            data_out_b : out  std_logic_vector (4 downto 0);
            control : in  std_logic_vector (1 downto 0);
@@ -22,12 +23,14 @@ signal data_out_b_addr: std_logic_vector(4 downto 0);
 signal enable: std_logic:= '0';
 
 begin
-	process(data_in_a,data_in_b,control,gcm_d)
+	process(data_in_a,data_in_b,acc_in,control,gcm_d)
 		begin
 		case control is
 			when "00" => data_out_a_addr <= data_in_a;
 							 data_out_b_addr <= data_in_b;
-							 enable <= '0';
+							 data_in_addr <= "11111";
+							 data_in_aux <= acc_in;
+							 enable <= gcm_d;
 			when "10" => data_in_addr <= data_in_a; --Escribe los datos de b en la direccion a
 							 data_in_aux <= data_in_b;
 							 enable <= gcm_d;

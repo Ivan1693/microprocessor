@@ -13,10 +13,7 @@ entity micro_stage2 is
 	pc_addr_port: in std_logic_vector(4 downto 0);
 	pc_enable_port: in std_logic;
    -- Salida de instrucción a micro:stage3
-   instr_out_port: out std_logic_vector(4 downto 0);
-   -- Salida de datos a micro_stage1
-   data_a: out std_logic_vector(4 downto 0);
-   data_b: out std_logic_vector(4 downto 0)
+   instr_out_port: out std_logic_vector(15 downto 0)
   );
 end entity;
 
