@@ -4,7 +4,7 @@ use work.basic_devs.comp4bit;
 
 entity ctrl_arith_u is
 	port( 
-	 c: in std_logic_vector (1 downto 0);
+	 c: in std_logic_vector (2 downto 0);
 	 ci: in std_logic;
 	 a: in std_logic_vector (3 downto 0);
 	 b: in std_logic_vector (3 downto 0);
@@ -26,23 +26,23 @@ begin
 	begin
 		if(ci='0') then
 			case c is
-				when "00" => b_prime <= b;
-				when "01" => b_prime <= "0000";
-				when "10" => b_prime <= b;
-				when "11" => b_prime <= "1111";
+				when "000" => b_prime <= b;
+				when "001" => b_prime <= "0000";
+				when "010" => b_prime <= b;
+				when "011" => b_prime <= "1111";
 				when others => b_prime <= "0000";
 			end case;
 			fix_aux <= '0';
 		else
 			case c is
-				when "00" => b_prime <= not a;
-				when "01" => b_prime <= "0000";
-				when "10" => b_prime <= b;
-				when "11" => b_prime <= b;
+				when "000" => b_prime <= not a;
+				when "001" => b_prime <= "0000";
+				when "010" => b_prime <= b;
+				when "011" => b_prime <= b;
 							 fix_aux <='1'; -- Al dec
 				when others => b_prime <= "0000";
 			end case;
-			if(c="00") then
+			if(c="000") then
 				if(is_a='1') then
 					b_prime <= not b;
 					fix_aux <='0';
@@ -55,22 +55,22 @@ begin
 
 		if(ci='0') then
 			case c is
-				when "00" => a_prime <= a;
-				when "01" => a_prime <= a;
-				when "10" => a_prime <= "0000";
-				when "11" => a_prime <= a;
+				when "000" => a_prime <= a;
+				when "001" => a_prime <= a;
+				when "010" => a_prime <= "0000";
+				when "011" => a_prime <= a;
 							 fix_aux <='1';
 				when others => b_prime <= "0000";
 			end case;
 		else
 			case c is
-				when "00" => a_prime <= b;
-				when "01" => a_prime <= a;
-				when "10" => a_prime <= "0000";
-				when "11" => a_prime <= "1110";
+				when "000" => a_prime <= b;
+				when "001" => a_prime <= a;
+				when "010" => a_prime <= "0000";
+				when "011" => a_prime <= "1110";
 				when others => b_prime <= "0000";
 			end case;
-			if(c="00") then
+			if(c="000") then
 				if(is_a='1') then
 					a_prime <= a;
 				else
