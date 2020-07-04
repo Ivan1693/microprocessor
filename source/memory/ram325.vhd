@@ -25,13 +25,13 @@ begin
 	process(data_in_a,data_in_b,control,gcm_d)
 		begin
 		case control is
-			when "00" => data_in_addr <= data_in_a;
-							 data_in_aux <= data_in_b;
-							 enable <= gcm_d;
-			when "10" => data_out_a_addr <= data_in_a;
+			when "00" => data_out_a_addr <= data_in_a;
 							 data_out_b_addr <= data_in_b;
 							 enable <= '0';
-			when "11" => data_in_addr <= data_in_b;
+			when "10" => data_in_addr <= data_in_a; --Escribe los datos de b en la direccion a
+							 data_in_aux <= data_in_b;
+							 enable <= gcm_d;
+			when "11" => data_in_addr <= data_in_b; -- Copia los datos de la direccion a en la direccion b
 							 data_out_a_addr <= data_in_a;
 							 data_in_aux <= data_out_a_aux;
 							 enable <= gcm_d;
