@@ -1,0 +1,34 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Sun Jul  5 00:15:58 2020
+[*]
+[dumpfile] "/home/ivan/Escom/Arquitectura/microprocessor/source/b_shifter_sim.vcd"
+[dumpfile_mtime] "Sun Jul  5 00:15:35 2020"
+[dumpfile_size] 4040
+[savefile] "/home/ivan/Escom/Arquitectura/microprocessor/source/sims/gtkw/b_shifter.gtkw"
+[timestart] 0
+[size] 1680 979
+[pos] -1 -1
+*-21.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 220
+[signals_width] 134
+[sst_expanded] 1
+[sst_vpaned_height] 285
+@28
+b_shifter_sim.dir
+@200
+-
+@28
+b_shifter_sim.places4[1:0]
+b_shifter_sim.value4[3:0]
+b_shifter_sim.shifted4[3:0]
+@200
+-
+@28
+b_shifter_sim.places5[2:0]
+b_shifter_sim.value5[4:0]
+b_shifter_sim.shifted5[4:0]
+@200
+-
+[pattern_trace] 1
+[pattern_trace] 0

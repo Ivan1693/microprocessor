@@ -1,0 +1,53 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Sun Jul  5 02:41:09 2020
+[*]
+[dumpfile] "/home/ivan/Escom/Arquitectura/microprocessor/source/alu_sim_waves.vcd"
+[dumpfile_mtime] "Sun Jul  5 02:39:47 2020"
+[dumpfile_size] 17366
+[savefile] "/home/ivan/Escom/Arquitectura/microprocessor/source/sims/gtkw/alu_b_shifter.gtkw"
+[timestart] 0
+[size] 1680 979
+[pos] -1 -1
+*-22.232546 12000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] alu_sim.
+[treeopen] alu_sim.alu_instancia.
+[treeopen] alu_sim.alu_instancia.logic_unit.
+[sst_width] 350
+[signals_width] 238
+[sst_expanded] 1
+[sst_vpaned_height] 536
+@28
+alu_sim.instru[4:0]
+alu_sim.alu_instancia.logic_unit.op_sel[2:0]
+alu_sim.alu_instancia.logic_unit.ci
+alu_sim.a[4:0]
+alu_sim.b[4:0]
+@200
+-logic_gates
+@28
+[color] 2
+alu_sim.alu_instancia.logic_unit.logic_gates[4:0]
+@200
+-zero_shifter
+@29
+[color] 3
+alu_sim.alu_instancia.logic_unit.zero_shift[4:0]
+@200
+-rotaciones
+-unsiged
+@28
+[color] 7
+alu_sim.alu_instancia.logic_unit.unsigned_shift[3:0]
+@200
+-signed
+@28
+[color] 4
+alu_sim.alu_instancia.logic_unit.signed_shift[4:0]
+@200
+-salida
+@28
+[color] 1
+alu_sim.s[4:0]
+[pattern_trace] 1
+[pattern_trace] 0

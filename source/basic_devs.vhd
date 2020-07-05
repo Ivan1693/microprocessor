@@ -42,6 +42,16 @@ package basic_devs is
 		 are_equal:out  std_logic
 	);
 	end component;
+	-- Operador lógico 4 bits
+	component logic_op_4bit is
+	port(
+	 a : in std_logic_vector(4 downto 0);
+	 b : in std_logic_vector(4 downto 0);
+	 op_sel: in std_logic_vector (2 downto 0);
+	 ci: in std_logic;
+	 s : out std_logic_vector(4 downto 0)
+	 );
+	end component;
 	-- Operador lógico 1 bit
 	component logic_op_1bit is
 		port(
@@ -80,6 +90,29 @@ package basic_devs is
 	     count_o : out std_logic_vector(3 downto 0);
 	     end_o   : out std_logic
 	);
+	end component;
+	-- Mux 4 a 1 de 2 bits
+	component mux412 is
+	port(
+		sel: in std_logic_vector(1 downto 0);
+		src00: in std_logic;
+		src01: in std_logic;
+		src02: in std_logic;
+		src03: in std_logic;
+		dst: out std_logic
+	);
+	end component;
+	-- Mux 5 a 1 de 2 bits
+	component mux512 is
+		port(
+			sel: in std_logic_vector(2 downto 0);
+			src00: in std_logic;
+			src01: in std_logic;
+			src02: in std_logic;
+			src03: in std_logic;
+			src04: in std_logic;
+			dst: out std_logic
+		);
 	end component;
 	-- Multiplexor 2 a 1 de 4 bits
 	component mux241 is
@@ -154,4 +187,33 @@ package basic_devs is
 		 display: out std_logic_vector(6 downto 0)
 	  );
 	end component;
+	-- Barrel Shifter 4 bits
+	component b_shifter4 is
+	  port (
+	  	dir: in std_logic;
+	  	value: in std_logic_vector(3 downto 0);
+	  	places: in std_logic_vector(1 downto 0);
+	  	shifted: out std_logic_vector(3 downto 0)
+	  );
+	end component;
+	-- Barrel Shifter 5 bits
+	component b_shifter5 is
+	  port (
+	  	dir: in std_logic;
+	  	value: in std_logic_vector(4 downto 0);
+	  	places: in std_logic_vector(2 downto 0);
+	  	shifted: out std_logic_vector(4 downto 0)
+	  );
+	end component;
+	-- Zero shifter
+	component zero_shifter is
+		port (
+		 a: in std_logic_vector (4 downto 0);
+		 b: in std_logic_vector (4 downto 0);
+		 op_sel: in std_logic_vector (2 downto 0);
+		 ci: in std_logic;
+		 s: out std_logic_vector (4 downto 0)
+		);
+	end component;
+
 end package; 

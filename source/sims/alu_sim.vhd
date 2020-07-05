@@ -14,8 +14,101 @@ architecture behavior of alu_sim is
 
 begin
 	
-	a<="10101";
-	b<="00110" after 0 ns, "00001" after 6200 ps, "00010" after 6400 ps, "00011" after 6600 ps, "00100" after 6800 ps, "00001" after 7200 ps, "00010" after 7400 ps, "00011" after 7600 ps, "00100" after 7800 ps, "00001" after 8200 ps, "00010" after 8400 ps, "00011" after 8600 ps, "00100" after 8800 ps, "00101" after 8900 ps, "00001" after 9200 ps, "00010" after 9400 ps, "00011" after 9600 ps, "00100" after 9800 ps, "00101" after 9900 ps;
-	instru<="10000" after 0 ns, "10001" after 1 ns, "10010" after 2 ns, "10011" after 3 ns, "10100" after 4 ns, "10101" after 5 ns, "10110" after 6 ns, "10111" after 7 ns, "11000" after 8 ns, "11001" after 9 ns, "11010" after 10 ns;
-	alu_instancia: alu_16op port map (instru(4),instru(3 downto 1), instru(0), a, b, co, s);
+	a<=
+		"00010" after 0 ns,
+		"00001" after 8 ns,
+		"01001" after 9 ns,
+		"01010" after 10 ns,
+		"01011" after 11 ns,
+		"01100" after 12 ns,
+		"10001" after 13 ns,
+		"01110" after 14 ns,
+		"01111" after 15 ns,
+
+	-- Corrimientos -rotaciones
+	"11000" after 22 ns;
+	b<=
+
+		--Aritméticas
+		"00000" after 0 ns,
+		"00001" after 1 ns,
+		"00010" after 2 ns,
+		"00011" after 3 ns,
+		"00100" after 4 ns,
+		"00101" after 5 ns,
+		"00110" after 6 ns,
+		"00111" after 7 ns,
+		--Saltos
+		"00100" after 8 ns,
+		"01001" after 9 ns,
+		"01010" after 10 ns,
+		"01011" after 11 ns,
+		"00010" after 12 ns,
+		"01101" after 13 ns,
+		"01110" after 14 ns,
+		"01111" after 15 ns,
+
+		-- Lógicas
+		"00000" after 16 ns,
+		"00001" after 17 ns,
+		"00010" after 18 ns,
+		"00011" after 19 ns,
+		"00100" after 20 ns,
+		"00101" after 21 ns,
+
+
+		--Corrimientos - rotaciones
+		"00001" after 22 ns,
+		"00001" after 23 ns,
+		"00001" after 24 ns,
+		"00001" after 25 ns,
+		"00001" after 26 ns,
+		"00001" after 27 ns,
+		"00001" after 28 ns,
+		"00001" after 29 ns;
+		
+	instru<=
+		--Aritméticas
+		"00000" after 0 ns,
+		"00001" after 1 ns,
+		"00010" after 2 ns,
+		"00011" after 3 ns,
+		"00100" after 4 ns,
+		"00101" after 5 ns,
+		"00110" after 6 ns,
+		"00111" after 7 ns,
+		--Saltos
+		"01000" after 8 ns,
+		"01001" after 9 ns,
+		"01010" after 10 ns,
+		"01011" after 11 ns,
+		"01100" after 12 ns,
+		"01101" after 13 ns,
+		"01110" after 14 ns,
+		"01111" after 15 ns,
+
+
+		--Lógicas
+		"10000" after 16 ns,
+		"10001" after 17 ns,
+		"10010" after 18 ns,
+		"10011" after 19 ns,
+		"10100" after 20 ns,
+		"10101" after 21 ns,
+
+		--Corrimientos
+		"10110" after 22 ns,
+		"10111" after 23 ns,
+		"11000" after 24 ns,
+		"11001" after 25 ns,
+
+
+		--Rotaciones
+		"11010" after 26 ns,
+		"11011" after 27 ns,
+		"11100" after 28 ns,
+		"11101" after 29 ns,
+		"00000" after 30 ns;
+	
+		alu_instancia: alu_16op port map (instru(4),instru(3 downto 1), instru(0), a, b, co, s);
 end architecture;

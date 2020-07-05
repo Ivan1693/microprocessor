@@ -34,8 +34,8 @@ begin
 								 c_prime(0) <= (not ci) or (ci and (not SB));
 								 ci_prime <= ci or ((not ci) and SA);
 								 SAB <= ((not ci) and SA) or (ci and SB);
-				when others => c_prime <= "000";
-									ci_prime <= '0';
+				when others => c_prime <= c;
+									ci_prime <= ci;
 									SAB <= '0';
 			end case;
 	end process;
