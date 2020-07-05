@@ -21,8 +21,8 @@ begin
 		"01010" after 10 ns,
 		"01011" after 11 ns,
 		"01100" after 12 ns,
-		"10001" after 13 ns,
-		"01110" after 14 ns,
+		"00001" after 13 ns,
+		"01111" after 14 ns,
 		"01111" after 15 ns,
 
 	-- Corrimientos -rotaciones
@@ -45,7 +45,7 @@ begin
 		"01011" after 11 ns,
 		"00010" after 12 ns,
 		"01101" after 13 ns,
-		"01110" after 14 ns,
+		"00001" after 14 ns,
 		"01111" after 15 ns,
 
 		-- Lógicas

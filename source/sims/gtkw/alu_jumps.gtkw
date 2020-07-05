@@ -1,26 +1,28 @@
 [*]
 [*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
-[*] Sun Jul  5 07:43:22 2020
+[*] Sun Jul  5 23:13:08 2020
 [*]
 [dumpfile] "/home/ivan/Escom/Arquitectura/microprocessor/source/alu_sim_waves.vcd"
-[dumpfile_mtime] "Sun Jul  5 07:39:46 2020"
-[dumpfile_size] 29470
+[dumpfile_mtime] "Sun Jul  5 23:12:28 2020"
+[dumpfile_size] 29650
 [savefile] "/home/ivan/Escom/Arquitectura/microprocessor/source/sims/gtkw/alu_jumps.gtkw"
-[timestart] 4860000
+[timestart] 3850000
 [size] 1680 979
 [pos] -1 -1
-*-21.320801 12080000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+*-21.320801 15130000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] alu_sim.
 [treeopen] alu_sim.alu_instancia.
 [treeopen] alu_sim.alu_instancia.arithmetic_unit.
 [sst_width] 220
 [signals_width] 178
 [sst_expanded] 1
-[sst_vpaned_height] 536
+[sst_vpaned_height] 601
 @200
 -inputs
 @28
+[color] 5
 alu_sim.instru[4:0]
+[color] 3
 alu_sim.a[4:0]
 alu_sim.b[4:0]
 @200
@@ -34,6 +36,8 @@ alu_sim.alu_instancia.arithmetic_unit.b_prime[3:0]
 -output
 @28
 [color] 1
+alu_sim.alu_instancia.arithmetic_unit.sf
+[color] 1
 alu_sim.s[4:0]
 @200
 -comparator
@@ -41,7 +45,12 @@ alu_sim.s[4:0]
 alu_sim.alu_instancia.arithmetic_unit.arithmetic_control.is_a
 alu_sim.alu_instancia.arithmetic_unit.arithmetic_control.is_b
 alu_sim.alu_instancia.arithmetic_unit.arithmetic_control.are_equal
-@29
-alu_sim.alu_instancia.arithmetic_unit.op_sel[2:0]
+@200
+-sumador
+@28
+[color] 1
+alu_sim.alu_instancia.arithmetic_unit.adder_cout
+@22
+alu_sim.alu_instancia.arithmetic_unit.adder_out[3:0]
 [pattern_trace] 1
 [pattern_trace] 0

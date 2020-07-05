@@ -62,27 +62,22 @@ begin
 		end if;
 	else
 		if flag_sel="1000" then
-			case is_b is
-				when '1' => b_prime <="0001";
-				when others => b_prime <= "0000";
-			end case;
+			b_prime <= "000" & is_b;
 		else 
 			if flag_sel="1100" then
-				case is_a is
-					when '1' => b_prime <="0001";
-					when others => b_prime <= "0000";
-				end case;
+				b_prime <= "000" & is_a;
 			else
 				if flag_sel="1010" then
-					case are_equal is
-						when '1' => b_prime <="0001";
-						when others => b_prime <= "0000";
-					end case;
+					b_prime <= "000" & are_equal;
 				else
-					case are_equal is
-						when '1' => b_prime <="0000";
-						when others => b_prime <= "0000";
-					end case;				
+					if flag_sel="1001" then -- Se niega el OR entre banderas dado que el sumador lleva ci=1
+						b_prime <= "000" & (not (is_b or are_equal));
+					else
+						if flag_sel="1011" then
+							b_prime <= "000" & (not (is_a or are_equal));	
+						end if;
+					end if;
+			
 				end if;
 			end if;
 		end if;
