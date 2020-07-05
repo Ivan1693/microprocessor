@@ -15,5 +15,4 @@ begin
 	s <=	ci xor (a and b) when c = "000" else
 		  	ci xor (a or b)  when c = "001" else
 			ci xor (a xor b) when c = "010";
-			
 end architecture;
