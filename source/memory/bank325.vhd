@@ -4,9 +4,11 @@ use ieee.numeric_std.all;
 
 entity bank325 is
     Port ( address_in: in  std_logic_vector (4 downto 0);
+			  address_in_b: in  std_logic_vector (4 downto 0);
 			  address_out_a: in  std_logic_vector (4 downto 0);
 			  address_out_b: in  std_logic_vector (4 downto 0);
 			  data_in: in  std_logic_vector (4 downto 0);
+			  data_in_b: in  std_logic_vector (4 downto 0);
            data_out_a: out  std_logic_vector (4 downto 0);
 			  data_out_b: out  std_logic_vector (4 downto 0);
            enable: in  std_logic);
@@ -22,6 +24,7 @@ begin
 		begin
 		if(enable = '1') then
 			memory_grid(to_integer(unsigned(address_in))) <= data_in;
+			memory_grid(to_integer(unsigned(address_in_b))) <= data_in_b;
 		end if;
 	end process;
 	data_out_a <= memory_grid(to_integer(unsigned(address_out_a)));

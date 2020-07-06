@@ -4,7 +4,7 @@ use ieee.std_logic_1164.all;
 entity control_unit is
     port ( 
 		 instr_in : in  std_logic_vector (15 downto 0);
-		 acc_in : in  std_logic_vector (4 downto 0);
+		 acc_in : in  std_logic_vector (9 downto 0);
 		 gcm_d : in std_logic;
 		 gcm_e : in std_logic;
 		 pc_enable : out std_logic;
@@ -13,7 +13,7 @@ entity control_unit is
 		 instr_out : out std_logic_vector (4 downto 0);
 		 ram_a_out : out std_logic_vector (4 downto 0);
 		 ram_b_out : out std_logic_vector (4 downto 0);
-		 ram_c_out : out std_logic_vector (4 downto 0);
+		 ram_c_out : out std_logic_vector (9 downto 0);
 		 ram_ctrl_out : out std_logic_vector (1 downto 0)
 	 );
 end entity;

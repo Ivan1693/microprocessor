@@ -41,7 +41,7 @@ constant rom: reg_grid := (
 "0011000000000001",--0x03 Si 00001 > 00000
 "1100000000000010",--0x02 Guarda 00000 en 00010
 "1100000000000001",--0x01 Guarda 00000 en 00001
-"1100000010100000" --0x00 Guarda 00011 en 00000
+"1100000011000000" --0x00 Guarda 00011 en 00000
 );
 begin
 	data <= rom(to_integer(unsigned(address)));

@@ -38,7 +38,7 @@ package micro_devs is
 	end component;
 	-- MicroStage3
 	component micro_stage3 is
-    Port ( acc_port : in  std_logic_vector (4 downto 0);
+    Port ( acc_port : in  std_logic_vector (9 downto 0);
            instr_port : in  std_logic_vector (15 downto 0);
 			  gcm_d_port : in std_logic;
 			  gcm_e_port : in std_logic;
