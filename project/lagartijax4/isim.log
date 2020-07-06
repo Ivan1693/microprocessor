@@ -11,11 +11,552 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 Finished circuit initialization process.
-# run 1.00us
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 # restart
 # run 1.00us
 Simulator is doing circuit initialization process.
 at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# restart
+# run 46 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 46 ns
+# run 46 ns
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# restart
+# run 2ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 2ns
+# run 2ns
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 2ns
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# run 2ns
+# restart
+# run 80ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# restart
+# run 80ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# restart
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# restart
+# run 2ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 2ns
+# run 2ns
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 2ns
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 2ns
+# run 2ns
+# run 2ns
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# restart
+# run 10ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# restart
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# restart
+# run 80ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# restart
+# run 80ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# restart
+# run 80ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# restart
+# run 80ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# restart
+# run 80ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# restart
+# run 80 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 7200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 3200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 3200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# restart
+# run 80 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 3200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 3200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 3200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 3200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# restart
+# run 105 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 3200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 3200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5200 ps(3), Instance /lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 # exit 0

@@ -63,9 +63,9 @@ static void work_a_2643071753_3212880686_p_0(char *t0)
 LAB0:    xsi_set_current_line(17, ng0);
     t1 = (t0 + 1032U);
     t2 = *((char **)t1);
-    t1 = (t0 + 5093);
+    t1 = (t0 + 5094);
     t4 = 1;
-    if (2U == 2U)
+    if (3U == 3U)
         goto LAB5;
 
 LAB6:    t4 = 0;
@@ -121,7 +121,7 @@ LAB2:    xsi_set_current_line(18, ng0);
 
 LAB5:    t5 = 0;
 
-LAB8:    if (t5 < 2U)
+LAB8:    if (t5 < 3U)
         goto LAB9;
     else
         goto LAB7;

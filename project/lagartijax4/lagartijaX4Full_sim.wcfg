@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ivan/Escom/Arquitectura/microprocessor/project/lagartijax4/lagartijax4_sim_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="alu_devs" />
+            <top_module name="basic_devs" />
+            <top_module name="lagartijax4_sim" />
+            <top_module name="memory_devs" />
+            <top_module name="micro_devs" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="42" />
+   <wvobject fp_name="divider5" type="divider">
+      <obj_property name="label">Oscilator</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#373737</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider13" type="divider">
+      <obj_property name="label">GCM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#373737</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/gcm_block/gcm_a" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gcm_a</obj_property>
+      <obj_property name="ObjectShortName">gcm_a</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff007b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/gcm_block/gcm_b" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gcm_b</obj_property>
+      <obj_property name="ObjectShortName">gcm_b</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff7700</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/gcm_block/gcm_c" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gcm_c</obj_property>
+      <obj_property name="ObjectShortName">gcm_c</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#d500ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/gcm_block/gcm_d" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gcm_d</obj_property>
+      <obj_property name="ObjectShortName">gcm_d</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#c8ff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/gcm_block/gcm_e" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gcm_e</obj_property>
+      <obj_property name="ObjectShortName">gcm_e</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00aaff</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider19" type="divider">
+      <obj_property name="label">PC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#373737</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/pc/out_reg_pc" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">out_reg_pc[4:0]</obj_property>
+      <obj_property name="ObjectShortName">out_reg_pc[4:0]</obj_property>
+      <obj_property name="label">addr_bus</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00aaff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/pc/in_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_enable</obj_property>
+      <obj_property name="ObjectShortName">in_enable</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/pc/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/pc/q_tmp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_tmp[4:0]</obj_property>
+      <obj_property name="ObjectShortName">q_tmp[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider25" type="divider">
+      <obj_property name="label">ROM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#373737</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/address" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">address[4:0]</obj_property>
+      <obj_property name="ObjectShortName">address[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00aaff</obj_property>
+      <obj_property name="label">0x</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/rom/data" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data[15:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00aaff</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="label">rom_bus</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider15" type="divider">
+      <obj_property name="label">RI</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#373737</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage2_block/ir/out_reg" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">out_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out_reg[15:0]</obj_property>
+      <obj_property name="label">instr_bus</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff007b</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider47" type="divider">
+      <obj_property name="label">CU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#373737</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/cu/pc_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_enable</obj_property>
+      <obj_property name="ObjectShortName">pc_enable</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00aa7f</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/cu/pc_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00aa7f</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/cu/instr_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_out[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff007b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/cu/ram_a_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_a_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_a_out[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/cu/ram_b_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_b_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_b_out[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider33" type="divider">
+      <obj_property name="label">RAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#373737</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/data_out_a" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data_out_a[4:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_a[4:0]</obj_property>
+      <obj_property name="label">data_a_out</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/data_out_b" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data_out_b[4:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_b[4:0]</obj_property>
+      <obj_property name="label">data_b_out</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/memory_grid[1]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[1]</obj_property>
+      <obj_property name="ObjectShortName">memory_grid[1]</obj_property>
+      <obj_property name="label">0x00001</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/memory_grid" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">memory_grid[31:0]</obj_property>
+      <obj_property name="ObjectShortName">memory_grid[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider63" type="divider">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#373737</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus137" type="vbus" db_ref_id="1">
+      <obj_property name="label">instrcn</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff007b</obj_property>
+      <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage1_block/alu/unit_sel" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">unit_sel</obj_property>
+         <obj_property name="ObjectShortName">unit_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage1_block/alu/op_sel" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">op_sel[2:0]</obj_property>
+         <obj_property name="ObjectShortName">op_sel[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage1_block/alu/ci" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ci</obj_property>
+         <obj_property name="ObjectShortName">ci</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage1_block/alu/a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a[4:0]</obj_property>
+      <obj_property name="ObjectShortName">a[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff7700</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage1_block/alu/b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b[4:0]</obj_property>
+      <obj_property name="ObjectShortName">b[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff7700</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage1_block/alu/co" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">co</obj_property>
+      <obj_property name="ObjectShortName">co</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa1a1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage1_block/alu/s" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s[4:0]</obj_property>
+      <obj_property name="ObjectShortName">s[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa1a1</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider64" type="divider">
+      <obj_property name="label">RD</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#373737</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage1_block/rd/out00" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">out00[4:0]</obj_property>
+      <obj_property name="ObjectShortName">out00[4:0]</obj_property>
+      <obj_property name="label">rda_bus</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff7700</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage1_block/rd/out01" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">out01[4:0]</obj_property>
+      <obj_property name="ObjectShortName">out01[4:0]</obj_property>
+      <obj_property name="label">rdb_bus</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff7700</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider65" type="divider">
+      <obj_property name="label">ACC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#373737</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage1_block/acc/out_reg" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">out_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">out_reg[4:0]</obj_property>
+      <obj_property name="label">acc_bus</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#d500ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider66" type="divider">
+      <obj_property name="label">ACM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#373737</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lagartijax4_sim/lagartijax4_block/micro_core_block/micro_stage3_block/ram/reg_grid/memory_grid[31]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[31]</obj_property>
+      <obj_property name="ObjectShortName">memory_grid[31]</obj_property>
+      <obj_property name="label">ram_acm</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#c8ff00</obj_property>
+   </wvobject>
+</wave_config>
