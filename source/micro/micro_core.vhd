@@ -23,8 +23,9 @@ architecture behavioral of micro_core is
 	signal data_b_bus: std_logic_vector(4 downto 0);
 	signal pc_addr_bus : std_logic_vector (4 downto 0);
 	signal pc_enable : std_logic;
+	signal pc_clock : std_logic;
 begin
 	micro_stage1_block: micro_stage1 port map (alu_instr_bus,gcm_b,gcm_c,data_a_bus,data_b_bus,useless_carry,lagartijax4_out,acc_bus);
-	micro_stage2_block: micro_stage2 port map(gcm_a,gcm_e,pc_addr_bus,pc_enable,instr_bus);
-	micro_stage3_block: micro_stage3 port map(acc_bus,instr_bus,gcm_d,data_a_bus,data_b_bus,pc_addr_bus,pc_enable,alu_instr_bus);
+	micro_stage2_block: micro_stage2 port map(gcm_a,pc_addr_bus,pc_enable,pc_clock,instr_bus);
+	micro_stage3_block: micro_stage3 port map(acc_bus,instr_bus,gcm_d,gcm_e,data_a_bus,data_b_bus,pc_addr_bus,pc_enable,pc_clock,alu_instr_bus);
 end architecture;

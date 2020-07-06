@@ -72,12 +72,12 @@ package memory_devs is
 	end component;
 	--RAM
 	component ram325 is
-    Port ( data_in_a : in  std_logic_vector (4 downto 0);
-           data_in_b : in  std_logic_vector (4 downto 0);
-			  acc_in: in std_logic_vector (4 downto 0);
-			  data_out_a : out  std_logic_vector (4 downto 0);
-           data_out_b : out  std_logic_vector (4 downto 0);
-           control : in  std_logic_vector (1 downto 0);
-           gcm_d : in  std_logic);
+		 Port ( data_in_a : in  std_logic_vector (4 downto 0);
+				  data_in_b : in  std_logic_vector (4 downto 0);
+				  data_in_c : in  std_logic_vector (4 downto 0);
+				  data_out_a : out  std_logic_vector (4 downto 0);
+				  data_out_b : out  std_logic_vector (4 downto 0);
+				  control : in  std_logic_vector (1 downto 0);
+				  gcm_d : in  std_logic);
 	end component;
 end package ; 
