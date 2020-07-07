@@ -9,10 +9,12 @@ end rom3216;
 
 architecture behavioral of rom3216 is
 	type reg_grid is array (31 downto 0) of std_logic_vector(15 downto 0);
+--110000BA guarda B en A
+--111000BA mueve  A a B
 constant rom: reg_grid := (
-"1100000001000001",--Guarda 00001 en 00001
-"0000000000100000",--Suma los valores en las direcciones 00001 y 00000
-"1110000000111111",--Transfiere el valor en el acumulador a la direccion 00001
+"1100000001000001",
+"0000000000100000",
+"1110000000111111",
 "1000000000010110",
 "1000000000010101",
 "1000000000010100",
@@ -38,10 +40,10 @@ constant rom: reg_grid := (
 "0000000001000001",--0x06 sum(00010,00001)
 "1000000000000101",--0x05 kill
 "1000000000000110",--0x04 Salta a 0x06
-"0011000000000001",--0x03 Si 00001 > 00000
-"1100000000000010",--0x02 Guarda 00000 en 00010
-"1100000000000001",--0x01 Guarda 00000 en 00001
-"1100000011000000" --0x00 Guarda 00011 en 00000
+"0011000000000001",--0x03 Si 00001 > 00000 salta
+"1100000000000010",--0x02 Guarda 00000 en 00010 - 1
+"1100000000000001",--0x01 Guarda 00000 en 00001 - 1
+"1100000011000000" --0x00 Guarda 00110 en 00000
 );
 begin
 	data <= rom(to_integer(unsigned(address)));

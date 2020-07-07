@@ -17,7 +17,7 @@ end entity;
 
 architecture behavioral of micro_core is
 	signal instr_bus : std_logic_vector (15 downto 0);
-	signal acc_bus : std_logic_vector (4 downto 0);
+	signal acc_bus : std_logic_vector (9 downto 0);
 	signal alu_instr_bus : std_logic_vector (4 downto 0);
 	signal data_a_bus: std_logic_vector(4 downto 0);
 	signal data_b_bus: std_logic_vector(4 downto 0);

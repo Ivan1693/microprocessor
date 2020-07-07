@@ -30,14 +30,18 @@ begin
 			when "00" => data_out_a_addr <= data_in_a; --Entrega los datos a y b y guarda el resultado de la operación en el acm
 							 data_out_b_addr <= data_in_b;
 							 data_in_addr <= "11111";
-							 data_in_addr_b <= "11110";
 							 data_in_aux <= data_in_c(4 downto 0);
+							 data_in_addr_b <= "11110";
 							 data_in_aux_b <= data_in_c(9 downto 5);
 			when "10" => data_in_addr <= data_in_a; --Escribe los datos de b en la direccion a
 							 data_in_aux <= data_in_b;
+							 data_in_addr_b <= "11110";
+							 data_in_aux_b <= "00000";
 			when "11" => data_in_addr <= data_in_b; -- Copia los datos de la direccion a en la direccion b
 							 data_out_a_addr <= data_in_a;
 							 data_in_aux <= data_out_a_aux;
+							 data_in_addr_b <= "11110";
+							 data_in_aux_b <= "00000";
 			when others => data_in_addr <= "00000";
 							 data_in_aux <= "00000";
 		end case;
